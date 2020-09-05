@@ -1,0 +1,10 @@
+Successfully set seed to 942
+Learning... Running 200 timesteps per episode, 2048 timesteps per batch for a total of 10 timesteps
+
+-------------------- Iteration #1 --------------------
+Average Episodic Length: 200.0
+Average Episodic Return: -1239.65
+Average Loss: -0.00135
+Timesteps So Far: 2200
+------------------------------------------------------
+
