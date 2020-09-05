@@ -197,6 +197,7 @@ def graph_data(paths):
         if env == 'MountainCarContinuous-v0':
             plt.ylim([-70, 100])
 
+
         # Plot points
         plt.plot(sb_x_mean, sb_y_mean, 'b', alpha=0.8)
         plt.plot(pfb_x_mean, pfb_y_mean, 'y', alpha=0.8)
@@ -207,6 +208,7 @@ def graph_data(paths):
         plt.title(f'{env} on Random Seeds {seeds}')
         plt.xlabel('Average Total Timesteps So Far')
         plt.ylabel('Average Episodic Return')
+        plt.legend(['Stable Baselines PPO2', 'PPO for Beginners'])
         # Show graph so user can screenshot
         plt.show()
 
@@ -216,38 +218,3 @@ def main():
 
 if __name__ == '__main__':
 	main()
-
-# x_1 = []
-# y_1 = []
-
-# with open('stable_baselines_out', 'r') as f:
-# 	for l in f:
-# 		l = [e.strip() for e in l.split('|')]
-# 		if 'ep_reward_mean' in l:
-# 			y_1.append(float(l[2]))
-# 		if 'total_timesteps' in l:
-# 			x_1.append(int(l[2]))
-# 			if int(l[2]) > 400000:
-# 				break
-
-# x_2 = []
-# y_2 = []
-
-# with open('my_out', 'r') as f:
-# 	for l in f:
-# 		l = [e.strip() for e in l.split(':')]
-# 		if 'Average Episodic Return' in l:
-# 			y_2.append(float(l[1]))
-# 		if 'Timesteps So Far' in l:
-# 			x_2.append(int(l[1]))
-# 			if int(l[1]) > 400000:
-# 				break
-
-# plt.ylim([-30, 100])
-# plt.plot(x_1, y_1, 'b', alpha=0.75)
-# plt.plot(x_2, y_2, 'y', alpha=0.75)
-# plt.title('MountainCarContinuous-v0')
-# plt.legend(['stable_baselines PPO2', 'PPO for Beginners'])
-# plt.xlabel('Total Timesteps So Far')
-# plt.ylabel('Average Episodic Return')
-# plt.show()
