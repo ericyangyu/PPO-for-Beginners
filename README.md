@@ -6,10 +6,11 @@ Hi! My name is Eric Yu, and I wrote this repository to help beginners get starte
 If you're not coming from Medium, please read my article first: TODO
 
 I wrote this code with the assumption that you have some experience with Python and Reinforcement Learning (RL), including how policy gradient (pg) algorithms and PPO work (for PPO, should just be familiar with theoretical level. After all, this code should help you with putting PPO into practice). If unfamiliar with RL, pg, or PPO, follow the three links below in order: <br />
+
 If unfamiliar with RL, read [OpenAI Introduction to RL (all 3 parts)](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html) <br />
 If unfamiliar with pg, read [An Intuitive Explanation of Policy Gradient](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c) <br />
 If unfamiliar with PPO theory, read [PPO stack overflow post](https://stackoverflow.com/questions/46422845/what-is-the-way-to-understand-proximal-policy-optimization-algorithm-in-rl) <br />
-If unfamiliar with all 3, go through those links above in order.
+If unfamiliar with all 3, go through those links above in order from top to bottom.
 
 Please note that this PPO implementation assumes a continuous observation and action space, but you can change either to discrete relatively easily. I follow the pseudocode provided in OpenAI's Spinning Up for PPO: [https://spinningup.openai.com/en/latest/algorithms/ppo.html](https://spinningup.openai.com/en/latest/algorithms/ppo.html); pseudocode line numbers are specified as "ALG STEP #" in [ppo.py](./ppo.py).
 
