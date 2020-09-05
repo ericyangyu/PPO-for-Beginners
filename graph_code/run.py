@@ -24,8 +24,7 @@ def train_stable_baselines(args):
 	if args.env == 'Pendulum-v0':
 		hyperparameters = {'n_steps': 2048, 'nminibatches': 32, 'lam': 0.95, 'gamma': 0.99, 'noptepochs': 10,
 							'ent_coef': 0.0, 'learning_rate': 3e-4, 'cliprange': 0.2, 'verbose': 1, 'seed': args.seed}
-		# total_timesteps = 1000000
-		total_timesteps = 500000
+		total_timesteps = 1000000
 	elif args.env == 'BipedalWalker-v3':
 		hyperparameters = {'n_steps': 2048, 'nminibatches': 32, 'lam': 0.95, 'gamma': 0.99, 'noptepochs': 10,
 							'ent_coef': 0.001, 'learning_rate': 2.5e-4, 'cliprange': 0.2, 'verbose': 1, 'seed': args.seed}
@@ -55,8 +54,7 @@ def train_ppo_for_beginners(args):
 	if args.env == 'Pendulum-v0':
 		hyperparameters = {'timesteps_per_batch': 2048, 'max_timesteps_per_episode': 200, 'gamma': 0.99, 'n_updates_per_iteration': 10,
 							'lr': 3e-4, 'clip': 0.2, 'save_freq': 1e15, 'seed': args.seed}
-		# total_timesteps = 1000000
-		total_timesteps = 500000
+		total_timesteps = 1000000
 	elif args.env == 'BipedalWalker-v3':
 		hyperparameters = {'timesteps_per_batch': 2048, 'max_timesteps_per_episode': 1600, 'gamma': 0.99, 'n_updates_per_iteration': 10,
 							'lr': 2.5e-4, 'clip': 0.2, 'save_freq': 1e15, 'seed': args.seed}
