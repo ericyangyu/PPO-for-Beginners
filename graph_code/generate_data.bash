@@ -1,18 +1,16 @@
 #!/bin/bash
 
-# Usage: ./generate_data.bash env1 env2 env3
-#
-# Example: ./generate_data.bash Pendulum-v0 BipedalWalker-v3
+# This file generates data on the specified command line argument environments
 
 # CHANGE ME: These are the specifications for generating data
-NUM_SEEDS=5
-SEED_LOWER_BOUND=0
-SEED_UPPER_BOUND=1000
+NUM_SEEDS=5                            # Number of random seeds to test per environment
+SEED_LOWER_BOUND=0                     # Lower bound of random seeds
+SEED_UPPER_BOUND=1000                  # Upper bound of random seeds
 
 # Generate random seeds
 SEEDS=($(shuf -i $SEED_LOWER_BOUND-$SEED_UPPER_BOUND -n $NUM_SEEDS))
 
-# Create logging directories if missing
+# Create graph_data directory if missing
 mkdir -p graph_data
 mkdir -p graph_data
 

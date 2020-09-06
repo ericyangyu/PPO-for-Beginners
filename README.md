@@ -47,9 +47,13 @@ NOTE: to change hyperparameters, environments, etc. do it in [main.py](main.py);
 
 [arguments.py](arguments.py) is what main will call to parse arguments from command line.
 
-[ppo.py](ppo.py) contains our PPO model. All the learning magic happens in this file. I won't describe in full detail what happens here in the README, since I styled [ppo.py](ppo.py) a ton and described in detail through my Medium article (TODO). Instead, what I recommend is using something called ```pdb```, or python debugger, and stepping through my code starting from when I call ```learn``` in [main.py](main.py). 
+[ppo.py](ppo.py) contains our PPO model. All the learning magic happens in this file. Please read my Medium series (TODO) to see how it works. Another method I recommend is using something called ```pdb```, or python debugger, and stepping through my code starting from when I call ```learn``` in [main.py](main.py). 
 
 [network.py](network.py) contains a sample Feed Forward Neural Network we can use to define our actor and critic networks in PPO. 
+
+[eval_policy.py](eval_policy.py) contains the code to evaluating the policy. It's a completely separate module from the other code.
+
+[graph_code directory](graph_code) contains the code to automatically collect data and generate graphs. Takes ~10 hours on a decent computer to generate all the data in my Medium article (TODO). All the data from the medium article should still be in ```graph_code/graph_data``` too in case you're interested; if you want, you can regenerate the graphs I use with the data. For more details, read the README in graph_code.
 
 Here's a great pdb tutorial to get started: [https://www.youtube.com/watch?v=bHx8A8tbj2c](https://www.youtube.com/watch?v=bHx8A8tbj2c) <br />
 Or if you're an expert with debuggers, here's the documentation: [https://docs.python.org/3/library/pdb.html](https://docs.python.org/3/library/pdb.html)

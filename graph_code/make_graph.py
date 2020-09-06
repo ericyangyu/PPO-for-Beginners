@@ -1,8 +1,27 @@
+"""
+    This file graphs the data in graph_data for each environment
+"""
 import os
 import numpy as np
 import matplotlib.pyplot as plt
 
 def get_file_locations():
+    """
+        Gets the absolute paths of each data file to graph.
+
+        Parameters:
+            None
+
+        Return:
+            paths - a dict with the following structure:
+            {
+                env: {
+                seeds: absolute_seeds_file_path
+                stable_baselines: [absolute_file_paths_to_data],
+                ppo_for_beginners: [absolute_file_paths_to_data]
+                }
+            }
+    """
     # Get the absolute path of current working directory, 
     # and append graph data to it
     data_path = os.getcwd() + '/graph_data/'
@@ -13,11 +32,12 @@ def get_file_locations():
 
     # Stores the file names.
     # Structure will be:
-    # {env: {
+    # {
+    #   env: {
     #            seeds: absolute_seeds_file_path
     #            stable_baselines: [absolute_file_paths_to_data],
     #            ppo_for_beginners: [absolute_file_paths_to_data]
-    #       }
+    #        }
     # }
     paths = {}
 
@@ -41,6 +61,19 @@ def get_file_locations():
     return paths
 
 def extract_ppo_for_beginners_data(env, filename):
+    """
+        Extract the total timesteps and average episodic return from the logging
+        data specified to PPO for Beginners.
+
+        Parameters:
+            env - The environment we're currently graphing.
+            filename - The file containing data. Should be "seed_xxx.txt" such that the
+                        xxx are integers
+
+        Return:
+            x - the total timesteps at each iteration
+            y - average episodic return at each iteration
+    """
     # x is timesteps so far, y is average episodic reward
     x, y = [], []
 
@@ -56,7 +89,23 @@ def extract_ppo_for_beginners_data(env, filename):
     return x, y
 
 def extract_stable_baselines_data(env, filename):
+    """
+        Extract the total timesteps and average episodic return from the logging
+        data specified to Stable Baselines PPO2.
+
+        Parameters:
+            env - The environment we're currently graphing.
+            filename - The file containing data. Should be "seed_xxx.txt" such that the
+                        xxx are integers
+
+        Return:
+            x - the total timesteps at each iteration
+            y - average episodic return at each iteration
+    """
+    # x is timesteps so far, y is average episodic reward
     x, y = [], []
+
+    # extract out x's and y's
     with open(filename, 'r') as f:
         for l in f:
             l = [e.strip() for e in l.split('|')]
@@ -67,20 +116,59 @@ def extract_stable_baselines_data(env, filename):
     return x, y
 
 def calculate_lower_bounds(x_s, y_s):
+    """
+        Calculate lower bounds of total timesteps and average episodic
+        return per iteration.
+
+        Parameters:
+            x_s - A list of lists of total timesteps so far per seed.
+            y_s - A list of lists of average episodic return per seed.
+
+        Return: 
+            Lower bounds of both x_s and y_s
+    """
+    # x_low is lower bound of timesteps so far, y is lower bound of average episodic reward
     x_low, y_low = x_s[0], y_s[0]
+
+    # Find lower bound amongst all trials per iteration
     for xs, ys in zip(x_s[1:], y_s[1:]):
         x_low = [x if x < x_low[i] else x_low[i] for i, x in enumerate(xs)]
         y_low = [y if y < y_low[i] else y_low[i] for i, y in enumerate(ys)]
     return x_low, y_low
 
 def calculate_upper_bounds(x_s, y_s):
+    """
+        Calculate upper bounds of total timesteps and average episodic
+        return per iteration.
+
+        Parameters:
+            x_s - A list of lists of total timesteps so far per seed.
+            y_s - A list of lists of average episodic return per seed.
+
+        Return: 
+            Upper bounds of both x_s and y_s
+    """
+    # x_low is upper bound of timesteps so far, y is upper bound of average episodic reward
     x_high, y_high = x_s[0], y_s[0]
+
+    # Find upper bound amongst all trials per iteration
     for xs, ys in zip(x_s[1:], y_s[1:]):
         x_high = [x if x > x_high[i] else x_high[i] for i, x in enumerate(xs)]
         y_high = [y if y > y_high[i] else y_high[i] for i, y in enumerate(ys)]
     return x_high, y_high
 
 def calculate_means(x_s, y_s):
+    """
+        Calculate mean of each total timestep and average episodic return over all
+        trials at each iteration.
+
+        Parameters:
+            x_s - A list of lists of total timesteps so far per seed.
+            y_s - A list of lists of average episodic return per seed
+
+        Return: 
+            Means of x_s and y_s 
+    """
     if len(x_s) == 1:
         return x_s, y_s
 
@@ -89,23 +177,52 @@ def calculate_means(x_s, y_s):
 def clip_data(x_s, y_s):
     """
         In the case that there are different number of iterations
-        across learning trials, clip all trials to the length of the smallest
+        across learning trials, clip all trials to the length of the shortest
+        trial.
+
+        Parameters:
+            x_s - A list of lists of total timesteps so far per seed.
+            y_s - A list of lists of average episodic return per seed
+
+        Return: 
+            x_s and y_s after clipping both. 
     """
+    # Find shortest trial length
     x_len_min = min([len(x) for x in x_s])
     y_len_min = min([len(y) for y in y_s])
 
     len_min = min([x_len_min, y_len_min])
 
+    # Clip each trial in x_s to shortest trial length
     for i in range(len(x_s)):
         x_s[i] = x_s[i][:len_min]
 
+    # Clip each trial in y_s to shortest trial length
     for i in range(len(y_s)):
         y_s[i] = y_s[i][:len_min]
        
     return x_s, y_s
 
-
 def extract_data(paths):
+    """
+        Extracts data from all the files, and returns a generator object
+        extract_data to iterably return data for each environment. 
+        Number of iterations should equal number of environments in graph_data.
+
+        Parameters:
+            paths - Contains the paths to each data file. Check function description of 
+                    get_file_locations() to see how paths is structured. 
+
+        Return: 
+            A generator object extract_data, or iterable, which will return the data for
+			each environment on each iteration of the generator.
+
+		Note:
+			If you're unfamiliar with Python generators, check this out:
+				https://wiki.python.org/moin/Generators
+			If you're unfamiliar with Python "yield", check this out:
+				https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do
+    """
     for env in paths:
         # Extract out seeds tested
         seeds_txt = paths[env]['seeds']
@@ -175,10 +292,20 @@ def extract_data(paths):
             data['ppo_for_beginners'][data_type] = pfbs[i]
             data['stable_baselines'][data_type] = sbs[i]
 
-        # Yield current data packet
+        # Return current data packet
         yield data
 
 def graph_data(paths):
+    """
+        Graphs the data with matplotlib. Will display on screen for user to screenshot.
+
+        Parameters:
+            paths - Contains the paths to each data file. Check function description of 
+                    get_file_locations() to see how paths is structured. 
+
+        Return:
+            None
+    """
     for data in extract_data(paths):
         # Unpack data packet
         env = data['env']
@@ -197,7 +324,6 @@ def graph_data(paths):
         if env == 'MountainCarContinuous-v0':
             plt.ylim([-70, 100])
 
-
         # Plot points
         plt.plot(sb_x_mean, sb_y_mean, 'b', alpha=0.8)
         plt.plot(pfb_x_mean, pfb_y_mean, 'g', alpha=0.8)
@@ -213,7 +339,19 @@ def graph_data(paths):
         plt.show()
 
 def main():
+    """
+        Main function to get file locations and graph the data.
+
+        Parameters:
+            None
+
+        Return:
+            None
+    """
+    # Extract absolute file paths
     paths = get_file_locations()
+
+    # Graph the data from the file paths extracted
     graph_data(paths)
 
 if __name__ == '__main__':

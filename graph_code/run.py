@@ -8,6 +8,15 @@ import os
 import argparse
 
 def train_stable_baselines(args):
+	"""
+		Trains with PPO2 on specified environment.
+
+		Parameters:
+			args - the arguments defined in main.
+
+		Return:
+			None
+	"""
 	# Import stable baselines
 	from stable_baselines import PPO2
 	from stable_baselines.common.callbacks import CheckpointCallback
@@ -44,6 +53,15 @@ def train_stable_baselines(args):
 	model.learn(total_timesteps)
 
 def train_ppo_for_beginners(args):
+	"""
+		Trains with PPO for Beginners on specified environment.
+
+		Parameters:
+			args - the arguments defined in main.
+
+		Return:
+			None
+	"""
 	# Import ppo for beginners
 	from ppo_for_beginners.ppo import PPO
 	from ppo_for_beginners.network import FeedForwardNN
@@ -74,6 +92,15 @@ def train_ppo_for_beginners(args):
 	model.learn(total_timesteps)
 
 def main(args):
+	"""
+		An intermediate function that will call either PPO2 learn or PPO for Beginners learn.
+
+		Parameters:
+			args - the arguments defined below
+
+		Return:
+			None
+	"""
 	if args.code == 'stable_baselines_ppo2':
 		train_stable_baselines(args)
 	elif args.code == 'ppo_for_beginners':
@@ -89,5 +116,5 @@ if __name__ == '__main__':
 
 	args = parser.parse_args()
 
-	# run data
+	# Collect data
 	main(args)
