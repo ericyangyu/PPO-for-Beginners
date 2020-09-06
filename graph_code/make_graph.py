@@ -200,10 +200,10 @@ def graph_data(paths):
 
         # Plot points
         plt.plot(sb_x_mean, sb_y_mean, 'b', alpha=0.8)
-        plt.plot(pfb_x_mean, pfb_y_mean, 'y', alpha=0.8)
+        plt.plot(pfb_x_mean, pfb_y_mean, 'g', alpha=0.8)
         # Plot errors
         plt.fill_between(sb_x_mean, sb_y_low, sb_y_high, color='b', alpha=0.3)
-        plt.fill_between(pfb_x_mean, pfb_y_low, pfb_y_high, color='y', alpha=0.3)
+        plt.fill_between(pfb_x_mean, pfb_y_low, pfb_y_high, color='g', alpha=0.3)
         # Set labels
         plt.title(f'{env} on Random Seeds {seeds}')
         plt.xlabel('Average Total Timesteps So Far')

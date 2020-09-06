@@ -1,0 +1,3642 @@
+Successfully set seed to 702
+Learning... Running 1600 timesteps per episode, 2048 timesteps per batch for a total of 1405000 timesteps
+
+-------------------- Iteration #1 --------------------
+Average Episodic Length: 682.0
+Average Episodic Return: -103.54
+Average Loss: -0.00297
+Timesteps So Far: 3410
+------------------------------------------------------
+
+
+-------------------- Iteration #2 --------------------
+Average Episodic Length: 216.27
+Average Episodic Return: -110.01
+Average Loss: -0.00349
+Timesteps So Far: 5789
+------------------------------------------------------
+
+
+-------------------- Iteration #3 --------------------
+Average Episodic Length: 843.5
+Average Episodic Return: -98.94
+Average Loss: -0.001
+Timesteps So Far: 9163
+------------------------------------------------------
+
+
+-------------------- Iteration #4 --------------------
+Average Episodic Length: 829.75
+Average Episodic Return: -94.77
+Average Loss: -0.00118
+Timesteps So Far: 12482
+------------------------------------------------------
+
+
+-------------------- Iteration #5 --------------------
+Average Episodic Length: 299.71
+Average Episodic Return: -104.35
+Average Loss: -0.00276
+Timesteps So Far: 14580
+------------------------------------------------------
+
+
+-------------------- Iteration #6 --------------------
+Average Episodic Length: 1092.0
+Average Episodic Return: -89.7
+Average Loss: -0.00162
+Timesteps So Far: 17856
+------------------------------------------------------
+
+
+-------------------- Iteration #7 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -75.82
+Average Loss: -0.00144
+Timesteps So Far: 21056
+------------------------------------------------------
+
+
+-------------------- Iteration #8 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -78.77
+Average Loss: -0.00245
+Timesteps So Far: 24256
+------------------------------------------------------
+
+
+-------------------- Iteration #9 --------------------
+Average Episodic Length: 832.5
+Average Episodic Return: -92.12
+Average Loss: -0.0023
+Timesteps So Far: 27586
+------------------------------------------------------
+
+
+-------------------- Iteration #10 --------------------
+Average Episodic Length: 1083.33
+Average Episodic Return: -86.65
+Average Loss: -0.00124
+Timesteps So Far: 30836
+------------------------------------------------------
+
+
+-------------------- Iteration #11 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -54.52
+Average Loss: -0.00139
+Timesteps So Far: 34036
+------------------------------------------------------
+
+
+-------------------- Iteration #12 --------------------
+Average Episodic Length: 677.2
+Average Episodic Return: -88.19
+Average Loss: -0.00219
+Timesteps So Far: 37422
+------------------------------------------------------
+
+
+-------------------- Iteration #13 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -68.07
+Average Loss: -0.00224
+Timesteps So Far: 40622
+------------------------------------------------------
+
+
+-------------------- Iteration #14 --------------------
+Average Episodic Length: 891.5
+Average Episodic Return: -83.81
+Average Loss: -0.0014
+Timesteps So Far: 44188
+------------------------------------------------------
+
+
+-------------------- Iteration #15 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -54.77
+Average Loss: -0.0014
+Timesteps So Far: 47388
+------------------------------------------------------
+
+
+-------------------- Iteration #16 --------------------
+Average Episodic Length: 1117.33
+Average Episodic Return: -71.48
+Average Loss: -0.00111
+Timesteps So Far: 50740
+------------------------------------------------------
+
+
+-------------------- Iteration #17 --------------------
+Average Episodic Length: 1100.33
+Average Episodic Return: -78.92
+Average Loss: -0.00356
+Timesteps So Far: 54041
+------------------------------------------------------
+
+
+-------------------- Iteration #18 --------------------
+Average Episodic Length: 516.75
+Average Episodic Return: -93.51
+Average Loss: -0.0022
+Timesteps So Far: 56108
+------------------------------------------------------
+
+
+-------------------- Iteration #19 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -68.39
+Average Loss: -0.00106
+Timesteps So Far: 59308
+------------------------------------------------------
+
+
+-------------------- Iteration #20 --------------------
+Average Episodic Length: 1237.0
+Average Episodic Return: -113.22
+Average Loss: -0.00208
+Timesteps So Far: 61782
+------------------------------------------------------
+
+
+-------------------- Iteration #21 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -63.81
+Average Loss: -0.00151
+Timesteps So Far: 64982
+------------------------------------------------------
+
+
+-------------------- Iteration #22 --------------------
+Average Episodic Length: 512.25
+Average Episodic Return: -94.36
+Average Loss: -0.00253
+Timesteps So Far: 67031
+------------------------------------------------------
+
+
+-------------------- Iteration #23 --------------------
+Average Episodic Length: 515.25
+Average Episodic Return: -99.52
+Average Loss: -0.00348
+Timesteps So Far: 69092
+------------------------------------------------------
+
+
+-------------------- Iteration #24 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -63.49
+Average Loss: -0.00233
+Timesteps So Far: 72292
+------------------------------------------------------
+
+
+-------------------- Iteration #25 --------------------
+Average Episodic Length: 563.0
+Average Episodic Return: -107.4
+Average Loss: -0.00103
+Timesteps So Far: 74544
+------------------------------------------------------
+
+
+-------------------- Iteration #26 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -53.24
+Average Loss: -0.00107
+Timesteps So Far: 77744
+------------------------------------------------------
+
+
+-------------------- Iteration #27 --------------------
+Average Episodic Length: 1273.5
+Average Episodic Return: -101.0
+Average Loss: -0.00101
+Timesteps So Far: 80291
+------------------------------------------------------
+
+
+-------------------- Iteration #28 --------------------
+Average Episodic Length: 1134.0
+Average Episodic Return: -107.98
+Average Loss: -0.00139
+Timesteps So Far: 82559
+------------------------------------------------------
+
+
+-------------------- Iteration #29 --------------------
+Average Episodic Length: 831.0
+Average Episodic Return: -95.88
+Average Loss: -0.00216
+Timesteps So Far: 85883
+------------------------------------------------------
+
+
+-------------------- Iteration #30 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -77.05
+Average Loss: -0.002
+Timesteps So Far: 89083
+------------------------------------------------------
+
+
+-------------------- Iteration #31 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -59.03
+Average Loss: -0.00166
+Timesteps So Far: 92283
+------------------------------------------------------
+
+
+-------------------- Iteration #32 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -62.0
+Average Loss: -0.00161
+Timesteps So Far: 95483
+------------------------------------------------------
+
+
+-------------------- Iteration #33 --------------------
+Average Episodic Length: 1089.0
+Average Episodic Return: -77.95
+Average Loss: -0.00311
+Timesteps So Far: 98750
+------------------------------------------------------
+
+
+-------------------- Iteration #34 --------------------
+Average Episodic Length: 727.2
+Average Episodic Return: -90.68
+Average Loss: -0.00215
+Timesteps So Far: 102386
+------------------------------------------------------
+
+
+-------------------- Iteration #35 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -57.86
+Average Loss: -0.00139
+Timesteps So Far: 105586
+------------------------------------------------------
+
+
+-------------------- Iteration #36 --------------------
+Average Episodic Length: 1143.33
+Average Episodic Return: -72.28
+Average Loss: -0.00092
+Timesteps So Far: 109016
+------------------------------------------------------
+
+
+-------------------- Iteration #37 --------------------
+Average Episodic Length: 868.5
+Average Episodic Return: -84.49
+Average Loss: -0.00157
+Timesteps So Far: 112490
+------------------------------------------------------
+
+
+-------------------- Iteration #38 --------------------
+Average Episodic Length: 1089.0
+Average Episodic Return: -71.52
+Average Loss: -0.00191
+Timesteps So Far: 115757
+------------------------------------------------------
+
+
+-------------------- Iteration #39 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -60.64
+Average Loss: -0.00122
+Timesteps So Far: 118957
+------------------------------------------------------
+
+
+-------------------- Iteration #40 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -63.25
+Average Loss: -0.00114
+Timesteps So Far: 122157
+------------------------------------------------------
+
+
+-------------------- Iteration #41 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -59.09
+Average Loss: -0.0018
+Timesteps So Far: 125357
+------------------------------------------------------
+
+
+-------------------- Iteration #42 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -56.57
+Average Loss: -0.00289
+Timesteps So Far: 128557
+------------------------------------------------------
+
+
+-------------------- Iteration #43 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -61.37
+Average Loss: -0.00192
+Timesteps So Far: 131757
+------------------------------------------------------
+
+
+-------------------- Iteration #44 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -65.3
+Average Loss: -0.00109
+Timesteps So Far: 134957
+------------------------------------------------------
+
+
+-------------------- Iteration #45 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -63.98
+Average Loss: -0.00224
+Timesteps So Far: 138157
+------------------------------------------------------
+
+
+-------------------- Iteration #46 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -62.72
+Average Loss: -0.00149
+Timesteps So Far: 141357
+------------------------------------------------------
+
+
+-------------------- Iteration #47 --------------------
+Average Episodic Length: 1260.0
+Average Episodic Return: -98.75
+Average Loss: -0.00213
+Timesteps So Far: 143877
+------------------------------------------------------
+
+
+-------------------- Iteration #48 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -59.1
+Average Loss: -0.00217
+Timesteps So Far: 147077
+------------------------------------------------------
+
+
+-------------------- Iteration #49 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -55.4
+Average Loss: -0.00102
+Timesteps So Far: 150277
+------------------------------------------------------
+
+
+-------------------- Iteration #50 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -55.35
+Average Loss: -0.00184
+Timesteps So Far: 153477
+------------------------------------------------------
+
+
+-------------------- Iteration #51 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -51.56
+Average Loss: -0.00209
+Timesteps So Far: 156677
+------------------------------------------------------
+
+
+-------------------- Iteration #52 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -61.35
+Average Loss: -0.00146
+Timesteps So Far: 159877
+------------------------------------------------------
+
+
+-------------------- Iteration #53 --------------------
+Average Episodic Length: 1089.67
+Average Episodic Return: -72.18
+Average Loss: -0.00256
+Timesteps So Far: 163146
+------------------------------------------------------
+
+
+-------------------- Iteration #54 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -60.55
+Average Loss: -0.00199
+Timesteps So Far: 166346
+------------------------------------------------------
+
+
+-------------------- Iteration #55 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -47.48
+Average Loss: -0.00134
+Timesteps So Far: 169546
+------------------------------------------------------
+
+
+-------------------- Iteration #56 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -44.86
+Average Loss: -0.00157
+Timesteps So Far: 172746
+------------------------------------------------------
+
+
+-------------------- Iteration #57 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -58.35
+Average Loss: -0.00163
+Timesteps So Far: 175946
+------------------------------------------------------
+
+
+-------------------- Iteration #58 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -48.57
+Average Loss: -0.00215
+Timesteps So Far: 179146
+------------------------------------------------------
+
+
+-------------------- Iteration #59 --------------------
+Average Episodic Length: 1090.33
+Average Episodic Return: -68.81
+Average Loss: -0.00138
+Timesteps So Far: 182417
+------------------------------------------------------
+
+
+-------------------- Iteration #60 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -54.56
+Average Loss: -0.00235
+Timesteps So Far: 185617
+------------------------------------------------------
+
+
+-------------------- Iteration #61 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -45.63
+Average Loss: -0.00124
+Timesteps So Far: 188817
+------------------------------------------------------
+
+
+-------------------- Iteration #62 --------------------
+Average Episodic Length: 862.5
+Average Episodic Return: -80.72
+Average Loss: -0.00157
+Timesteps So Far: 192267
+------------------------------------------------------
+
+
+-------------------- Iteration #63 --------------------
+Average Episodic Length: 713.0
+Average Episodic Return: -84.36
+Average Loss: -0.0022
+Timesteps So Far: 195832
+------------------------------------------------------
+
+
+-------------------- Iteration #64 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -40.09
+Average Loss: -0.00151
+Timesteps So Far: 199032
+------------------------------------------------------
+
+
+-------------------- Iteration #65 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -42.36
+Average Loss: -0.00226
+Timesteps So Far: 202232
+------------------------------------------------------
+
+
+-------------------- Iteration #66 --------------------
+Average Episodic Length: 1120.33
+Average Episodic Return: -64.76
+Average Loss: -0.00212
+Timesteps So Far: 205593
+------------------------------------------------------
+
+
+-------------------- Iteration #67 --------------------
+Average Episodic Length: 1186.33
+Average Episodic Return: -70.7
+Average Loss: -0.00233
+Timesteps So Far: 209152
+------------------------------------------------------
+
+
+-------------------- Iteration #68 --------------------
+Average Episodic Length: 519.86
+Average Episodic Return: -86.65
+Average Loss: -0.00171
+Timesteps So Far: 212791
+------------------------------------------------------
+
+
+-------------------- Iteration #69 --------------------
+Average Episodic Length: 1164.5
+Average Episodic Return: -83.73
+Average Loss: -0.00186
+Timesteps So Far: 215120
+------------------------------------------------------
+
+
+-------------------- Iteration #70 --------------------
+Average Episodic Length: 715.2
+Average Episodic Return: -79.46
+Average Loss: -0.00185
+Timesteps So Far: 218696
+------------------------------------------------------
+
+
+-------------------- Iteration #71 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -46.32
+Average Loss: -0.00137
+Timesteps So Far: 221896
+------------------------------------------------------
+
+
+-------------------- Iteration #72 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -34.3
+Average Loss: -0.00091
+Timesteps So Far: 225096
+------------------------------------------------------
+
+
+-------------------- Iteration #73 --------------------
+Average Episodic Length: 299.29
+Average Episodic Return: -100.18
+Average Loss: -0.00323
+Timesteps So Far: 227191
+------------------------------------------------------
+
+
+-------------------- Iteration #74 --------------------
+Average Episodic Length: 838.5
+Average Episodic Return: -80.12
+Average Loss: -0.00219
+Timesteps So Far: 230545
+------------------------------------------------------
+
+
+-------------------- Iteration #75 --------------------
+Average Episodic Length: 842.25
+Average Episodic Return: -78.42
+Average Loss: -0.00165
+Timesteps So Far: 233914
+------------------------------------------------------
+
+
+-------------------- Iteration #76 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -46.41
+Average Loss: -0.00082
+Timesteps So Far: 237114
+------------------------------------------------------
+
+
+-------------------- Iteration #77 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -49.1
+Average Loss: -0.00192
+Timesteps So Far: 240314
+------------------------------------------------------
+
+
+-------------------- Iteration #78 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -42.7
+Average Loss: -0.00194
+Timesteps So Far: 243514
+------------------------------------------------------
+
+
+-------------------- Iteration #79 --------------------
+Average Episodic Length: 1533.5
+Average Episodic Return: -83.84
+Average Loss: -0.00267
+Timesteps So Far: 246581
+------------------------------------------------------
+
+
+-------------------- Iteration #80 --------------------
+Average Episodic Length: 909.67
+Average Episodic Return: -98.7
+Average Loss: -0.00198
+Timesteps So Far: 249310
+------------------------------------------------------
+
+
+-------------------- Iteration #81 --------------------
+Average Episodic Length: 834.5
+Average Episodic Return: -79.73
+Average Loss: -0.0033
+Timesteps So Far: 252648
+------------------------------------------------------
+
+
+-------------------- Iteration #82 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -54.85
+Average Loss: -0.00295
+Timesteps So Far: 255848
+------------------------------------------------------
+
+
+-------------------- Iteration #83 --------------------
+Average Episodic Length: 1087.67
+Average Episodic Return: -74.74
+Average Loss: -0.00243
+Timesteps So Far: 259111
+------------------------------------------------------
+
+
+-------------------- Iteration #84 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -40.06
+Average Loss: -0.00223
+Timesteps So Far: 262311
+------------------------------------------------------
+
+
+-------------------- Iteration #85 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -41.64
+Average Loss: -0.00115
+Timesteps So Far: 265511
+------------------------------------------------------
+
+
+-------------------- Iteration #86 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -44.96
+Average Loss: -0.00203
+Timesteps So Far: 268711
+------------------------------------------------------
+
+
+-------------------- Iteration #87 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -53.14
+Average Loss: -0.00303
+Timesteps So Far: 271911
+------------------------------------------------------
+
+
+-------------------- Iteration #88 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -38.05
+Average Loss: -0.00186
+Timesteps So Far: 275111
+------------------------------------------------------
+
+
+-------------------- Iteration #89 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -43.3
+Average Loss: -0.0018
+Timesteps So Far: 278311
+------------------------------------------------------
+
+
+-------------------- Iteration #90 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -41.27
+Average Loss: -0.0016
+Timesteps So Far: 281511
+------------------------------------------------------
+
+
+-------------------- Iteration #91 --------------------
+Average Episodic Length: 1082.67
+Average Episodic Return: -73.1
+Average Loss: -0.0027
+Timesteps So Far: 284759
+------------------------------------------------------
+
+
+-------------------- Iteration #92 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -38.46
+Average Loss: -0.00334
+Timesteps So Far: 287959
+------------------------------------------------------
+
+
+-------------------- Iteration #93 --------------------
+Average Episodic Length: 1082.67
+Average Episodic Return: -67.04
+Average Loss: -0.00357
+Timesteps So Far: 291207
+------------------------------------------------------
+
+
+-------------------- Iteration #94 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -38.35
+Average Loss: -0.00129
+Timesteps So Far: 294407
+------------------------------------------------------
+
+
+-------------------- Iteration #95 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -38.92
+Average Loss: -0.00096
+Timesteps So Far: 297607
+------------------------------------------------------
+
+
+-------------------- Iteration #96 --------------------
+Average Episodic Length: 1468.0
+Average Episodic Return: -86.46
+Average Loss: -0.00341
+Timesteps So Far: 300543
+------------------------------------------------------
+
+
+-------------------- Iteration #97 --------------------
+Average Episodic Length: 1086.0
+Average Episodic Return: -75.57
+Average Loss: -0.00183
+Timesteps So Far: 303801
+------------------------------------------------------
+
+
+-------------------- Iteration #98 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -53.38
+Average Loss: -0.00106
+Timesteps So Far: 307001
+------------------------------------------------------
+
+
+-------------------- Iteration #99 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -53.8
+Average Loss: -0.0007
+Timesteps So Far: 310201
+------------------------------------------------------
+
+
+-------------------- Iteration #100 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -45.74
+Average Loss: -0.0016
+Timesteps So Far: 313401
+------------------------------------------------------
+
+
+-------------------- Iteration #101 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -53.23
+Average Loss: -0.00241
+Timesteps So Far: 316601
+------------------------------------------------------
+
+
+-------------------- Iteration #102 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -57.59
+Average Loss: -0.00173
+Timesteps So Far: 319801
+------------------------------------------------------
+
+
+-------------------- Iteration #103 --------------------
+Average Episodic Length: 1099.33
+Average Episodic Return: -70.89
+Average Loss: -0.00368
+Timesteps So Far: 323099
+------------------------------------------------------
+
+
+-------------------- Iteration #104 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -60.2
+Average Loss: -0.00149
+Timesteps So Far: 326299
+------------------------------------------------------
+
+
+-------------------- Iteration #105 --------------------
+Average Episodic Length: 845.25
+Average Episodic Return: -81.99
+Average Loss: -0.00097
+Timesteps So Far: 329680
+------------------------------------------------------
+
+
+-------------------- Iteration #106 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -50.59
+Average Loss: -0.00309
+Timesteps So Far: 332880
+------------------------------------------------------
+
+
+-------------------- Iteration #107 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -46.43
+Average Loss: -0.00273
+Timesteps So Far: 336080
+------------------------------------------------------
+
+
+-------------------- Iteration #108 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -44.98
+Average Loss: -0.00234
+Timesteps So Far: 339280
+------------------------------------------------------
+
+
+-------------------- Iteration #109 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -50.42
+Average Loss: -0.00207
+Timesteps So Far: 342480
+------------------------------------------------------
+
+
+-------------------- Iteration #110 --------------------
+Average Episodic Length: 1099.0
+Average Episodic Return: -65.71
+Average Loss: -0.0016
+Timesteps So Far: 345777
+------------------------------------------------------
+
+
+-------------------- Iteration #111 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -36.9
+Average Loss: -0.00313
+Timesteps So Far: 348977
+------------------------------------------------------
+
+
+-------------------- Iteration #112 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -32.17
+Average Loss: -0.0018
+Timesteps So Far: 352177
+------------------------------------------------------
+
+
+-------------------- Iteration #113 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -41.83
+Average Loss: -0.00427
+Timesteps So Far: 355377
+------------------------------------------------------
+
+
+-------------------- Iteration #114 --------------------
+Average Episodic Length: 1089.0
+Average Episodic Return: -63.59
+Average Loss: -0.00344
+Timesteps So Far: 358644
+------------------------------------------------------
+
+
+-------------------- Iteration #115 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -31.62
+Average Loss: -0.00132
+Timesteps So Far: 361844
+------------------------------------------------------
+
+
+-------------------- Iteration #116 --------------------
+Average Episodic Length: 1105.33
+Average Episodic Return: -61.87
+Average Loss: -0.00246
+Timesteps So Far: 365160
+------------------------------------------------------
+
+
+-------------------- Iteration #117 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -37.82
+Average Loss: -0.00307
+Timesteps So Far: 368360
+------------------------------------------------------
+
+
+-------------------- Iteration #118 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -28.86
+Average Loss: -0.0033
+Timesteps So Far: 371560
+------------------------------------------------------
+
+
+-------------------- Iteration #119 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -28.79
+Average Loss: -0.00198
+Timesteps So Far: 374760
+------------------------------------------------------
+
+
+-------------------- Iteration #120 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -31.22
+Average Loss: -0.00123
+Timesteps So Far: 377960
+------------------------------------------------------
+
+
+-------------------- Iteration #121 --------------------
+Average Episodic Length: 674.8
+Average Episodic Return: -78.78
+Average Loss: -0.00166
+Timesteps So Far: 381334
+------------------------------------------------------
+
+
+-------------------- Iteration #122 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -27.71
+Average Loss: -0.00134
+Timesteps So Far: 384534
+------------------------------------------------------
+
+
+-------------------- Iteration #123 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -23.93
+Average Loss: -0.00271
+Timesteps So Far: 387734
+------------------------------------------------------
+
+
+-------------------- Iteration #124 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -28.98
+Average Loss: -0.00227
+Timesteps So Far: 390934
+------------------------------------------------------
+
+
+-------------------- Iteration #125 --------------------
+Average Episodic Length: 1084.33
+Average Episodic Return: -43.23
+Average Loss: -0.00321
+Timesteps So Far: 394187
+------------------------------------------------------
+
+
+-------------------- Iteration #126 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -24.02
+Average Loss: -0.00172
+Timesteps So Far: 397387
+------------------------------------------------------
+
+
+-------------------- Iteration #127 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -24.6
+Average Loss: -0.0025
+Timesteps So Far: 400587
+------------------------------------------------------
+
+
+-------------------- Iteration #128 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -24.57
+Average Loss: -0.00216
+Timesteps So Far: 403787
+------------------------------------------------------
+
+
+-------------------- Iteration #129 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -33.66
+Average Loss: -0.00194
+Timesteps So Far: 406987
+------------------------------------------------------
+
+
+-------------------- Iteration #130 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -28.42
+Average Loss: -0.00192
+Timesteps So Far: 410187
+------------------------------------------------------
+
+
+-------------------- Iteration #131 --------------------
+Average Episodic Length: 1084.33
+Average Episodic Return: -55.72
+Average Loss: -0.00246
+Timesteps So Far: 413440
+------------------------------------------------------
+
+
+-------------------- Iteration #132 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -17.22
+Average Loss: -0.00146
+Timesteps So Far: 416640
+------------------------------------------------------
+
+
+-------------------- Iteration #133 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -14.53
+Average Loss: -0.00202
+Timesteps So Far: 419840
+------------------------------------------------------
+
+
+-------------------- Iteration #134 --------------------
+Average Episodic Length: 1104.33
+Average Episodic Return: -46.08
+Average Loss: -0.00161
+Timesteps So Far: 423153
+------------------------------------------------------
+
+
+-------------------- Iteration #135 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -23.55
+Average Loss: -0.00187
+Timesteps So Far: 426353
+------------------------------------------------------
+
+
+-------------------- Iteration #136 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -1.09
+Average Loss: -0.00221
+Timesteps So Far: 429553
+------------------------------------------------------
+
+
+-------------------- Iteration #137 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -9.75
+Average Loss: -0.00177
+Timesteps So Far: 432753
+------------------------------------------------------
+
+
+-------------------- Iteration #138 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -5.71
+Average Loss: -0.00253
+Timesteps So Far: 435953
+------------------------------------------------------
+
+
+-------------------- Iteration #139 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -4.21
+Average Loss: -0.00248
+Timesteps So Far: 439153
+------------------------------------------------------
+
+
+-------------------- Iteration #140 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 4.74
+Average Loss: -0.00183
+Timesteps So Far: 442353
+------------------------------------------------------
+
+
+-------------------- Iteration #141 --------------------
+Average Episodic Length: 1091.33
+Average Episodic Return: -35.19
+Average Loss: -0.00221
+Timesteps So Far: 445627
+------------------------------------------------------
+
+
+-------------------- Iteration #142 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -6.27
+Average Loss: -0.00372
+Timesteps So Far: 448827
+------------------------------------------------------
+
+
+-------------------- Iteration #143 --------------------
+Average Episodic Length: 1093.67
+Average Episodic Return: -37.39
+Average Loss: -0.00278
+Timesteps So Far: 452108
+------------------------------------------------------
+
+
+-------------------- Iteration #144 --------------------
+Average Episodic Length: 822.25
+Average Episodic Return: -57.96
+Average Loss: -0.00631
+Timesteps So Far: 455397
+------------------------------------------------------
+
+
+-------------------- Iteration #145 --------------------
+Average Episodic Length: 1217.5
+Average Episodic Return: -56.58
+Average Loss: -0.00154
+Timesteps So Far: 457832
+------------------------------------------------------
+
+
+-------------------- Iteration #146 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -3.9
+Average Loss: -0.00206
+Timesteps So Far: 461032
+------------------------------------------------------
+
+
+-------------------- Iteration #147 --------------------
+Average Episodic Length: 1394.0
+Average Episodic Return: -51.11
+Average Loss: -0.00208
+Timesteps So Far: 463820
+------------------------------------------------------
+
+
+-------------------- Iteration #148 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 5.72
+Average Loss: -0.00174
+Timesteps So Far: 467020
+------------------------------------------------------
+
+
+-------------------- Iteration #149 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 8.83
+Average Loss: -0.00248
+Timesteps So Far: 470220
+------------------------------------------------------
+
+
+-------------------- Iteration #150 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 10.62
+Average Loss: -0.00295
+Timesteps So Far: 473420
+------------------------------------------------------
+
+
+-------------------- Iteration #151 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -2.71
+Average Loss: -0.00213
+Timesteps So Far: 476620
+------------------------------------------------------
+
+
+-------------------- Iteration #152 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 1.88
+Average Loss: -0.00287
+Timesteps So Far: 479820
+------------------------------------------------------
+
+
+-------------------- Iteration #153 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -9.76
+Average Loss: -0.00151
+Timesteps So Far: 483020
+------------------------------------------------------
+
+
+-------------------- Iteration #154 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -1.94
+Average Loss: -0.00194
+Timesteps So Far: 486220
+------------------------------------------------------
+
+
+-------------------- Iteration #155 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -3.38
+Average Loss: -0.00126
+Timesteps So Far: 489420
+------------------------------------------------------
+
+
+-------------------- Iteration #156 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -0.58
+Average Loss: -0.00182
+Timesteps So Far: 492620
+------------------------------------------------------
+
+
+-------------------- Iteration #157 --------------------
+Average Episodic Length: 1107.33
+Average Episodic Return: -39.36
+Average Loss: -0.00278
+Timesteps So Far: 495942
+------------------------------------------------------
+
+
+-------------------- Iteration #158 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 5.78
+Average Loss: -0.00138
+Timesteps So Far: 499142
+------------------------------------------------------
+
+
+-------------------- Iteration #159 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 14.73
+Average Loss: -0.00273
+Timesteps So Far: 502342
+------------------------------------------------------
+
+
+-------------------- Iteration #160 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 10.75
+Average Loss: -0.00119
+Timesteps So Far: 505542
+------------------------------------------------------
+
+
+-------------------- Iteration #161 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 12.69
+Average Loss: -0.00246
+Timesteps So Far: 508742
+------------------------------------------------------
+
+
+-------------------- Iteration #162 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 20.57
+Average Loss: -0.0015
+Timesteps So Far: 511942
+------------------------------------------------------
+
+
+-------------------- Iteration #163 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 13.89
+Average Loss: -0.00226
+Timesteps So Far: 515142
+------------------------------------------------------
+
+
+-------------------- Iteration #164 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 22.68
+Average Loss: -0.00137
+Timesteps So Far: 518342
+------------------------------------------------------
+
+
+-------------------- Iteration #165 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 26.34
+Average Loss: -0.00188
+Timesteps So Far: 521542
+------------------------------------------------------
+
+
+-------------------- Iteration #166 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 32.64
+Average Loss: -0.00315
+Timesteps So Far: 524742
+------------------------------------------------------
+
+
+-------------------- Iteration #167 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 23.03
+Average Loss: -0.00151
+Timesteps So Far: 527942
+------------------------------------------------------
+
+
+-------------------- Iteration #168 --------------------
+Average Episodic Length: 1112.0
+Average Episodic Return: -29.82
+Average Loss: -0.00307
+Timesteps So Far: 530166
+------------------------------------------------------
+
+
+-------------------- Iteration #169 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 27.47
+Average Loss: -0.00335
+Timesteps So Far: 533366
+------------------------------------------------------
+
+
+-------------------- Iteration #170 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 26.87
+Average Loss: -0.00235
+Timesteps So Far: 536566
+------------------------------------------------------
+
+
+-------------------- Iteration #171 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 55.09
+Average Loss: -0.00163
+Timesteps So Far: 539766
+------------------------------------------------------
+
+
+-------------------- Iteration #172 --------------------
+Average Episodic Length: 1128.0
+Average Episodic Return: -12.97
+Average Loss: -0.00303
+Timesteps So Far: 543150
+------------------------------------------------------
+
+
+-------------------- Iteration #173 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 33.65
+Average Loss: -0.00274
+Timesteps So Far: 546350
+------------------------------------------------------
+
+
+-------------------- Iteration #174 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 42.58
+Average Loss: -0.00169
+Timesteps So Far: 549550
+------------------------------------------------------
+
+
+-------------------- Iteration #175 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 42.08
+Average Loss: -0.00434
+Timesteps So Far: 552750
+------------------------------------------------------
+
+
+-------------------- Iteration #176 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 52.29
+Average Loss: -0.00306
+Timesteps So Far: 555950
+------------------------------------------------------
+
+
+-------------------- Iteration #177 --------------------
+Average Episodic Length: 1155.33
+Average Episodic Return: 3.32
+Average Loss: -0.00273
+Timesteps So Far: 559416
+------------------------------------------------------
+
+
+-------------------- Iteration #178 --------------------
+Average Episodic Length: 1156.67
+Average Episodic Return: -24.03
+Average Loss: -0.0023
+Timesteps So Far: 562886
+------------------------------------------------------
+
+
+-------------------- Iteration #179 --------------------
+Average Episodic Length: 1170.5
+Average Episodic Return: -22.87
+Average Loss: -0.00313
+Timesteps So Far: 565227
+------------------------------------------------------
+
+
+-------------------- Iteration #180 --------------------
+Average Episodic Length: 1384.0
+Average Episodic Return: 8.45
+Average Loss: -0.00264
+Timesteps So Far: 567995
+------------------------------------------------------
+
+
+-------------------- Iteration #181 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 38.17
+Average Loss: -0.00103
+Timesteps So Far: 571195
+------------------------------------------------------
+
+
+-------------------- Iteration #182 --------------------
+Average Episodic Length: 1215.0
+Average Episodic Return: 0.94
+Average Loss: -0.00329
+Timesteps So Far: 574840
+------------------------------------------------------
+
+
+-------------------- Iteration #183 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 63.35
+Average Loss: -0.00201
+Timesteps So Far: 578040
+------------------------------------------------------
+
+
+-------------------- Iteration #184 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 48.32
+Average Loss: -0.00231
+Timesteps So Far: 581240
+------------------------------------------------------
+
+
+-------------------- Iteration #185 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: -6.79
+Average Loss: -0.00509
+Timesteps So Far: 584440
+------------------------------------------------------
+
+
+-------------------- Iteration #186 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 60.29
+Average Loss: -0.002
+Timesteps So Far: 587640
+------------------------------------------------------
+
+
+-------------------- Iteration #187 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 61.7
+Average Loss: -0.00197
+Timesteps So Far: 590840
+------------------------------------------------------
+
+
+-------------------- Iteration #188 --------------------
+Average Episodic Length: 1135.67
+Average Episodic Return: -18.68
+Average Loss: -0.00344
+Timesteps So Far: 594247
+------------------------------------------------------
+
+
+-------------------- Iteration #189 --------------------
+Average Episodic Length: 1105.0
+Average Episodic Return: 21.68
+Average Loss: -0.00232
+Timesteps So Far: 597562
+------------------------------------------------------
+
+
+-------------------- Iteration #190 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 91.25
+Average Loss: -0.00366
+Timesteps So Far: 600762
+------------------------------------------------------
+
+
+-------------------- Iteration #191 --------------------
+Average Episodic Length: 1077.33
+Average Episodic Return: -23.27
+Average Loss: -0.00315
+Timesteps So Far: 603994
+------------------------------------------------------
+
+
+-------------------- Iteration #192 --------------------
+Average Episodic Length: 1095.0
+Average Episodic Return: 23.63
+Average Loss: -0.00332
+Timesteps So Far: 607279
+------------------------------------------------------
+
+
+-------------------- Iteration #193 --------------------
+Average Episodic Length: 812.75
+Average Episodic Return: -72.01
+Average Loss: -0.0015
+Timesteps So Far: 610530
+------------------------------------------------------
+
+
+-------------------- Iteration #194 --------------------
+Average Episodic Length: 350.57
+Average Episodic Return: -88.84
+Average Loss: -0.00358
+Timesteps So Far: 612984
+------------------------------------------------------
+
+
+-------------------- Iteration #195 --------------------
+Average Episodic Length: 1454.0
+Average Episodic Return: 31.84
+Average Loss: -0.0017
+Timesteps So Far: 615892
+------------------------------------------------------
+
+
+-------------------- Iteration #196 --------------------
+Average Episodic Length: 523.25
+Average Episodic Return: -79.05
+Average Loss: -0.00236
+Timesteps So Far: 617985
+------------------------------------------------------
+
+
+-------------------- Iteration #197 --------------------
+Average Episodic Length: 628.5
+Average Episodic Return: -72.19
+Average Loss: -0.00323
+Timesteps So Far: 620499
+------------------------------------------------------
+
+
+-------------------- Iteration #198 --------------------
+Average Episodic Length: 1339.0
+Average Episodic Return: 14.89
+Average Loss: -0.00332
+Timesteps So Far: 623177
+------------------------------------------------------
+
+
+-------------------- Iteration #199 --------------------
+Average Episodic Length: 1366.0
+Average Episodic Return: 16.42
+Average Loss: -0.0022
+Timesteps So Far: 625909
+------------------------------------------------------
+
+
+-------------------- Iteration #200 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 53.01
+Average Loss: -0.00244
+Timesteps So Far: 629109
+------------------------------------------------------
+
+
+-------------------- Iteration #201 --------------------
+Average Episodic Length: 1405.0
+Average Episodic Return: 7.94
+Average Loss: -0.00261
+Timesteps So Far: 631919
+------------------------------------------------------
+
+
+-------------------- Iteration #202 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 61.39
+Average Loss: -0.00227
+Timesteps So Far: 635119
+------------------------------------------------------
+
+
+-------------------- Iteration #203 --------------------
+Average Episodic Length: 1202.33
+Average Episodic Return: 10.48
+Average Loss: -0.00263
+Timesteps So Far: 638726
+------------------------------------------------------
+
+
+-------------------- Iteration #204 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 56.43
+Average Loss: -0.00229
+Timesteps So Far: 641926
+------------------------------------------------------
+
+
+-------------------- Iteration #205 --------------------
+Average Episodic Length: 1203.5
+Average Episodic Return: -14.26
+Average Loss: -0.00361
+Timesteps So Far: 644333
+------------------------------------------------------
+
+
+-------------------- Iteration #206 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 59.72
+Average Loss: -0.0027
+Timesteps So Far: 647533
+------------------------------------------------------
+
+
+-------------------- Iteration #207 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 56.35
+Average Loss: -0.00249
+Timesteps So Far: 650733
+------------------------------------------------------
+
+
+-------------------- Iteration #208 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 70.93
+Average Loss: -0.00207
+Timesteps So Far: 653933
+------------------------------------------------------
+
+
+-------------------- Iteration #209 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 63.63
+Average Loss: -0.00264
+Timesteps So Far: 657133
+------------------------------------------------------
+
+
+-------------------- Iteration #210 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 68.3
+Average Loss: -0.00388
+Timesteps So Far: 660333
+------------------------------------------------------
+
+
+-------------------- Iteration #211 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 77.39
+Average Loss: -0.00332
+Timesteps So Far: 663533
+------------------------------------------------------
+
+
+-------------------- Iteration #212 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 71.05
+Average Loss: -0.00288
+Timesteps So Far: 666733
+------------------------------------------------------
+
+
+-------------------- Iteration #213 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 93.53
+Average Loss: -0.00295
+Timesteps So Far: 669933
+------------------------------------------------------
+
+
+-------------------- Iteration #214 --------------------
+Average Episodic Length: 1032.5
+Average Episodic Return: -6.62
+Average Loss: -0.00442
+Timesteps So Far: 671998
+------------------------------------------------------
+
+
+-------------------- Iteration #215 --------------------
+Average Episodic Length: 1155.0
+Average Episodic Return: 11.86
+Average Loss: -0.00132
+Timesteps So Far: 674308
+------------------------------------------------------
+
+
+-------------------- Iteration #216 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 81.18
+Average Loss: -0.00167
+Timesteps So Far: 677508
+------------------------------------------------------
+
+
+-------------------- Iteration #217 --------------------
+Average Episodic Length: 1035.0
+Average Episodic Return: 0.83
+Average Loss: -0.00318
+Timesteps So Far: 679578
+------------------------------------------------------
+
+
+-------------------- Iteration #218 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 83.85
+Average Loss: -0.00449
+Timesteps So Far: 682778
+------------------------------------------------------
+
+
+-------------------- Iteration #219 --------------------
+Average Episodic Length: 1034.5
+Average Episodic Return: 10.16
+Average Loss: -0.00331
+Timesteps So Far: 684847
+------------------------------------------------------
+
+
+-------------------- Iteration #220 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 95.16
+Average Loss: -0.00456
+Timesteps So Far: 688047
+------------------------------------------------------
+
+
+-------------------- Iteration #221 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 120.02
+Average Loss: -0.00098
+Timesteps So Far: 691247
+------------------------------------------------------
+
+
+-------------------- Iteration #222 --------------------
+Average Episodic Length: 1116.5
+Average Episodic Return: 26.79
+Average Loss: -0.00533
+Timesteps So Far: 693480
+------------------------------------------------------
+
+
+-------------------- Iteration #223 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 98.72
+Average Loss: -0.00114
+Timesteps So Far: 696680
+------------------------------------------------------
+
+
+-------------------- Iteration #224 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 111.09
+Average Loss: -0.00263
+Timesteps So Far: 699880
+------------------------------------------------------
+
+
+-------------------- Iteration #225 --------------------
+Average Episodic Length: 1112.67
+Average Episodic Return: 38.41
+Average Loss: -0.00295
+Timesteps So Far: 703218
+------------------------------------------------------
+
+
+-------------------- Iteration #226 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 104.56
+Average Loss: -0.00234
+Timesteps So Far: 706418
+------------------------------------------------------
+
+
+-------------------- Iteration #227 --------------------
+Average Episodic Length: 1033.5
+Average Episodic Return: 22.5
+Average Loss: -0.00475
+Timesteps So Far: 708485
+------------------------------------------------------
+
+
+-------------------- Iteration #228 --------------------
+Average Episodic Length: 1039.0
+Average Episodic Return: 9.34
+Average Loss: -0.00694
+Timesteps So Far: 710563
+------------------------------------------------------
+
+
+-------------------- Iteration #229 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 69.67
+Average Loss: -0.00154
+Timesteps So Far: 713763
+------------------------------------------------------
+
+
+-------------------- Iteration #230 --------------------
+Average Episodic Length: 1087.5
+Average Episodic Return: 7.45
+Average Loss: -0.00264
+Timesteps So Far: 715938
+------------------------------------------------------
+
+
+-------------------- Iteration #231 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 88.55
+Average Loss: -0.00137
+Timesteps So Far: 719138
+------------------------------------------------------
+
+
+-------------------- Iteration #232 --------------------
+Average Episodic Length: 1424.5
+Average Episodic Return: 25.24
+Average Loss: -0.00314
+Timesteps So Far: 721987
+------------------------------------------------------
+
+
+-------------------- Iteration #233 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 95.67
+Average Loss: -0.00241
+Timesteps So Far: 725187
+------------------------------------------------------
+
+
+-------------------- Iteration #234 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 98.15
+Average Loss: -0.00246
+Timesteps So Far: 728387
+------------------------------------------------------
+
+
+-------------------- Iteration #235 --------------------
+Average Episodic Length: 1194.5
+Average Episodic Return: 31.57
+Average Loss: -0.00472
+Timesteps So Far: 730776
+------------------------------------------------------
+
+
+-------------------- Iteration #236 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 76.79
+Average Loss: -0.00212
+Timesteps So Far: 733976
+------------------------------------------------------
+
+
+-------------------- Iteration #237 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 104.25
+Average Loss: -0.00198
+Timesteps So Far: 737176
+------------------------------------------------------
+
+
+-------------------- Iteration #238 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 90.8
+Average Loss: -0.00244
+Timesteps So Far: 740376
+------------------------------------------------------
+
+
+-------------------- Iteration #239 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 94.93
+Average Loss: -0.00194
+Timesteps So Far: 743576
+------------------------------------------------------
+
+
+-------------------- Iteration #240 --------------------
+Average Episodic Length: 996.67
+Average Episodic Return: -16.56
+Average Loss: -0.00381
+Timesteps So Far: 746566
+------------------------------------------------------
+
+
+-------------------- Iteration #241 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 106.44
+Average Loss: -0.00303
+Timesteps So Far: 749766
+------------------------------------------------------
+
+
+-------------------- Iteration #242 --------------------
+Average Episodic Length: 1231.0
+Average Episodic Return: 39.91
+Average Loss: -0.00226
+Timesteps So Far: 752228
+------------------------------------------------------
+
+
+-------------------- Iteration #243 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 99.87
+Average Loss: -0.00265
+Timesteps So Far: 755428
+------------------------------------------------------
+
+
+-------------------- Iteration #244 --------------------
+Average Episodic Length: 1076.5
+Average Episodic Return: 14.48
+Average Loss: -0.00372
+Timesteps So Far: 757581
+------------------------------------------------------
+
+
+-------------------- Iteration #245 --------------------
+Average Episodic Length: 699.75
+Average Episodic Return: -59.69
+Average Loss: -0.00401
+Timesteps So Far: 760380
+------------------------------------------------------
+
+
+-------------------- Iteration #246 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 115.91
+Average Loss: -0.00224
+Timesteps So Far: 763580
+------------------------------------------------------
+
+
+-------------------- Iteration #247 --------------------
+Average Episodic Length: 1504.0
+Average Episodic Return: 62.09
+Average Loss: -0.00217
+Timesteps So Far: 766588
+------------------------------------------------------
+
+
+-------------------- Iteration #248 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 124.87
+Average Loss: -0.00139
+Timesteps So Far: 769788
+------------------------------------------------------
+
+
+-------------------- Iteration #249 --------------------
+Average Episodic Length: 1235.5
+Average Episodic Return: 26.38
+Average Loss: -0.00481
+Timesteps So Far: 772259
+------------------------------------------------------
+
+
+-------------------- Iteration #250 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 115.83
+Average Loss: -0.00317
+Timesteps So Far: 775459
+------------------------------------------------------
+
+
+-------------------- Iteration #251 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 122.58
+Average Loss: -0.00284
+Timesteps So Far: 778659
+------------------------------------------------------
+
+
+-------------------- Iteration #252 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 115.06
+Average Loss: -0.00164
+Timesteps So Far: 781859
+------------------------------------------------------
+
+
+-------------------- Iteration #253 --------------------
+Average Episodic Length: 1295.5
+Average Episodic Return: 30.69
+Average Loss: -0.00249
+Timesteps So Far: 784450
+------------------------------------------------------
+
+
+-------------------- Iteration #254 --------------------
+Average Episodic Length: 1524.5
+Average Episodic Return: 53.9
+Average Loss: -0.00187
+Timesteps So Far: 787499
+------------------------------------------------------
+
+
+-------------------- Iteration #255 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 108.81
+Average Loss: -0.00162
+Timesteps So Far: 790699
+------------------------------------------------------
+
+
+-------------------- Iteration #256 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 113.72
+Average Loss: -0.0033
+Timesteps So Far: 793899
+------------------------------------------------------
+
+
+-------------------- Iteration #257 --------------------
+Average Episodic Length: 1027.0
+Average Episodic Return: 28.5
+Average Loss: -0.00474
+Timesteps So Far: 795953
+------------------------------------------------------
+
+
+-------------------- Iteration #258 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 119.36
+Average Loss: -0.00104
+Timesteps So Far: 799153
+------------------------------------------------------
+
+
+-------------------- Iteration #259 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 117.26
+Average Loss: -0.00281
+Timesteps So Far: 802353
+------------------------------------------------------
+
+
+-------------------- Iteration #260 --------------------
+Average Episodic Length: 1106.67
+Average Episodic Return: 52.16
+Average Loss: -0.00247
+Timesteps So Far: 805673
+------------------------------------------------------
+
+
+-------------------- Iteration #261 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 120.94
+Average Loss: -0.00239
+Timesteps So Far: 808873
+------------------------------------------------------
+
+
+-------------------- Iteration #262 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 141.2
+Average Loss: -0.0035
+Timesteps So Far: 812073
+------------------------------------------------------
+
+
+-------------------- Iteration #263 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 151.38
+Average Loss: -0.00272
+Timesteps So Far: 815273
+------------------------------------------------------
+
+
+-------------------- Iteration #264 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 138.68
+Average Loss: -0.00306
+Timesteps So Far: 818473
+------------------------------------------------------
+
+
+-------------------- Iteration #265 --------------------
+Average Episodic Length: 1106.67
+Average Episodic Return: 43.06
+Average Loss: -0.00233
+Timesteps So Far: 821793
+------------------------------------------------------
+
+
+-------------------- Iteration #266 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 129.63
+Average Loss: -0.0027
+Timesteps So Far: 824993
+------------------------------------------------------
+
+
+-------------------- Iteration #267 --------------------
+Average Episodic Length: 523.0
+Average Episodic Return: -46.71
+Average Loss: -0.0048
+Timesteps So Far: 827085
+------------------------------------------------------
+
+
+-------------------- Iteration #268 --------------------
+Average Episodic Length: 1559.0
+Average Episodic Return: 63.68
+Average Loss: -0.00146
+Timesteps So Far: 830203
+------------------------------------------------------
+
+
+-------------------- Iteration #269 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 123.26
+Average Loss: -0.00267
+Timesteps So Far: 833403
+------------------------------------------------------
+
+
+-------------------- Iteration #270 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 129.4
+Average Loss: -0.00175
+Timesteps So Far: 836603
+------------------------------------------------------
+
+
+-------------------- Iteration #271 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 130.14
+Average Loss: -0.00394
+Timesteps So Far: 839803
+------------------------------------------------------
+
+
+-------------------- Iteration #272 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 131.93
+Average Loss: -0.00204
+Timesteps So Far: 843003
+------------------------------------------------------
+
+
+-------------------- Iteration #273 --------------------
+Average Episodic Length: 744.67
+Average Episodic Return: -16.51
+Average Loss: -0.00309
+Timesteps So Far: 845237
+------------------------------------------------------
+
+
+-------------------- Iteration #274 --------------------
+Average Episodic Length: 1210.33
+Average Episodic Return: 69.61
+Average Loss: -0.0023
+Timesteps So Far: 848868
+------------------------------------------------------
+
+
+-------------------- Iteration #275 --------------------
+Average Episodic Length: 1573.5
+Average Episodic Return: 82.12
+Average Loss: -0.00387
+Timesteps So Far: 852015
+------------------------------------------------------
+
+
+-------------------- Iteration #276 --------------------
+Average Episodic Length: 907.67
+Average Episodic Return: -9.92
+Average Loss: -0.00332
+Timesteps So Far: 854738
+------------------------------------------------------
+
+
+-------------------- Iteration #277 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 108.59
+Average Loss: -0.0011
+Timesteps So Far: 857938
+------------------------------------------------------
+
+
+-------------------- Iteration #278 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 126.7
+Average Loss: -0.00257
+Timesteps So Far: 861138
+------------------------------------------------------
+
+
+-------------------- Iteration #279 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 121.13
+Average Loss: -0.0023
+Timesteps So Far: 864338
+------------------------------------------------------
+
+
+-------------------- Iteration #280 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 143.22
+Average Loss: -0.00278
+Timesteps So Far: 867538
+------------------------------------------------------
+
+
+-------------------- Iteration #281 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 115.11
+Average Loss: -0.0024
+Timesteps So Far: 870738
+------------------------------------------------------
+
+
+-------------------- Iteration #282 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 128.92
+Average Loss: -0.00234
+Timesteps So Far: 873938
+------------------------------------------------------
+
+
+-------------------- Iteration #283 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 119.31
+Average Loss: -0.0023
+Timesteps So Far: 877138
+------------------------------------------------------
+
+
+-------------------- Iteration #284 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 125.22
+Average Loss: -0.00169
+Timesteps So Far: 880338
+------------------------------------------------------
+
+
+-------------------- Iteration #285 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 130.62
+Average Loss: -0.00191
+Timesteps So Far: 883538
+------------------------------------------------------
+
+
+-------------------- Iteration #286 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 146.54
+Average Loss: -0.00246
+Timesteps So Far: 886738
+------------------------------------------------------
+
+
+-------------------- Iteration #287 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 133.12
+Average Loss: -0.00219
+Timesteps So Far: 889938
+------------------------------------------------------
+
+
+-------------------- Iteration #288 --------------------
+Average Episodic Length: 1149.0
+Average Episodic Return: 55.88
+Average Loss: -0.00329
+Timesteps So Far: 893385
+------------------------------------------------------
+
+
+-------------------- Iteration #289 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 141.73
+Average Loss: -0.00178
+Timesteps So Far: 896585
+------------------------------------------------------
+
+
+-------------------- Iteration #290 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 130.73
+Average Loss: -0.00275
+Timesteps So Far: 899785
+------------------------------------------------------
+
+
+-------------------- Iteration #291 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 152.31
+Average Loss: -0.00351
+Timesteps So Far: 902985
+------------------------------------------------------
+
+
+-------------------- Iteration #292 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 155.29
+Average Loss: -0.00096
+Timesteps So Far: 906185
+------------------------------------------------------
+
+
+-------------------- Iteration #293 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 148.17
+Average Loss: -0.00298
+Timesteps So Far: 909385
+------------------------------------------------------
+
+
+-------------------- Iteration #294 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 147.34
+Average Loss: -0.0024
+Timesteps So Far: 912585
+------------------------------------------------------
+
+
+-------------------- Iteration #295 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 156.57
+Average Loss: -0.00249
+Timesteps So Far: 915785
+------------------------------------------------------
+
+
+-------------------- Iteration #296 --------------------
+Average Episodic Length: 1341.5
+Average Episodic Return: 66.6
+Average Loss: -0.00533
+Timesteps So Far: 918468
+------------------------------------------------------
+
+
+-------------------- Iteration #297 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 165.79
+Average Loss: -0.00242
+Timesteps So Far: 921668
+------------------------------------------------------
+
+
+-------------------- Iteration #298 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 132.49
+Average Loss: -0.00232
+Timesteps So Far: 924868
+------------------------------------------------------
+
+
+-------------------- Iteration #299 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 144.95
+Average Loss: -0.00257
+Timesteps So Far: 928068
+------------------------------------------------------
+
+
+-------------------- Iteration #300 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 156.91
+Average Loss: -0.00104
+Timesteps So Far: 931268
+------------------------------------------------------
+
+
+-------------------- Iteration #301 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 124.59
+Average Loss: -0.00286
+Timesteps So Far: 934468
+------------------------------------------------------
+
+
+-------------------- Iteration #302 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 145.43
+Average Loss: -0.00266
+Timesteps So Far: 937668
+------------------------------------------------------
+
+
+-------------------- Iteration #303 --------------------
+Average Episodic Length: 1214.33
+Average Episodic Return: 81.01
+Average Loss: -0.00204
+Timesteps So Far: 941311
+------------------------------------------------------
+
+
+-------------------- Iteration #304 --------------------
+Average Episodic Length: 1064.0
+Average Episodic Return: 45.14
+Average Loss: -0.00383
+Timesteps So Far: 943439
+------------------------------------------------------
+
+
+-------------------- Iteration #305 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 150.6
+Average Loss: -0.00113
+Timesteps So Far: 946639
+------------------------------------------------------
+
+
+-------------------- Iteration #306 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 143.49
+Average Loss: -0.00184
+Timesteps So Far: 949839
+------------------------------------------------------
+
+
+-------------------- Iteration #307 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 141.45
+Average Loss: -0.00208
+Timesteps So Far: 953039
+------------------------------------------------------
+
+
+-------------------- Iteration #308 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 139.6
+Average Loss: -0.0027
+Timesteps So Far: 956239
+------------------------------------------------------
+
+
+-------------------- Iteration #309 --------------------
+Average Episodic Length: 1555.5
+Average Episodic Return: 115.12
+Average Loss: -0.00241
+Timesteps So Far: 959350
+------------------------------------------------------
+
+
+-------------------- Iteration #310 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 140.94
+Average Loss: -0.00329
+Timesteps So Far: 962550
+------------------------------------------------------
+
+
+-------------------- Iteration #311 --------------------
+Average Episodic Length: 1326.0
+Average Episodic Return: 61.25
+Average Loss: -0.00415
+Timesteps So Far: 965202
+------------------------------------------------------
+
+
+-------------------- Iteration #312 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 148.74
+Average Loss: -0.00297
+Timesteps So Far: 968402
+------------------------------------------------------
+
+
+-------------------- Iteration #313 --------------------
+Average Episodic Length: 1202.33
+Average Episodic Return: 69.11
+Average Loss: -0.00098
+Timesteps So Far: 972009
+------------------------------------------------------
+
+
+-------------------- Iteration #314 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 121.47
+Average Loss: -0.00321
+Timesteps So Far: 975209
+------------------------------------------------------
+
+
+-------------------- Iteration #315 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 156.74
+Average Loss: -0.00281
+Timesteps So Far: 978409
+------------------------------------------------------
+
+
+-------------------- Iteration #316 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 157.78
+Average Loss: -0.00302
+Timesteps So Far: 981609
+------------------------------------------------------
+
+
+-------------------- Iteration #317 --------------------
+Average Episodic Length: 1295.0
+Average Episodic Return: 70.54
+Average Loss: -0.00304
+Timesteps So Far: 984199
+------------------------------------------------------
+
+
+-------------------- Iteration #318 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 160.85
+Average Loss: -0.00109
+Timesteps So Far: 987399
+------------------------------------------------------
+
+
+-------------------- Iteration #319 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 155.65
+Average Loss: -0.00172
+Timesteps So Far: 990599
+------------------------------------------------------
+
+
+-------------------- Iteration #320 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 155.73
+Average Loss: -0.00274
+Timesteps So Far: 993799
+------------------------------------------------------
+
+
+-------------------- Iteration #321 --------------------
+Average Episodic Length: 1151.5
+Average Episodic Return: 61.67
+Average Loss: -0.0029
+Timesteps So Far: 996102
+------------------------------------------------------
+
+
+-------------------- Iteration #322 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 168.83
+Average Loss: -0.00195
+Timesteps So Far: 999302
+------------------------------------------------------
+
+
+-------------------- Iteration #323 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 150.18
+Average Loss: -0.00303
+Timesteps So Far: 1002502
+------------------------------------------------------
+
+
+-------------------- Iteration #324 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 157.84
+Average Loss: -0.00374
+Timesteps So Far: 1005702
+------------------------------------------------------
+
+
+-------------------- Iteration #325 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 156.07
+Average Loss: -0.00291
+Timesteps So Far: 1008902
+------------------------------------------------------
+
+
+-------------------- Iteration #326 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 163.61
+Average Loss: -0.00276
+Timesteps So Far: 1012102
+------------------------------------------------------
+
+
+-------------------- Iteration #327 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 164.88
+Average Loss: -0.00157
+Timesteps So Far: 1015302
+------------------------------------------------------
+
+
+-------------------- Iteration #328 --------------------
+Average Episodic Length: 1502.0
+Average Episodic Return: 110.51
+Average Loss: -0.00316
+Timesteps So Far: 1018306
+------------------------------------------------------
+
+
+-------------------- Iteration #329 --------------------
+Average Episodic Length: 1328.5
+Average Episodic Return: 85.41
+Average Loss: -0.00396
+Timesteps So Far: 1020963
+------------------------------------------------------
+
+
+-------------------- Iteration #330 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 137.18
+Average Loss: -0.00218
+Timesteps So Far: 1024163
+------------------------------------------------------
+
+
+-------------------- Iteration #331 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 154.94
+Average Loss: -0.00233
+Timesteps So Far: 1027363
+------------------------------------------------------
+
+
+-------------------- Iteration #332 --------------------
+Average Episodic Length: 1262.5
+Average Episodic Return: 62.56
+Average Loss: -0.00369
+Timesteps So Far: 1029888
+------------------------------------------------------
+
+
+-------------------- Iteration #333 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 129.92
+Average Loss: -0.00124
+Timesteps So Far: 1033088
+------------------------------------------------------
+
+
+-------------------- Iteration #334 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 130.2
+Average Loss: -0.00146
+Timesteps So Far: 1036288
+------------------------------------------------------
+
+
+-------------------- Iteration #335 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 156.78
+Average Loss: -0.00311
+Timesteps So Far: 1039488
+------------------------------------------------------
+
+
+-------------------- Iteration #336 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 169.92
+Average Loss: -0.00401
+Timesteps So Far: 1042688
+------------------------------------------------------
+
+
+-------------------- Iteration #337 --------------------
+Average Episodic Length: 1065.5
+Average Episodic Return: 59.05
+Average Loss: -0.00366
+Timesteps So Far: 1044819
+------------------------------------------------------
+
+
+-------------------- Iteration #338 --------------------
+Average Episodic Length: 1207.67
+Average Episodic Return: 63.37
+Average Loss: -0.00196
+Timesteps So Far: 1048442
+------------------------------------------------------
+
+
+-------------------- Iteration #339 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 157.15
+Average Loss: -0.00166
+Timesteps So Far: 1051642
+------------------------------------------------------
+
+
+-------------------- Iteration #340 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 174.82
+Average Loss: -0.00242
+Timesteps So Far: 1054842
+------------------------------------------------------
+
+
+-------------------- Iteration #341 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 169.71
+Average Loss: -0.00272
+Timesteps So Far: 1058042
+------------------------------------------------------
+
+
+-------------------- Iteration #342 --------------------
+Average Episodic Length: 900.25
+Average Episodic Return: 44.17
+Average Loss: -0.00145
+Timesteps So Far: 1061643
+------------------------------------------------------
+
+
+-------------------- Iteration #343 --------------------
+Average Episodic Length: 1589.0
+Average Episodic Return: 110.9
+Average Loss: -0.00308
+Timesteps So Far: 1064821
+------------------------------------------------------
+
+
+-------------------- Iteration #344 --------------------
+Average Episodic Length: 822.67
+Average Episodic Return: 2.16
+Average Loss: -0.00574
+Timesteps So Far: 1067289
+------------------------------------------------------
+
+
+-------------------- Iteration #345 --------------------
+Average Episodic Length: 1457.0
+Average Episodic Return: 84.84
+Average Loss: -0.00177
+Timesteps So Far: 1070203
+------------------------------------------------------
+
+
+-------------------- Iteration #346 --------------------
+Average Episodic Length: 1153.67
+Average Episodic Return: 79.96
+Average Loss: -0.00256
+Timesteps So Far: 1073664
+------------------------------------------------------
+
+
+-------------------- Iteration #347 --------------------
+Average Episodic Length: 1161.5
+Average Episodic Return: 66.36
+Average Loss: -0.0051
+Timesteps So Far: 1075987
+------------------------------------------------------
+
+
+-------------------- Iteration #348 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 146.88
+Average Loss: -0.0032
+Timesteps So Far: 1079187
+------------------------------------------------------
+
+
+-------------------- Iteration #349 --------------------
+Average Episodic Length: 1109.67
+Average Episodic Return: 53.47
+Average Loss: -0.00161
+Timesteps So Far: 1082516
+------------------------------------------------------
+
+
+-------------------- Iteration #350 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 150.27
+Average Loss: -0.00331
+Timesteps So Far: 1085716
+------------------------------------------------------
+
+
+-------------------- Iteration #351 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 157.9
+Average Loss: -0.00343
+Timesteps So Far: 1088916
+------------------------------------------------------
+
+
+-------------------- Iteration #352 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 145.05
+Average Loss: -0.00221
+Timesteps So Far: 1092116
+------------------------------------------------------
+
+
+-------------------- Iteration #353 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 152.49
+Average Loss: -0.00176
+Timesteps So Far: 1095316
+------------------------------------------------------
+
+
+-------------------- Iteration #354 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 167.34
+Average Loss: -0.00216
+Timesteps So Far: 1098516
+------------------------------------------------------
+
+
+-------------------- Iteration #355 --------------------
+Average Episodic Length: 864.67
+Average Episodic Return: 5.92
+Average Loss: -0.00236
+Timesteps So Far: 1101110
+------------------------------------------------------
+
+
+-------------------- Iteration #356 --------------------
+Average Episodic Length: 1207.5
+Average Episodic Return: 63.22
+Average Loss: -0.00379
+Timesteps So Far: 1103525
+------------------------------------------------------
+
+
+-------------------- Iteration #357 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 152.54
+Average Loss: -0.00172
+Timesteps So Far: 1106725
+------------------------------------------------------
+
+
+-------------------- Iteration #358 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 156.09
+Average Loss: -0.0021
+Timesteps So Far: 1109925
+------------------------------------------------------
+
+
+-------------------- Iteration #359 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 139.32
+Average Loss: -0.003
+Timesteps So Far: 1113125
+------------------------------------------------------
+
+
+-------------------- Iteration #360 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 163.05
+Average Loss: -0.0023
+Timesteps So Far: 1116325
+------------------------------------------------------
+
+
+-------------------- Iteration #361 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 167.95
+Average Loss: -0.00283
+Timesteps So Far: 1119525
+------------------------------------------------------
+
+
+-------------------- Iteration #362 --------------------
+Average Episodic Length: 1456.0
+Average Episodic Return: 78.91
+Average Loss: -0.00338
+Timesteps So Far: 1122437
+------------------------------------------------------
+
+
+-------------------- Iteration #363 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 154.11
+Average Loss: -0.00285
+Timesteps So Far: 1125637
+------------------------------------------------------
+
+
+-------------------- Iteration #364 --------------------
+Average Episodic Length: 840.5
+Average Episodic Return: 17.99
+Average Loss: -0.00234
+Timesteps So Far: 1128999
+------------------------------------------------------
+
+
+-------------------- Iteration #365 --------------------
+Average Episodic Length: 1035.0
+Average Episodic Return: 21.86
+Average Loss: -0.00329
+Timesteps So Far: 1132104
+------------------------------------------------------
+
+
+-------------------- Iteration #366 --------------------
+Average Episodic Length: 815.33
+Average Episodic Return: -2.9
+Average Loss: -0.0026
+Timesteps So Far: 1134550
+------------------------------------------------------
+
+
+-------------------- Iteration #367 --------------------
+Average Episodic Length: 1101.67
+Average Episodic Return: 65.99
+Average Loss: -1e-04
+Timesteps So Far: 1137855
+------------------------------------------------------
+
+
+-------------------- Iteration #368 --------------------
+Average Episodic Length: 1099.0
+Average Episodic Return: 72.87
+Average Loss: -0.00311
+Timesteps So Far: 1141152
+------------------------------------------------------
+
+
+-------------------- Iteration #369 --------------------
+Average Episodic Length: 1580.0
+Average Episodic Return: 105.94
+Average Loss: -0.00248
+Timesteps So Far: 1144312
+------------------------------------------------------
+
+
+-------------------- Iteration #370 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 159.89
+Average Loss: -0.00419
+Timesteps So Far: 1147512
+------------------------------------------------------
+
+
+-------------------- Iteration #371 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 169.35
+Average Loss: -0.00245
+Timesteps So Far: 1150712
+------------------------------------------------------
+
+
+-------------------- Iteration #372 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 167.26
+Average Loss: -0.00268
+Timesteps So Far: 1153912
+------------------------------------------------------
+
+
+-------------------- Iteration #373 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 151.57
+Average Loss: -0.00225
+Timesteps So Far: 1157112
+------------------------------------------------------
+
+
+-------------------- Iteration #374 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 166.62
+Average Loss: -0.00419
+Timesteps So Far: 1160312
+------------------------------------------------------
+
+
+-------------------- Iteration #375 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 163.99
+Average Loss: -0.0017
+Timesteps So Far: 1163512
+------------------------------------------------------
+
+
+-------------------- Iteration #376 --------------------
+Average Episodic Length: 1503.0
+Average Episodic Return: 105.99
+Average Loss: -0.00214
+Timesteps So Far: 1166518
+------------------------------------------------------
+
+
+-------------------- Iteration #377 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 167.42
+Average Loss: -0.00113
+Timesteps So Far: 1169718
+------------------------------------------------------
+
+
+-------------------- Iteration #378 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 161.75
+Average Loss: -0.0033
+Timesteps So Far: 1172918
+------------------------------------------------------
+
+
+-------------------- Iteration #379 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 162.53
+Average Loss: -0.00175
+Timesteps So Far: 1176118
+------------------------------------------------------
+
+
+-------------------- Iteration #380 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 170.73
+Average Loss: -0.00323
+Timesteps So Far: 1179318
+------------------------------------------------------
+
+
+-------------------- Iteration #381 --------------------
+Average Episodic Length: 1143.67
+Average Episodic Return: 96.46
+Average Loss: -0.00156
+Timesteps So Far: 1182749
+------------------------------------------------------
+
+
+-------------------- Iteration #382 --------------------
+Average Episodic Length: 1247.5
+Average Episodic Return: 52.34
+Average Loss: -0.00274
+Timesteps So Far: 1185244
+------------------------------------------------------
+
+
+-------------------- Iteration #383 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 135.56
+Average Loss: -0.0047
+Timesteps So Far: 1188444
+------------------------------------------------------
+
+
+-------------------- Iteration #384 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 170.31
+Average Loss: -0.00183
+Timesteps So Far: 1191644
+------------------------------------------------------
+
+
+-------------------- Iteration #385 --------------------
+Average Episodic Length: 574.0
+Average Episodic Return: -25.08
+Average Loss: -0.0041
+Timesteps So Far: 1193940
+------------------------------------------------------
+
+
+-------------------- Iteration #386 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 169.67
+Average Loss: -0.00294
+Timesteps So Far: 1197140
+------------------------------------------------------
+
+
+-------------------- Iteration #387 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 157.65
+Average Loss: -0.00375
+Timesteps So Far: 1200340
+------------------------------------------------------
+
+
+-------------------- Iteration #388 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 171.34
+Average Loss: -0.00106
+Timesteps So Far: 1203540
+------------------------------------------------------
+
+
+-------------------- Iteration #389 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 159.5
+Average Loss: -0.00187
+Timesteps So Far: 1206740
+------------------------------------------------------
+
+
+-------------------- Iteration #390 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 159.22
+Average Loss: -0.00255
+Timesteps So Far: 1209940
+------------------------------------------------------
+
+
+-------------------- Iteration #391 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 137.25
+Average Loss: -0.00194
+Timesteps So Far: 1213140
+------------------------------------------------------
+
+
+-------------------- Iteration #392 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 147.56
+Average Loss: -0.00163
+Timesteps So Far: 1216340
+------------------------------------------------------
+
+
+-------------------- Iteration #393 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 165.44
+Average Loss: -0.00191
+Timesteps So Far: 1219540
+------------------------------------------------------
+
+
+-------------------- Iteration #394 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 167.33
+Average Loss: -0.00313
+Timesteps So Far: 1222740
+------------------------------------------------------
+
+
+-------------------- Iteration #395 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 154.36
+Average Loss: -0.00164
+Timesteps So Far: 1225940
+------------------------------------------------------
+
+
+-------------------- Iteration #396 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 156.73
+Average Loss: -0.00276
+Timesteps So Far: 1229140
+------------------------------------------------------
+
+
+-------------------- Iteration #397 --------------------
+Average Episodic Length: 1208.0
+Average Episodic Return: 81.09
+Average Loss: -0.00307
+Timesteps So Far: 1232764
+------------------------------------------------------
+
+
+-------------------- Iteration #398 --------------------
+Average Episodic Length: 1118.0
+Average Episodic Return: 33.04
+Average Loss: -0.00285
+Timesteps So Far: 1235000
+------------------------------------------------------
+
+
+-------------------- Iteration #399 --------------------
+Average Episodic Length: 1108.0
+Average Episodic Return: 33.59
+Average Loss: -0.00285
+Timesteps So Far: 1237216
+------------------------------------------------------
+
+
+-------------------- Iteration #400 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 117.02
+Average Loss: -0.0035
+Timesteps So Far: 1240416
+------------------------------------------------------
+
+
+-------------------- Iteration #401 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 130.69
+Average Loss: -0.00256
+Timesteps So Far: 1243616
+------------------------------------------------------
+
+
+-------------------- Iteration #402 --------------------
+Average Episodic Length: 1292.0
+Average Episodic Return: 60.28
+Average Loss: -0.00153
+Timesteps So Far: 1246200
+------------------------------------------------------
+
+
+-------------------- Iteration #403 --------------------
+Average Episodic Length: 1148.5
+Average Episodic Return: 44.89
+Average Loss: -0.00485
+Timesteps So Far: 1248497
+------------------------------------------------------
+
+
+-------------------- Iteration #404 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 116.23
+Average Loss: -0.00197
+Timesteps So Far: 1251697
+------------------------------------------------------
+
+
+-------------------- Iteration #405 --------------------
+Average Episodic Length: 1070.0
+Average Episodic Return: 28.22
+Average Loss: -0.00319
+Timesteps So Far: 1254907
+------------------------------------------------------
+
+
+-------------------- Iteration #406 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 133.03
+Average Loss: -0.00159
+Timesteps So Far: 1258107
+------------------------------------------------------
+
+
+-------------------- Iteration #407 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 122.16
+Average Loss: -0.00207
+Timesteps So Far: 1261307
+------------------------------------------------------
+
+
+-------------------- Iteration #408 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 140.13
+Average Loss: -0.00249
+Timesteps So Far: 1264507
+------------------------------------------------------
+
+
+-------------------- Iteration #409 --------------------
+Average Episodic Length: 1197.0
+Average Episodic Return: 61.76
+Average Loss: -0.00309
+Timesteps So Far: 1266901
+------------------------------------------------------
+
+
+-------------------- Iteration #410 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 155.81
+Average Loss: -0.00174
+Timesteps So Far: 1270101
+------------------------------------------------------
+
+
+-------------------- Iteration #411 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 179.35
+Average Loss: -0.00373
+Timesteps So Far: 1273301
+------------------------------------------------------
+
+
+-------------------- Iteration #412 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 144.24
+Average Loss: -0.00218
+Timesteps So Far: 1276501
+------------------------------------------------------
+
+
+-------------------- Iteration #413 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 155.9
+Average Loss: -0.00242
+Timesteps So Far: 1279701
+------------------------------------------------------
+
+
+-------------------- Iteration #414 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 179.35
+Average Loss: -0.00263
+Timesteps So Far: 1282901
+------------------------------------------------------
+
+
+-------------------- Iteration #415 --------------------
+Average Episodic Length: 1057.5
+Average Episodic Return: 53.11
+Average Loss: -0.00256
+Timesteps So Far: 1285016
+------------------------------------------------------
+
+
+-------------------- Iteration #416 --------------------
+Average Episodic Length: 1206.67
+Average Episodic Return: 81.78
+Average Loss: -0.00296
+Timesteps So Far: 1288636
+------------------------------------------------------
+
+
+-------------------- Iteration #417 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 174.9
+Average Loss: -0.00228
+Timesteps So Far: 1291836
+------------------------------------------------------
+
+
+-------------------- Iteration #418 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 168.74
+Average Loss: -0.0026
+Timesteps So Far: 1295036
+------------------------------------------------------
+
+
+-------------------- Iteration #419 --------------------
+Average Episodic Length: 1159.5
+Average Episodic Return: 53.87
+Average Loss: -0.00322
+Timesteps So Far: 1297355
+------------------------------------------------------
+
+
+-------------------- Iteration #420 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 161.5
+Average Loss: -0.00212
+Timesteps So Far: 1300555
+------------------------------------------------------
+
+
+-------------------- Iteration #421 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 152.84
+Average Loss: -0.00187
+Timesteps So Far: 1303755
+------------------------------------------------------
+
+
+-------------------- Iteration #422 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 177.46
+Average Loss: -0.00273
+Timesteps So Far: 1306955
+------------------------------------------------------
+
+
+-------------------- Iteration #423 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 172.22
+Average Loss: -0.00122
+Timesteps So Far: 1310155
+------------------------------------------------------
+
+
+-------------------- Iteration #424 --------------------
+Average Episodic Length: 1258.5
+Average Episodic Return: 77.02
+Average Loss: -0.00284
+Timesteps So Far: 1312672
+------------------------------------------------------
+
+
+-------------------- Iteration #425 --------------------
+Average Episodic Length: 1329.0
+Average Episodic Return: 94.32
+Average Loss: -0.00269
+Timesteps So Far: 1315330
+------------------------------------------------------
+
+
+-------------------- Iteration #426 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 183.68
+Average Loss: -0.00153
+Timesteps So Far: 1318530
+------------------------------------------------------
+
+
+-------------------- Iteration #427 --------------------
+Average Episodic Length: 672.5
+Average Episodic Return: -19.86
+Average Loss: -0.00373
+Timesteps So Far: 1321220
+------------------------------------------------------
+
+
+-------------------- Iteration #428 --------------------
+Average Episodic Length: 1318.5
+Average Episodic Return: 76.89
+Average Loss: -0.00228
+Timesteps So Far: 1323857
+------------------------------------------------------
+
+
+-------------------- Iteration #429 --------------------
+Average Episodic Length: 1172.5
+Average Episodic Return: 76.39
+Average Loss: -0.00316
+Timesteps So Far: 1326202
+------------------------------------------------------
+
+
+-------------------- Iteration #430 --------------------
+Average Episodic Length: 1093.67
+Average Episodic Return: 85.96
+Average Loss: -0.00412
+Timesteps So Far: 1329483
+------------------------------------------------------
+
+
+-------------------- Iteration #431 --------------------
+Average Episodic Length: 1143.0
+Average Episodic Return: 69.11
+Average Loss: -0.00319
+Timesteps So Far: 1331769
+------------------------------------------------------
+
+
+-------------------- Iteration #432 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 169.01
+Average Loss: -0.00299
+Timesteps So Far: 1334969
+------------------------------------------------------
+
+
+-------------------- Iteration #433 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 164.57
+Average Loss: -0.00331
+Timesteps So Far: 1338169
+------------------------------------------------------
+
+
+-------------------- Iteration #434 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 184.3
+Average Loss: -0.00437
+Timesteps So Far: 1341369
+------------------------------------------------------
+
+
+-------------------- Iteration #435 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 160.06
+Average Loss: -0.00092
+Timesteps So Far: 1344569
+------------------------------------------------------
+
+
+-------------------- Iteration #436 --------------------
+Average Episodic Length: 663.5
+Average Episodic Return: -21.22
+Average Loss: -0.00369
+Timesteps So Far: 1347223
+------------------------------------------------------
+
+
+-------------------- Iteration #437 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 157.95
+Average Loss: -0.002
+Timesteps So Far: 1350423
+------------------------------------------------------
+
+
+-------------------- Iteration #438 --------------------
+Average Episodic Length: 1388.0
+Average Episodic Return: 87.0
+Average Loss: -0.0014
+Timesteps So Far: 1353199
+------------------------------------------------------
+
+
+-------------------- Iteration #439 --------------------
+Average Episodic Length: 1278.0
+Average Episodic Return: 83.08
+Average Loss: -0.00338
+Timesteps So Far: 1355755
+------------------------------------------------------
+
+
+-------------------- Iteration #440 --------------------
+Average Episodic Length: 1115.67
+Average Episodic Return: 83.4
+Average Loss: -0.00244
+Timesteps So Far: 1359102
+------------------------------------------------------
+
+
+-------------------- Iteration #441 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 167.57
+Average Loss: -0.00353
+Timesteps So Far: 1362302
+------------------------------------------------------
+
+
+-------------------- Iteration #442 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 168.18
+Average Loss: -0.0029
+Timesteps So Far: 1365502
+------------------------------------------------------
+
+
+-------------------- Iteration #443 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 181.9
+Average Loss: -0.00139
+Timesteps So Far: 1368702
+------------------------------------------------------
+
+
+-------------------- Iteration #444 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 188.76
+Average Loss: -0.00346
+Timesteps So Far: 1371902
+------------------------------------------------------
+
+
+-------------------- Iteration #445 --------------------
+Average Episodic Length: 1210.0
+Average Episodic Return: 87.06
+Average Loss: -0.00293
+Timesteps So Far: 1374322
+------------------------------------------------------
+
+
+-------------------- Iteration #446 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 184.97
+Average Loss: -0.00289
+Timesteps So Far: 1377522
+------------------------------------------------------
+
+
+-------------------- Iteration #447 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 166.23
+Average Loss: -0.00116
+Timesteps So Far: 1380722
+------------------------------------------------------
+
+
+-------------------- Iteration #448 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 156.89
+Average Loss: -0.00339
+Timesteps So Far: 1383922
+------------------------------------------------------
+
+
+-------------------- Iteration #449 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 182.49
+Average Loss: -0.00251
+Timesteps So Far: 1387122
+------------------------------------------------------
+
+
+-------------------- Iteration #450 --------------------
+Average Episodic Length: 1209.33
+Average Episodic Return: 89.09
+Average Loss: -0.00317
+Timesteps So Far: 1390750
+------------------------------------------------------
+
+
+-------------------- Iteration #451 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 174.93
+Average Loss: -0.00327
+Timesteps So Far: 1393950
+------------------------------------------------------
+
+
+-------------------- Iteration #452 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 178.93
+Average Loss: -0.00385
+Timesteps So Far: 1397150
+------------------------------------------------------
+
+
+-------------------- Iteration #453 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 176.14
+Average Loss: -0.00255
+Timesteps So Far: 1400350
+------------------------------------------------------
+
+
+-------------------- Iteration #454 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 152.21
+Average Loss: -0.00212
+Timesteps So Far: 1403550
+------------------------------------------------------
+
+
+-------------------- Iteration #455 --------------------
+Average Episodic Length: 1600.0
+Average Episodic Return: 175.48
+Average Loss: -0.00198
+Timesteps So Far: 1406750
+------------------------------------------------------
+
