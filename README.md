@@ -53,7 +53,7 @@ NOTE: to change hyperparameters, environments, etc. do it in [main.py](main.py);
 
 [eval_policy.py](eval_policy.py) contains the code to evaluating the policy. It's a completely separate module from the other code.
 
-[graph_code directory](graph_code) contains the code to automatically collect data and generate graphs. Takes ~10 hours on a decent computer to generate all the data in my Medium article (TODO). All the data from the medium article should still be in ```graph_code/graph_data``` too in case you're interested; if you want, you can regenerate the graphs I use with the data. For more details, read the README in graph_code.
+[graph_code](graph_code) directory contains the code to automatically collect data and generate graphs. Takes ~10 hours on a decent computer to generate all the data in my Medium article (TODO). All the data from the medium article should still be in ```graph_code/graph_data``` too in case you're interested; if you want, you can regenerate the graphs I use with the data. For more details, read the README in graph_code.
 
 Here's a great pdb tutorial to get started: [https://www.youtube.com/watch?v=bHx8A8tbj2c](https://www.youtube.com/watch?v=bHx8A8tbj2c) <br />
 Or if you're an expert with debuggers, here's the documentation: [https://docs.python.org/3/library/pdb.html](https://docs.python.org/3/library/pdb.html)
