@@ -7,36 +7,32 @@ import gym
 import os
 import argparse
 
-# Import stable baselines
-from stable_baselines import PPO2
-from stable_baselines.common.callbacks import CheckpointCallback
-from stable_baselines.common.cmd_util import make_vec_env
-from stable_baselines.common.evaluation import evaluate_policy
-
-# Import ppo for beginners
-from ppo_for_beginners.ppo import PPO
-from ppo_for_beginners.network import FeedForwardNN
-
 def train_stable_baselines(args):
+	# Import stable baselines
+	from stable_baselines import PPO2
+	from stable_baselines.common.callbacks import CheckpointCallback
+	from stable_baselines.common.cmd_util import make_vec_env
+	from stable_baselines.common.evaluation import evaluate_policy
+
 	# Store hyperparameters and total timesteps to run by environment
 	hyperparameters = {}
 	total_timesteps = 0
 	if args.env == 'Pendulum-v0':
 		hyperparameters = {'n_steps': 2048, 'nminibatches': 32, 'lam': 0.95, 'gamma': 0.99, 'noptepochs': 10,
 							'ent_coef': 0.0, 'learning_rate': 3e-4, 'cliprange': 0.2, 'verbose': 1, 'seed': args.seed}
-		total_timesteps = 1000000
+		total_timesteps = 1005000
 	elif args.env == 'BipedalWalker-v3':
 		hyperparameters = {'n_steps': 2048, 'nminibatches': 32, 'lam': 0.95, 'gamma': 0.99, 'noptepochs': 10,
 							'ent_coef': 0.001, 'learning_rate': 2.5e-4, 'cliprange': 0.2, 'verbose': 1, 'seed': args.seed}
-		total_timesteps = 1400000
+		total_timesteps = 1405000
 	elif args.env == 'LunarLanderContinuous-v2':
 		hyperparameters = {'n_steps': 1024, 'nminibatches': 32, 'lam': 0.98, 'gamma': 0.999, 'noptepochs': 4,
 							'ent_coef': 0.01, 'cliprange': 0.2, 'verbose': 1, 'seed': args.seed}
-		total_timesteps = 800000
+		total_timesteps = 1005000
 	elif args.env == 'MountainCarContinuous-v0':
 		hyperparameters = {'n_steps': 256, 'nminibatches': 8, 'lam': 0.94, 'gamma': 0.99, 'noptepochs': 4,
 							'ent_coef': 0.0, 'cliprange': 0.2, 'verbose': 1, 'seed': args.seed}
-		total_timesteps = 400000
+		total_timesteps = 405000
 
 	# Create log dir
 	log_dir = "/tmp/gym/"
@@ -48,25 +44,29 @@ def train_stable_baselines(args):
 	model.learn(total_timesteps)
 
 def train_ppo_for_beginners(args):
+	# Import ppo for beginners
+	from ppo_for_beginners.ppo import PPO
+	from ppo_for_beginners.network import FeedForwardNN
+
 	# Store hyperparameters and total timesteps to run by environment
 	hyperparameters = {}
 	total_timesteps = 0
 	if args.env == 'Pendulum-v0':
 		hyperparameters = {'timesteps_per_batch': 2048, 'max_timesteps_per_episode': 200, 'gamma': 0.99, 'n_updates_per_iteration': 10,
 							'lr': 3e-4, 'clip': 0.2, 'save_freq': 1e15, 'seed': args.seed}
-		total_timesteps = 1000000
+		total_timesteps = 1005000
 	elif args.env == 'BipedalWalker-v3':
 		hyperparameters = {'timesteps_per_batch': 2048, 'max_timesteps_per_episode': 1600, 'gamma': 0.99, 'n_updates_per_iteration': 10,
 							'lr': 2.5e-4, 'clip': 0.2, 'save_freq': 1e15, 'seed': args.seed}
-		total_timesteps = 1400000
+		total_timesteps = 1405000
 	elif args.env == 'LunarLanderContinuous-v2':
 		hyperparameters = {'timesteps_per_batch': 1024, 'max_timesteps_per_episode': 1000, 'gamma': 0.999, 'n_updates_per_iteration': 4,
 							'lr': 2.5e-4, 'clip': 0.2, 'save_freq': 1e15, 'seed': args.seed}
-		total_timesteps = 800000
+		total_timesteps = 1005000
 	elif args.env == 'MountainCarContinuous-v0':
 		hyperparameters = {'timesteps_per_batch': 256, 'max_timesteps_per_episode': 1000, 'gamma': 0.99, 'n_updates_per_iteration': 4,
 							'lr': 5e-3, 'clip': 0.2, 'save_freq': 1e15, 'seed': args.seed}
-		total_timesteps = 400000
+		total_timesteps = 405000
 
 	# Make the environment and model, and train
 	env = gym.make(args.env)
