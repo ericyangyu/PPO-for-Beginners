@@ -334,7 +334,7 @@ class PPO:
 		# Miscellaneous parameters
 		self.render = False                             # If we should render during rollout
 		self.save_freq = 10                             # How often we save in number of iterations
-		self.seed = None								# Sets the seed of our program, used for reproducibility of results
+		self.seed = None                                # Sets the seed of our program, used for reproducibility of results
 
 		# Change any default values to custom values for specified hyperparameters
 		for param, val in hyperparameters.items():
