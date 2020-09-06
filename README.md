@@ -61,7 +61,7 @@ Or if you're an expert with debuggers, here's the documentation: [https://docs.p
 ## Environments
 Here's a [list of environments](https://github.com/openai/gym/wiki/Table-of-environments) you can try out. Note that in this PPO implementation, you can only use the ones with ```Box``` for both observation and action spaces.
 
-I have no real recommendations for what values to set as hyperparameters for each environment, but feel free to play around with them. The usual suspects to change are the ```max_timesteps_per_episode``` and ```timesteps_per_batch``` hyperparameters; tune them according to what environment you select.
+Hyperparameters can be found [here](https://github.com/araffin/rl-baselines-zoo/blob/master/hyperparams/ppo2.yml).
 
 ## Results
 
