@@ -9,20 +9,26 @@ import torch
 from arguments import get_args
 from ppo import PPO
 from network import FeedForwardNN
+from eval_policy import eval_policy
 
-def train(model, actor_model, critic_model):
+def train(env, hyperparameters, actor_model, critic_model):
 	"""
 		Trains the model.
 
 		Parameters:
-			model - the model to use to train
+			env - the environment to train on
+			hyperparameters - a dict of hyperparameters to use, defined in main
 			actor_model - the actor model to load in if we want to continue training
 			critic_model - the critic model to load in if we want to continue training
 
 		Return:
 			None
-	"""
+	"""	
 	print(f"Training", flush=True)
+
+	# Create a model for PPO.
+	model = PPO(policy_class=FeedForwardNN, env=env, **hyperparameters)
+
 	# Tries to load in an existing actor/critic model to continue training on
 	if actor_model != '' and critic_model != '':
 		print(f"Loading in {actor_model} and {critic_model}...", flush=True)
@@ -36,38 +42,43 @@ def train(model, actor_model, critic_model):
 		print(f"Training from scratch.", flush=True)
 
 	# Train the PPO model with a specified total timesteps
+	# NOTE: You can change the total timesteps here, I put a big number just because
+	# you can kill the process whenever you feel like PPO is converging
 	model.learn(total_timesteps=200000000)
 
-def test(model, actor_model):
+def test(env, actor_model):
 	"""
 		Tests the model.
 
 		Parameters:
-			model - the model to test with
+			env - the environment to test the policy on
 			actor_model - the actor model to load in
 
 		Return:
 			None
 	"""
 	print(f"Testing {actor_model}", flush=True)
+
 	# If the actor model is not specified, then exit
 	if actor_model == '':
 		print(f"Didn't specify model file. Exiting.", flush=True)
 		sys.exit(0)
 
-	# Load in the actor model
-	model.actor.load_state_dict(torch.load(actor_model))
+	# Extract out dimensions of observation and action spaces
+	obs_dim = env.observation_space.shape[0]
+	act_dim = env.action_space.shape[0]
 
-	# Render the environment
-	model.render = True
+	# Build our policy the same way we build our actor model in PPO
+	policy = FeedForwardNN(obs_dim, act_dim)
 
-	# Generate deterministic actions when rolling out
-	model.deterministic = True
+	# Load in the actor model saved by the PPO algorithm
+	policy.load_state_dict(torch.load(actor_model))
 
-	# Autobots, roll out
-	while True:
-		model.rollout()
-		model._log_summary()
+	# Evaluate our policy with a separate module, eval_policy, to demonstrate
+	# that once we are done training the model/policy with ppo.py, we no longer need
+	# ppo.py since it only contains the training algorithm. The model/policy itself exists
+	# independently as a binary file that can be loaded in with torch.
+	eval_policy(policy=policy, env=env, render=True)
 
 def main(args):
 	"""
@@ -87,24 +98,18 @@ def main(args):
 						'gamma': 0.99, 
 						'n_updates_per_iteration': 10,
 						'lr': 3e-4, 
-						'clip': 0.2, 
-						'save_freq': 50000, 
-						'seed': 598}
+						'clip': 0.2}
 
 	# Creates the environment we'll be running. If you want to replace with your own
 	# custom environment, note that it must inherit Gym and have both continuous
 	# observation and action spaces.
 	env = gym.make('Pendulum-v0')
 
-	# Create a model for PPO. 
-	model = PPO(policy_class=FeedForwardNN, env=env, **hyperparameters)
-
 	# Train or test, depending on the mode specified
 	if args.mode == 'train':
-		train(model=model, actor_model=args.actor_model, critic_model=args.critic_model)
+		train(env=env, hyperparameters=hyperparameters, actor_model=args.actor_model, critic_model=args.critic_model)
 	else:
-		test(model=model, actor_model=args.actor_model)
-
+		test(env=env, actor_model=args.actor_model)
 
 if __name__ == '__main__':
 	args = get_args() # Parse arguments from command line

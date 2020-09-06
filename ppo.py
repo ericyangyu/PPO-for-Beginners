@@ -281,11 +281,6 @@ class PPO:
 		# Calculate the log probability for that action
 		log_prob = dist.log_prob(action)
 
-		# If we're testing, just return the deterministic action. Sampling should only be for training
-		# as our "exploration" factor.
-		if self.deterministic:
-			return mean.detach().numpy(), 1
-
 		# Return the sampled action and the log probability of that action in our distribution
 		return action.detach().numpy(), log_prob.detach()
 
@@ -339,7 +334,6 @@ class PPO:
 		# Miscellaneous parameters
 		self.render = False                             # If we should render during rollout
 		self.save_freq = 10                             # How often we save in number of iterations
-		self.deterministic = False                      # If we're testing, don't sample actions
 		self.seed = None								# Sets the seed of our program, used for reproducibility of results
 
 		# Change any default values to custom values for specified hyperparameters
