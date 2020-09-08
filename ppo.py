@@ -217,7 +217,7 @@ class PPO:
 		# Reshape data as tensors in the shape specified in function description, before returning
 		batch_obs = torch.tensor(batch_obs, dtype=torch.float)
 		batch_acts = torch.tensor(batch_acts, dtype=torch.float)
-		batch_log_probs = torch.tensor(batch_log_probs, dtype=torch.float).flatten()
+		batch_log_probs = torch.tensor(batch_log_probs, dtype=torch.float)
 		batch_rtgs = self.compute_rtgs(batch_rews)                                                              # ALG STEP 4
 
 		# Log the episodic returns and episodic lengths in this batch.
