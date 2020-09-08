@@ -237,7 +237,7 @@ class PPO:
 				batch_rtgs - the rewards to go, Shape: (number of timesteps in batch)
 		"""
 		# The rewards-to-go (rtg) per episode per batch to return.
-		# The shape will be (num episodes per batch, num timesteps per episode)
+		# The shape will be (num timesteps per episode)
 		batch_rtgs = []
 
 		# Iterate through each episode
