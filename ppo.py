@@ -92,7 +92,7 @@ class PPO:
 			self.logger['i_so_far'] = i_so_far
 
 			# Calculate advantage at k-th iteration
-			V, _ = self.evaluate(batch_obs, batch_acts, batch_rtgs)
+			V, _ = self.evaluate(batch_obs, batch_acts)
 			A_k = batch_rtgs - V.detach()                                                                       # ALG STEP 5
 
 			# One of the only tricks I use that isn't in the pseudocode. Normalizing advantages
@@ -104,7 +104,7 @@ class PPO:
 			# This is the loop where we update our network for some n epochs
 			for _ in range(self.n_updates_per_iteration):                                                       # ALG STEP 6 & 7
 				# Calculate V_phi and pi_theta(a_t | s_t)
-				V, curr_log_probs = self.evaluate(batch_obs, batch_acts, batch_rtgs)
+				V, curr_log_probs = self.evaluate(batch_obs, batch_acts)
 
 				# Calculate the ratio pi_theta(a_t | s_t) / pi_theta_k(a_t | s_t)
 				# NOTE: we just subtract the logs, which is the same as
@@ -284,7 +284,7 @@ class PPO:
 		# Return the sampled action and the log probability of that action in our distribution
 		return action.detach().numpy(), log_prob.detach()
 
-	def evaluate(self, batch_obs, batch_acts, batch_rtgs):
+	def evaluate(self, batch_obs, batch_acts):
 		"""
 			Estimate the values of each observation, and the log probs of
 			each action in the most recent batch with the most recent
@@ -295,8 +295,10 @@ class PPO:
 							Shape: (number of timesteps in batch, dimension of observation)
 				batch_acts - the actions from the most recently collected batch as a tensor.
 							Shape: (number of timesteps in batch, dimension of action)
-				batch_rtgs - the rewards-to-go calculated in the most recently collected
-								batch as a tensor. Shape: (number of timesteps in batch)
+
+			Return:
+				V - the predicted values of batch_obs
+				log_probs - the log probabilities of the actions taken in batch_acts given batch_obs
 		"""
 		# Query critic network for a value V for each batch_obs. Shape of V should be same as batch_rtgs
 		V = self.critic(batch_obs).squeeze()
