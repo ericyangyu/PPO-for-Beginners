@@ -112,7 +112,7 @@ class PPO:
 				# For why we use log probabilities instead of actual probabilities,
 				# here's a great explanation: 
 				# https://cs.stackexchange.com/questions/70518/why-do-we-use-the-log-in-gradient-based-reinforcement-algorithms
-				# TL;DR makes gradient descent easier behind the scenes.
+				# TL;DR makes gradient ascent easier behind the scenes.
 				ratios = torch.exp(curr_log_probs - batch_log_probs)
 
 				# Calculate surrogate losses.
