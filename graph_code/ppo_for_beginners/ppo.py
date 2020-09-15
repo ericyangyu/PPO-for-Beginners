@@ -93,13 +93,13 @@ class PPO:
 
 			# Calculate advantage at k-th iteration
 			V, _ = self.evaluate(batch_obs, batch_acts, batch_rtgs)
-			A_t = batch_rtgs - V.detach()                                                                       # ALG STEP 5
+			A_k = batch_rtgs - V.detach()                                                                       # ALG STEP 5
 
 			# One of the only tricks I use that isn't in the pseudocode. Normalizing advantages
 			# isn't theoretically necessary, but in practice it decreases the variance of 
 			# our advantages and makes convergence much more stable and faster. I added this because
 			# solving some environments was too unstable without it.
-			A_t = (A_t - A_t.mean()) / (A_t.std() + 1e-10)
+			A_k = (A_k - A_k.mean()) / (A_k.std() + 1e-10)
 
 			# This is the loop where we update our network for some n epochs
 			for _ in range(self.n_updates_per_iteration):                                                       # ALG STEP 6 & 7
@@ -116,8 +116,8 @@ class PPO:
 				ratios = torch.exp(curr_log_probs - batch_log_probs)
 
 				# Calculate surrogate losses.
-				surr1 = ratios * A_t
-				surr2 = torch.clamp(ratios, 1 - self.clip, 1 + self.clip) * A_t
+				surr1 = ratios * A_k
+				surr2 = torch.clamp(ratios, 1 - self.clip, 1 + self.clip) * A_k
 
 				# Calculate actor and critic losses.
 				# NOTE: we take the negative min of the surrogate losses because we're trying to maximize
