@@ -3,7 +3,7 @@
 ## Introduction
 Hi! My name is Eric Yu, and I wrote this repository to help beginners get started in writing Proximal Policy Optimization (PPO) from scratch using PyTorch. My goal is to provide a code for PPO that's bare-bones (little/no fancy tricks) and extremely well documented/styled and structured. I'm especially targeting people who are tired of reading endless PPO implementations and having absolutely no idea what's going on. 
 
-If you're not coming from Medium, please read my article first: TODO
+If you're not coming from Medium, please read my [series](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-3-4-82081ea58146) first.
 
 I wrote this code with the assumption that you have some experience with Python and Reinforcement Learning (RL), including how policy gradient (pg) algorithms and PPO work (for PPO, should just be familiar with theoretical level. After all, this code should help you with putting PPO into practice). If unfamiliar with RL, pg, or PPO, follow the three links below in order: <br />
 
@@ -47,13 +47,13 @@ NOTE: to change hyperparameters, environments, etc. do it in [main.py](main.py);
 
 [arguments.py](arguments.py) is what main will call to parse arguments from command line.
 
-[ppo.py](ppo.py) contains our PPO model. All the learning magic happens in this file. Please read my Medium series (TODO) to see how it works. Another method I recommend is using something called ```pdb```, or python debugger, and stepping through my code starting from when I call ```learn``` in [main.py](main.py). 
+[ppo.py](ppo.py) contains our PPO model. All the learning magic happens in this file. Please read my [Medium series](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-3-4-82081ea58146) to see how it works. Another method I recommend is using something called ```pdb```, or python debugger, and stepping through my code starting from when I call ```learn``` in [main.py](main.py). 
 
 [network.py](network.py) contains a sample Feed Forward Neural Network we can use to define our actor and critic networks in PPO. 
 
 [eval_policy.py](eval_policy.py) contains the code to evaluating the policy. It's a completely separate module from the other code.
 
-[graph_code](graph_code) directory contains the code to automatically collect data and generate graphs. Takes ~10 hours on a decent computer to generate all the data in my Medium article (TODO). All the data from the medium article should still be in ```graph_code/graph_data``` too in case you're interested; if you want, you can regenerate the graphs I use with the data. For more details, read the README in graph_code.
+[graph_code](graph_code) directory contains the code to automatically collect data and generate graphs. Takes ~10 hours on a decent computer to generate all the data in my [Medium article](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-3-4-82081ea58146). All the data from the medium article should still be in ```graph_code/graph_data``` too in case you're interested; if you want, you can regenerate the graphs I use with the data. For more details, read the README in graph_code.
 
 Here's a great pdb tutorial to get started: [https://www.youtube.com/watch?v=bHx8A8tbj2c](https://www.youtube.com/watch?v=bHx8A8tbj2c) <br />
 Or if you're an expert with debuggers, here's the documentation: [https://docs.python.org/3/library/pdb.html](https://docs.python.org/3/library/pdb.html)
@@ -65,7 +65,7 @@ Hyperparameters can be found [here](https://github.com/araffin/rl-baselines-zoo/
 
 ## Results
 
-Please refer to my Medium article: TODO
+Please refer to my [Medium article](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-3-4-82081ea58146).
 
 ## Contact
 
