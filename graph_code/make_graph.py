@@ -46,15 +46,12 @@ def get_file_locations():
         env_data = {}
         # Extract out absolute paths of seeds.txt and data for both codes
         for directory, _, filenames in os.walk(data_path + env):
-            print(f"directory is {directory} with filenames {filenames}")
             if 'seeds.txt' in filenames:
                 env_data['seeds'] = directory + '/' + filenames[0]
             elif 'stable_baselines' in directory:
-                print(f"found a stable basleines")
                 env_data['stable_baselines'] = [directory + '/' + filename 
                                                     for filename in filenames]
             elif 'ppo_for_beginners' in directory:
-                print(f"found a ppo for beginners")
                 env_data['ppo_for_beginners'] = [directory + '/' + filename 
                                                     for filename in filenames]
 
@@ -265,8 +262,6 @@ def extract_data(paths):
 
         # Extract out stable_baselines datapoints
         sb_x_s, sb_y_s = [], []
-        import json
-        print(json.dumps(paths, indent=4))
         for filename in paths[env]['stable_baselines']:
             curr_data = extract_stable_baselines_data(env, filename)
             sb_x_s.append(curr_data[0])
