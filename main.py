@@ -94,12 +94,14 @@ def main(args):
 	# NOTE: Here's where you can set hyperparameters for PPO. I don't include them as part of
 	# ArgumentParser because it's too annoying to type them every time at command line. Instead, you can change them here.
 	# To see a list of hyperparameters, look in ppo.py at function _init_hyperparameters
-	hyperparameters = {'timesteps_per_batch': 2048, 
-						'max_timesteps_per_episode': 200, 
-						'gamma': 0.99, 
-						'n_updates_per_iteration': 10,
-						'lr': 3e-4, 
-						'clip': 0.2}
+	hyperparameters = {
+				'timesteps_per_batch': 2048, 
+				'max_timesteps_per_episode': 200, 
+				'gamma': 0.99, 
+				'n_updates_per_iteration': 10,
+				'lr': 3e-4, 
+				'clip': 0.2
+			  }
 
 	# Creates the environment we'll be running. If you want to replace with your own
 	# custom environment, note that it must inherit Gym and have both continuous
