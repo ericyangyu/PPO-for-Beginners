@@ -1,8 +1,8 @@
 # Generating & Graphing Data
 
-Here is where we can automatically generate data using PPO for Beginners and plot them onto graphs. Note that I use a lot more tricks in my code, making it a lot less readable for beginners, because I figured understanding how to automate data collection and graphing data doesn't align with the goal of PPO for Beginners. I did style and document the code though in case you wanted to take a closer look at how I generate and graph my data; just be warned that it will be hard to read and understanding the graph code isn't the goal of this repository and my [Medium article](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-1-4-613dfc1b14c8). 
+Here is where we can automatically generate data using PPO for Beginners and plot them onto graphs. Note that I use a lot more tricks in my code, making it a lot less readable for beginners, because I figured understanding how to automate data collection and graphing data doesn't align with the goal of PPO for Beginners. I did style and document the code though in case you wanted to take a closer look at how I generate and graph my data; just be warned that it will be hard to read and understanding the graph code isn't the goal of this repository and my [Medium series](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-1-4-613dfc1b14c8). 
 
-Also, the data in [graph_data](graph_data) should be the same data I used to make my graphs on my [Medium article](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-1-4-613dfc1b14c8), so you can just make my graphs again with the existing data (save yourself ~10 hours of training)
+Also, the data in [graph_data](graph_data) should be the same data I used to make my graphs on my [Medium Part 1](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-1-4-613dfc1b14c8), so you can just make my graphs again with the existing data (save yourself ~10 hours of training)
 
 ## Usage
 To generate data:
