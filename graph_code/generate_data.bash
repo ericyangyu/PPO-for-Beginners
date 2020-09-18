@@ -12,7 +12,6 @@ SEEDS=($(shuf -i $SEED_LOWER_BOUND-$SEED_UPPER_BOUND -n $NUM_SEEDS))
 
 # Create graph_data directory if missing
 mkdir -p graph_data
-mkdir -p graph_data
 
 # Iterate through all argument environments passed in
 for env in "$@"
