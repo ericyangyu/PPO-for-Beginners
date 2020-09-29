@@ -55,7 +55,7 @@ NOTE: to change hyperparameters, environments, etc. do it in [main.py](main.py);
 
 [graph_code](graph_code) directory contains the code to automatically collect data and generate graphs. Takes ~10 hours on a decent computer to generate all the data in my [Medium article](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-1-4-613dfc1b14c8). All the data from the medium article should still be in ```graph_code/graph_data``` too in case you're interested; if you want, you can regenerate the graphs I use with the data. For more details, read the README in graph_code.
 
-Here's a great pdb tutorial to get started: [https://www.youtube.com/watch?v=bHx8A8tbj2c](https://www.youtube.com/watch?v=bHx8A8tbj2c) <br />
+Here's a great pdb tutorial to get started: [https://www.youtube.com/watch?v=VQjCx3P89yk&ab_channel=TutorialEdge](https://www.youtube.com/watch?v=VQjCx3P89yk&ab_channel=TutorialEdge) <br />
 Or if you're an expert with debuggers, here's the documentation: [https://docs.python.org/3/library/pdb.html](https://docs.python.org/3/library/pdb.html)
 
 ## Environments
