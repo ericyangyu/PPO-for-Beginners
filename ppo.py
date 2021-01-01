@@ -8,7 +8,7 @@ import gym
 import time
 
 import numpy as np
-
+import time
 import torch
 import torch.nn as nn
 from torch.optim import Adam
@@ -56,6 +56,7 @@ class PPO:
 
 		# This logger will help us with printing out summaries of each iteration
 		self.logger = {
+			'delta_t': time.time_ns(),
 			't_so_far': 0,          # timesteps so far
 			'i_so_far': 0,          # iterations so far
 			'batch_lens': [],       # episodic lengths in batch
@@ -364,6 +365,11 @@ class PPO:
 		# Calculate logging values. I use a few python shortcuts to calculate each value
 		# without explaining since it's not too important to PPO; feel free to look it over,
 		# and if you have any questions you can email me (look at bottom of README)
+		delta_t = self.logger['delta_t']
+		self.logger['delta_t'] = time.time_ns()
+		delta_t = (self.logger['delta_t'] - delta_t) / 1000000000.
+		delta_t = str(round(delta_t, 2))
+
 		t_so_far = self.logger['t_so_far']
 		i_so_far = self.logger['i_so_far']
 		avg_ep_lens = np.mean(self.logger['batch_lens'])
@@ -382,6 +388,7 @@ class PPO:
 		print(f"Average Episodic Return: {avg_ep_rews}", flush=True)
 		print(f"Average Loss: {avg_actor_loss}", flush=True)
 		print(f"Timesteps So Far: {t_so_far}", flush=True)
+		print(f"Iteration took: {delta_t} secs", flush=True)
 		print(f"------------------------------------------------------", flush=True)
 		print(flush=True)
 
