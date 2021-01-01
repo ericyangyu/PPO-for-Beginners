@@ -188,7 +188,7 @@ class PPO:
 			# Run an episode for a maximum of max_timesteps_per_episode timesteps
 			for ep_t in range(self.max_timesteps_per_episode):
 				# If render is specified, render the environment
-				if self.render:
+				if self.render and (self.logger['t_so_far'] + len(batch_lens)) % self.render_every == 0:
 					self.env.render()
 
 				t += 1 # Increment timesteps ran this batch so far
@@ -335,6 +335,8 @@ class PPO:
 
 		# Miscellaneous parameters
 		self.render = False                             # If we should render during rollout
+		self.render_every = 1000                        # Only render every n
+
 		self.save_freq = 10                             # How often we save in number of iterations
 		self.seed = None                                # Sets the seed of our program, used for reproducibility of results
 
