@@ -367,7 +367,7 @@ class PPO:
 		# and if you have any questions you can email me (look at bottom of README)
 		delta_t = self.logger['delta_t']
 		self.logger['delta_t'] = time.time_ns()
-		delta_t = (self.logger['delta_t'] - delta_t) / 1000000000.
+		delta_t = (self.logger['delta_t'] - delta_t) / 1e9
 		delta_t = str(round(delta_t, 2))
 
 		t_so_far = self.logger['t_so_far']
