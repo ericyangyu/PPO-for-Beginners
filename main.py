@@ -45,7 +45,7 @@ def train(env, hyperparameters, actor_model, critic_model):
 	# Train the PPO model with a specified total timesteps
 	# NOTE: You can change the total timesteps here, I put a big number just because
 	# you can kill the process whenever you feel like PPO is converging
-	model.learn(total_timesteps=200000000)
+	model.learn(total_timesteps=200_000_000)
 
 def test(env, actor_model):
 	"""
