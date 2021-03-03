@@ -100,7 +100,9 @@ def main(args):
 				'gamma': 0.99, 
 				'n_updates_per_iteration': 10,
 				'lr': 3e-4, 
-				'clip': 0.2
+				'clip': 0.2,
+				'render': True,
+				'render_every_i': 10
 			  }
 
 	# Creates the environment we'll be running. If you want to replace with your own
