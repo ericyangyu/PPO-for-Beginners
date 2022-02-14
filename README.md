@@ -160,48 +160,68 @@ $$ -->
 <div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cnabla%20J(%5Ctheta)%20%3D%20E_%7B%5Ctau%20%5Csim%5Cpi%7D%5Cleft%5BR(%5Ctau)%20%5Csum_%7Bt%3D0%7D%5ET%20%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%5Cright%5D"></div>
 They do look very similar in objective functions, but they are different. The biggest difference probably comes from different approach to derivation of policy gradient, since in REINFORCE the expectation is taken over actions and states sampled from given distribution $\pi$ but in VPG the expectation is taken over all possible trajectories given a fixed policy. Also, the way the gradient ascent is performed differs strongly since in REINFORCE method the gradient ascent is performed once for each action taken for each episode and the direction of ascent is taken as 
 
-$$
+<!-- $$
 G_t\frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=G_t%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D"></div>
 so the update becomes
-$$
+<!-- $$
 \theta_{t+1} = \theta_{t} + \alpha G_t\frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta_%7Bt%2B1%7D%20%3D%20%5Ctheta_%7Bt%7D%20%2B%20%5Calpha%20G_t%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D"></div>
 but in VPG algorithm the gradient ascents performed once over multiple episodes and direction of ascent taken as average
 
-$$
+<!-- $$
 \frac{1}{|\mathcal{T}|}\sum_{\tau\in\mathcal{T}} \sum_{t=0}^T R(\tau) \frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="svg/XNPePVlArN.svg"></div>
 
 and gradient ascent step is
 
-$$
+<!-- $$
 \theta_{t+1} = \theta_{t} + \alpha \frac{1}{|\mathcal{T}|}\sum_{\tau\in\mathcal{T}} \sum_{t=0}^T R(\tau) \frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}
-$$
-Where $\mathcal{T}$ is set of all the trajectories. In accordance with baseline trick introduced before, this objective function can too be transformed into more general version
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta_%7Bt%2B1%7D%20%3D%20%5Ctheta_%7Bt%7D%20%2B%20%5Calpha%20%5Cfrac%7B1%7D%7B%7C%5Cmathcal%7BT%7D%7C%7D%5Csum_%7B%5Ctau%5Cin%5Cmathcal%7BT%7D%7D%20%5Csum_%7Bt%3D0%7D%5ET%20R(%5Ctau)%20%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D"></div>
+Where <!-- $\mathcal{T}$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/khOLO9Hnfn.svg"> is set of all the trajectories. In accordance with baseline trick introduced before, this objective function can too be transformed into more general version
+<!-- $$
 \nabla J(\theta) = E_{\tau \sim\pi}\left[ \sum_{t=0}^T \Phi_t \frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}\right]
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cnabla%20J(%5Ctheta)%20%3D%20E_%7B%5Ctau%20%5Csim%5Cpi%7D%5Cleft%5B%20%5Csum_%7Bt%3D0%7D%5ET%20%5CPhi_t%20%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%5Cright%5D"></div>
 where 
-$$
+<!-- $$
 \Phi_t = R(\tau)
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5CPhi_t%20%3D%20R(%5Ctau)"></div>
 or
-$$
+<!-- $$
 \Phi_t = \sum_{t`=t}^TR(s_{t`}, a_{t`}, s_{t`+1}, a_{t`+1})
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5CPhi_t%20%3D%20%5Csum_%7Bt%60%3Dt%7D%5ETR(s_%7Bt%60%7D%2C%20a_%7Bt%60%7D%2C%20s_%7Bt%60%2B1%7D%2C%20a_%7Bt%60%2B1%7D)"></div>
 or
-$$
+<!-- $$
 \Phi_t = \sum_{t`=t}^TR(s_{t`}, a_{t`}, s_{t`+1}, a_{t`+1}) - f(a_t, s_t)
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5CPhi_t%20%3D%20%5Csum_%7Bt%60%3Dt%7D%5ETR(s_%7Bt%60%7D%2C%20a_%7Bt%60%7D%2C%20s_%7Bt%60%2B1%7D%2C%20a_%7Bt%60%2B1%7D)%20-%20f(a_t%2C%20s_t)"></div>
 yielding family of algorithms, which average over the trajectories taken when optimising the agent's policy. We would later assume, without proving, that they are equivalent from theoretical stand point, e.g. method described for 
-$$
+<!-- $$
 E_{\tau \sim\pi}\left[ \sum_{t=0}^T \Phi_t \frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}\right]
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=E_%7B%5Ctau%20%5Csim%5Cpi%7D%5Cleft%5B%20%5Csum_%7Bt%3D0%7D%5ET%20%5CPhi_t%20%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%5Cright%5D"></div>
 can be equivalently deduced for 
-$$
+<!-- $$
 E_\pi \left[\Phi_t(s, a)\, \nabla \log \pi(a_t |s_t, \theta)  \right]
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=E_%5Cpi%20%5Cleft%5B%5CPhi_t(s%2C%20a)%5C%2C%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D"></div>
 and the only difference between them will be the way of computing the gradient ascent step. This meaning, either minimizing over the batch of episodes or taking each episode separately.
 In Deep Learning the method of averaging over batch and performing several epochs on the same database is often utilised due to limited amount of data. In reinforcement learning paradigm the same approach is desirable. But while it is appealing to perform multiple steps of optimisation over the same trajectory, it is not justified and empirically it often leads to destructively large policy updates.
 ## Gradient Ascent Optimisation
@@ -209,35 +229,44 @@ In Deep Learning the method of averaging over batch and performing several epoch
 ### Vanilla policy gradient methods
 
 In the last section, we saw that in the policy gradient methods, the most classical form of the gradient was 
-$$
+<!-- $$
 \hat{g} =  \hat{E_{t}} \left[\hat{A_t}(s, a)\, \nabla \log \pi(a_t |s_t, \theta)  \right] 
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%7Bg%7D%20%3D%20%20%5Chat%7BE_%7Bt%7D%7D%20%5Cleft%5B%5Chat%7BA_t%7D(s%2C%20a)%5C%2C%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D%20"></div>
 Classically, we will use a stochastic gradient ascent by computing this gradient to maximize the function.
-$$ LPG(\theta) = \hat{E_{t}} \left[\hat{A_t}(s, a)\, \log \pi(a_t |s_t, \theta)  \right] $$
+<!-- $$ LPG(\theta) = \hat{E_{t}} \left[\hat{A_t}(s, a)\, \log \pi(a_t |s_t, \theta)  \right] $$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
 In Algorithm we present the *Vanilla Policy Gradient* algorithm, that allows to make one of the most simple implementations of gradient ascent.
 ******
 **Vanila Policy Gradient Algorithm**
 ******
-1. State Input: initial policy parameters $\theta_0$, initial value function parameters $\phi_0$
-2. For $k=0, 1, 2, ...$
-3. Collect set of trajectories $\mathcal{D}_k = \{\tau_i\}$ by running policy $\pi_k = \pi_k(\theta_k)$ in the environment.
-4. Compute rewards-to-go $\hat{R}_t$.
-5. Compute advantage estimates, $\hat{A}_t$(using any method of advantage estimation) base on the current value function $V_{\phi_k}$.
+1. State Input: initial policy parameters <!-- $\theta_0$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/EXglaBVW0t.svg">, initial value function parameters <!-- $\phi_0$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/cPopePa4WI.svg">
+2. For k=0, 1, 2, ...
+3. Collect set of trajectories <!-- $\mathcal{D}_k = \{\tau_i\}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cmathcal%7BD%7D_k%20%3D%20%5C%7B%5Ctau_i%5C%7D"> by running policy <!-- $\pi_k = \pi_k(\theta_k)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi_k%20%3D%20%5Cpi_k(%5Ctheta_k)"> in the environment.
+4. Compute rewards-to-go <!-- $\hat{R}_t$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%7BR%7D_t">.
+5. Compute advantage estimates, <!-- $\hat{A}_t$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%7BA%7D_t">(using any method of advantage estimation) base on the current value function <!-- $V_{\phi_k}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=V_%7B%5Cphi_k%7D">.
 6. Estimate policy gradient as 
-$$
+<!-- $$
 \hat{g}_k = \frac{1}{|\mathcal{D}_k|} \sum_{\tau\in\mathcal{D}_k}\sum_{t=0}^{T}\nabla_{\theta} \log \pi_{\theta}(a_t |s_t)|_{\theta_k} \hat{A}_k.
-$$
-\State Compute policy update, either using standard gradient ascent,
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%7Bg%7D_k%20%3D%20%5Cfrac%7B1%7D%7B%7C%5Cmathcal%7BD%7D_k%7C%7D%20%5Csum_%7B%5Ctau%5Cin%5Cmathcal%7BD%7D_k%7D%5Csum_%7Bt%3D0%7D%5E%7BT%7D%5Cnabla_%7B%5Ctheta%7D%20%5Clog%20%5Cpi_%7B%5Ctheta%7D(a_t%20%7Cs_t)%7C_%7B%5Ctheta_k%7D%20%5Chat%7BA%7D_k."></div>
+6. Compute policy update, either using standard gradient ascent,
+<!-- $$
 \theta_{k+1} = \theta_{k} + \alpha_k \hat{g}_k,
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta_%7Bk%2B1%7D%20%3D%20%5Ctheta_%7Bk%7D%20%2B%20%5Calpha_k%20%5Chat%7Bg%7D_k%2C"></div>
 or via another gradient ascent algorithm like Adam.
 7. Fit value function by regression on mean-squared error:
-$$
+<!-- $$
 \phi_{k+1} = \text{arg}\, \min_{\phi} \frac{1}{|\mathcal{D}_k|}\sum_{\tau\in\mathcal{D}_k}\frac{1}{T}\sum_{t=0}^{T}(V_\phi(s_t)-\hat{R}_t)^2
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cphi_%7Bk%2B1%7D%20%3D%20%5Ctext%7Barg%7D%5C%2C%20%5Cmin_%7B%5Cphi%7D%20%5Cfrac%7B1%7D%7B%7C%5Cmathcal%7BD%7D_k%7C%7D%5Csum_%7B%5Ctau%5Cin%5Cmathcal%7BD%7D_k%7D%5Cfrac%7B1%7D%7BT%7D%5Csum_%7Bt%3D0%7D%5E%7BT%7D(V_%5Cphi(s_t)-%5Chat%7BR%7D_t)%5E2"></div>
 typically via some gradient descent algorithm.
-8.
 ******
 In the *Vanilla Policy Gradient* or VPG, we start by choosing the parametrisation of $\pi_{\theta}$, by some differential function of latent parameter $\theta$. It is usually characterised by neural network. As initial guess we set the weights of neural network randomly.  Now for updating its weights in the right direction we are in need of advantage function. Which is inaccessible, but can be estimated from value functions of state. Often even the value functions of the states are out of reach and we have to estimate them too. It makes sense to use similar parametric approach (value function can be estimated by different method, but VPG classically uses neural network for estimation). We initialise Value function neural network by random values. Its easy to notice, that the value function of a given state is exactly the mean rewards gain by following the policy from its state until the end of the episode. This gives rise to estimate written in Algorithm .We will leave the question of advantage function estimation for later.  Now assuming that we have a reasonable estimation of advantage function, we can finally compute the policy gradient direction and optimise the objective function.
 
