@@ -62,8 +62,8 @@ Now by replacing the <!-- $q(s, a) = E [G|s,a]$ --> <img style="transform: trans
 $$ --> 
 
 <div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla%20J%0A%20%20%20%20%26%5Cpropto%20E_%5Cpi%20%5Cleft%5B%20q_%5Cpi(s_t%2C%20a_t)%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20E_%5Cpi%5BG_t%20%7C%20s_t%2C%20a_t%5D%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20G_t%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20G_t%20%5Cright%5D%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
-Here <!-- $G_t, s_t, a_t \sim \pi$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G_t%2C%20s_t%2C%20a_t%20%5Csim%20%5Cpi"> are variables sampled from observing the agent, that follows the strategy $\pi$. Even though this strategy looks wonderful, it have a downside. The function <!-- $G_t$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G_t"> can be estimated only after the whole episode is played. Therefore, making the whole method episodic. The possible logical continuation is to replace $G_t$ by some estimate, that can be easily computed at the time of agent taking action to speed up and facilitate the computations. Its easy to see, that by following the definitions
-$$
+Here <!-- $G_t, s_t, a_t \sim \pi$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G_t%2C%20s_t%2C%20a_t%20%5Csim%20%5Cpi"> are variables sampled from observing the agent, that follows the strategy $\pi$. Even though this strategy looks wonderful, it have a downside. The function <!-- $G_t$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G_t"> can be estimated only after the whole episode is played. Therefore, making the whole method episodic. The possible logical continuation is to replace <!-- $G_t$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G_t"> by some estimate, that can be easily computed at the time of agent taking action to speed up and facilitate the computations. Its easy to see, that by following the definitions
+<!-- $$
     \begin{aligned}
     v(s)
     &= E_\pi \left[ G_t | S = s \right]\\
@@ -71,67 +71,93 @@ $$
     &= E_\pi \left[ R_t + \gamma E_\pi [G_{t+1} |S = s'] | S = s \right]\\
     &= E_\pi \left[ R_t + \gamma v(s') | S = s \right]\\
     \end{aligned}
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20v(s)%0A%20%20%20%20%26%3D%20E_%5Cpi%20%5Cleft%5B%20G_t%20%7C%20S%20%3D%20s%20%5Cright%5D%5C%5C%0A%20%20%20%20%26%3D%20E_%5Cpi%20%5Cleft%5B%20R_t%20%2B%20%5Cgamma%20G_%7Bt%2B1%7D%20%7C%20S%20%3D%20s%20%5Cright%5D%5C%5C%0A%20%20%20%20%26%3D%20E_%5Cpi%20%5Cleft%5B%20R_t%20%2B%20%5Cgamma%20E_%5Cpi%20%5BG_%7Bt%2B1%7D%20%7CS%20%3D%20s'%5D%20%7C%20S%20%3D%20s%20%5Cright%5D%5C%5C%0A%20%20%20%20%26%3D%20E_%5Cpi%20%5Cleft%5B%20R_t%20%2B%20%5Cgamma%20v(s')%20%7C%20S%20%3D%20s%20%5Cright%5D%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
 Therefore, we can replace out estimate of gradient of value function by following expression 
-$$
+<!-- $$
     \begin{aligned}
     \nabla J
     &=E_\pi \left[ \nabla \log \pi(a_t |s_t, \theta) G_t \right]\\
     &=E_\pi \left[ R_t +  \gamma v(s_{t+1}) \nabla \log \pi(a_t |s_t, \theta)  \right]\\
     \end{aligned}
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla%20J%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20G_t%20%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20R_t%20%2B%20%20%5Cgamma%20v(s_%7Bt%2B1%7D)%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
 Lets also notice, that:
-$$\nabla_{\theta} f(s, a) = f(s, a) \nabla \sum_a \pi(a |s, \theta)$$
-Where $f(s, a)$ is any function independent of $\theta$. This observation yields an interesting result. We now can add the term to introduced expectation, without changing it
-$$
+<!-- $$\nabla_{\theta} f(s, a) = f(s, a) \nabla \sum_a \pi(a |s, \theta)$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
+Where <!-- $f(s, a)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=f(s%2C%20a)"> is any function independent of <!-- $\theta$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta">. This observation yields an interesting result. We now can add the term to introduced expectation, without changing it
+<!-- $$
 E_\pi \left[ ( R_t +  \gamma v(s_{t+1}) -f(s, a))\, \nabla \log \pi(a_t |s_t, \theta)  \right]
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=E_%5Cpi%20%5Cleft%5B%20(%20R_t%20%2B%20%20%5Cgamma%20v(s_%7Bt%2B1%7D)%20-f(s%2C%20a))%5C%2C%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D"></div>
 Setting the $f(s, a) = v(s)$, we obtain one of the most commonly used estimator of the desired gradient:
-$$
+<!-- $$
 E_\pi \left[ ( \hat{Q}(s, a) - \hat{v}(s))\, \nabla \log \pi(a_t |s_t, \theta)  \right] = E_\pi \left[\hat{A_t}(s, a)\, \nabla \log \pi(a_t |s_t, \theta)  \right] 
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=E_%5Cpi%20%5Cleft%5B%20(%20%5Chat%7BQ%7D(s%2C%20a)%20-%20%5Chat%7Bv%7D(s))%5C%2C%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D%20%3D%20E_%5Cpi%20%5Cleft%5B%5Chat%7BA_t%7D(s%2C%20a)%5C%2C%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D%20"></div>
 The hat indicates that we use the approximation of the value function of any given state to compute the advantage function at time step t and expectation is replaced empirical expectation $\hat{E}$ by averaging over batch of series played by the same agent. A lot of software are using the automatic differentiation packages, and in that case it makes more sense to introduce the differentiable function which we are going to maximise by changing the $\theta$.
-$$
+<!-- $$
 L(\theta) = \hat{E}_\pi \left[\hat{A_t}(s, a)\, \log \pi(a_t |s_t, \theta)  \right] 
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=L(%5Ctheta)%20%3D%20%5Chat%7BE%7D_%5Cpi%20%5Cleft%5B%5Chat%7BA_t%7D(s%2C%20a)%5C%2C%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D%20"></div>
 This expression can be easily extended to continuous spaces of states and actions. Of course taking $J$ as a value function is one of possible choices, that yield arguably the most general approach and REINFORCE algorithm. There exists different propositions. One of disadvantages of REINFORCE and REINFORCE with baseline is that in original the update can be done only after the episod is played in backward manner. So the updates are performed once for each action-state pair in a given episode, e.g.
-$$
+<!-- $$
 \theta_{t+1} = \theta_{t} + \alpha G_t\frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta_%7Bt%2B1%7D%20%3D%20%5Ctheta_%7Bt%7D%20%2B%20%5Calpha%20G_t%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D"></div>
 This is a terrible estimate of expectation over the policy and can create a huge error. One may desire to take more stable version, by considering the expectation of returns over set of trajectories. For example by optimising finite-horizon undiscounted return  e.g. 
-$$
+<!-- $$
  J(\theta) = E_{\tau \sim \pi} [R(\tau)] = \int  P(\tau|\theta) R(\tau)\\
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20J(%5Ctheta)%20%3D%20E_%7B%5Ctau%20%5Csim%20%5Cpi%7D%20%5BR(%5Ctau)%5D%20%3D%20%5Cint%20%20P(%5Ctau%7C%5Ctheta)%20R(%5Ctau)%5C%5C"></div>
 This approach yields well known Vanila Gradient Policy algorithm.
 In this expression the probabilities over trajectories is taken, trajectory $\tau$ is chain of states and actions taken $s_0, a_0, s_1, ...$. Its easy to see, that probability of the trajectory can be described as a product of probabilities of taking successive actions and moving between states after taking them 
-$$
+<!-- $$
 P(\tau|\theta) = \rho(s_0) \prod_{t=0}^{T} P(s_{t+1}|s_{t}, a_{t}) \pi_{\theta}(a_{t}, s_{t})
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=P(%5Ctau%7C%5Ctheta)%20%3D%20%5Crho(s_0)%20%5Cprod_%7Bt%3D0%7D%5E%7BT%7D%20P(s_%7Bt%2B1%7D%7Cs_%7Bt%7D%2C%20a_%7Bt%7D)%20%5Cpi_%7B%5Ctheta%7D(a_%7Bt%7D%2C%20s_%7Bt%7D)"></div>
 Here $\rho(\cdot)$ is distribution of initial position of the agent. Now by considering the $\nabla \log(\cdot)$ trick
-$$
+<!-- $$
 \nabla_{\theta} P(\tau |\theta) = P(\tau |\theta) \nabla_{\theta} \log P(\tau | \theta)
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cnabla_%7B%5Ctheta%7D%20P(%5Ctau%20%7C%5Ctheta)%20%3D%20P(%5Ctau%20%7C%5Ctheta)%20%5Cnabla_%7B%5Ctheta%7D%20%5Clog%20P(%5Ctau%20%7C%20%5Ctheta)"></div>
 we can transform
-$$
+<!-- $$
     \begin{aligned}
     \nabla_{\theta} J(\theta) 
     &= \nabla_{\theta} E_{\tau \sim \pi} [R(\tau)] = \nabla_{\theta} \int  P(\tau|\theta) R(\tau)\\
     &= \int \nabla_{\theta} P(\tau|\theta) R(\tau) = \int R(\tau) P(\tau |\theta) \nabla_{\theta} \log P(\tau | \theta) \\
     &= E_{\tau \sim \pi} [ R(\tau) \nabla_{\theta} \log P(\tau | \theta) ]
     \end{aligned}
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla_%7B%5Ctheta%7D%20J(%5Ctheta)%20%0A%20%20%20%20%26%3D%20%5Cnabla_%7B%5Ctheta%7D%20E_%7B%5Ctau%20%5Csim%20%5Cpi%7D%20%5BR(%5Ctau)%5D%20%3D%20%5Cnabla_%7B%5Ctheta%7D%20%5Cint%20%20P(%5Ctau%7C%5Ctheta)%20R(%5Ctau)%5C%5C%0A%20%20%20%20%26%3D%20%5Cint%20%5Cnabla_%7B%5Ctheta%7D%20P(%5Ctau%7C%5Ctheta)%20R(%5Ctau)%20%3D%20%5Cint%20R(%5Ctau)%20P(%5Ctau%20%7C%5Ctheta)%20%5Cnabla_%7B%5Ctheta%7D%20%5Clog%20P(%5Ctau%20%7C%20%5Ctheta)%20%5C%5C%0A%20%20%20%20%26%3D%20E_%7B%5Ctau%20%5Csim%20%5Cpi%7D%20%5B%20R(%5Ctau)%20%5Cnabla_%7B%5Ctheta%7D%20%5Clog%20P(%5Ctau%20%7C%20%5Ctheta)%20%5D%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
 But at the same time
-$$
+<!-- $$
     \begin{aligned}
     \nabla_{\theta} \log P(\tau | \theta)
     &= \nabla_{\theta} \left(\log(\rho(s_0)) + \sum_{t=0}^{T} \log(P(s_{t+1}|s_{t}, a_{t})) + \log( \pi_{\theta}(a_{t}, s_{t}))\right)\\ 
     &= \sum_{t=0}^{T}  \nabla_{\theta}  \log( \pi_{\theta}(a_{t}, s_{t}))\\
     \end{aligned}
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla_%7B%5Ctheta%7D%20%5Clog%20P(%5Ctau%20%7C%20%5Ctheta)%0A%20%20%20%20%26%3D%20%5Cnabla_%7B%5Ctheta%7D%20%5Cleft(%5Clog(%5Crho(s_0))%20%2B%20%5Csum_%7Bt%3D0%7D%5E%7BT%7D%20%5Clog(P(s_%7Bt%2B1%7D%7Cs_%7Bt%7D%2C%20a_%7Bt%7D))%20%2B%20%5Clog(%20%5Cpi_%7B%5Ctheta%7D(a_%7Bt%7D%2C%20s_%7Bt%7D))%5Cright)%5C%5C%20%0A%20%20%20%20%26%3D%20%5Csum_%7Bt%3D0%7D%5E%7BT%7D%20%20%5Cnabla_%7B%5Ctheta%7D%20%20%5Clog(%20%5Cpi_%7B%5Ctheta%7D(a_%7Bt%7D%2C%20s_%7Bt%7D))%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
 This manoeuvre yields final result
-$$
+<!-- $$
 \nabla J(\theta) = E_{\tau \sim\pi}\left[R(\tau) \sum_{t=0}^T \frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}\right]
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cnabla%20J(%5Ctheta)%20%3D%20E_%7B%5Ctau%20%5Csim%5Cpi%7D%5Cleft%5BR(%5Ctau)%20%5Csum_%7Bt%3D0%7D%5ET%20%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%5Cright%5D"></div>
 They do look very similar in objective functions, but they are different. The biggest difference probably comes from different approach to derivation of policy gradient, since in REINFORCE the expectation is taken over actions and states sampled from given distribution $\pi$ but in VPG the expectation is taken over all possible trajectories given a fixed policy. Also, the way the gradient ascent is performed differs strongly since in REINFORCE method the gradient ascent is performed once for each action taken for each episode and the direction of ascent is taken as 
 
 $$
