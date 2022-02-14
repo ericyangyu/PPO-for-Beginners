@@ -18,28 +18,22 @@ The experiments are a comparison of the performances of various versions of prev
 ### Main objective
 The reinforcement learning algorithms are usually solving problems of estimation of optimal behaviour in the given environment. Contrary to the deep learning or machine learning approaches, where the model is learned on the accessible data base, the reinforcement learning agents learn to behave optimally by interacting with the environment they are in. Not to say that the learning from the database is impossible in RL paradigm, there are algorithms that allow to learn from fixed observations, but we are not going to discuss them in this work. 
 
-For the given pair of position in environment e.g. state <!-- $s \in S$ --> <img style="transform: translateY(0.1em); background: black;" src="svg/eiYgZ20IY5.svg"> and interaction with it e.g. action <!-- $a\in A$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/S2sJeBLcbD.svg">, the agent is said to follow the policy <!-- $\pi(a|s)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi(a%7Cs)"> if <!-- $\pi(\cdot | \cdot)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi(%5Ccdot%20%7C%20%5Ccdot)">  defines the probability distribution over action space. The main goal of reinforcement learning is to create in some sense optimal <!-- $\pi$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi"> function for this purpose, for example the characteristic of taking the certain action from given state is introduced e.g. the reward <!-- $r(a, s)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=r(a%2C%20s)">. Note that it does no have to be always positive. In many cases, the reward is set to be for example -1 to specify that the action taken is bad. Classically in many approaches the policy is optimizing the notion of action taken, for example it takes the action that will bring more reward in future in expectation. Such an approach is well developed, but is not of interest in this work.
-The other way of solving the stated problem is to introduce a function that can be parametrized by set of parameters <!-- $\theta$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta"> and next to optimize the <!-- $\theta$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta"> to produce some optimal policy. This is motivated by recent development in the domain of neural networks and automatic differentiation, that allows to solve a wast class of optimisation problems with high precision. By specifying the differentiable by every coordinate of <!-- $\theta$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta">, function <!-- $J(\theta)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=J(%5Ctheta)"> to be maximised, it is straight forward to use the gradient ascent algorithm, that can be written as 
-<!-- $$
+For the given pair of position in environment e.g. state $s \in S$ and interaction with it e.g. action $a\in A$, the agent is said to follow the policy $\pi(a|s)$ if $\pi(\cdot | \cdot)$  defines the probability distribution over action space. The main goal of reinforcement learning is to create in some sense optimal $\pi$ function for this purpose, for example the characteristic of taking the certain action from given state is introduced e.g. the reward $r(a, s)$. Note that it does no have to be always positive. In many cases, the reward is set to be for example -1 to specify that the action taken is bad. Classically in many approaches the policy is optimizing the notion of action taken, for example it takes the action that will bring more reward in future in expectation. Such an approach is well developed, but is not of interest in this work.
+The other way of solving the stated problem is to introduce a function that can be parametrized by set of parameters $\theta$ and next to optimize the $\theta$ to produce some optimal policy. This is motivated by recent development in the domain of neural networks and automatic differentiation, that allows to solve a wast class of optimisation problems with high precision. By specifying the differentiable by every coordinate of $\theta$, function $J(\theta)$ to be maximised, it is straight forward to use the gradient ascent algorithm, that can be written as 
+$$
 \theta = \theta + \alpha \nabla J(\theta).
-$$ --> 
-
-<div align="center"><img style="background: black;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta%20%3D%20%5Ctheta%20%2B%20%5Calpha%20%5Cnabla%20J(%5Ctheta)."></div>
-Now the challenging problem is creating the suitable function J that can be efficiently computed for the simulated scenarios. The function of interest have to satisfy some mathematical constraints. It have to be easily computed and its maximisation have to lead to optimal agent for specified problem.
-One of the choices is to use value function of the starting state of the algorithm <!-- $v(s_0)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=v(s_0)">. By definition <!-- $v(s)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=v(s)"> is given by
-<!-- $$s
+$$
+Now the challenging problem is creating the suitable function $J$ that can be efficiently computed for the simulated scenarios. The function of interest have to satisfy some mathematical constraints. It have to be easily computed and its maximisation have to lead to optimal agent for specified problem.
+One of the choices is to use value function of the starting state of the algorithm $v(s_0)$. By definition $v(s)$ is given by
+$$
 v(s) = \sum_a \pi(a |s) q_{\pi}(a, s)
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=v(s)%20%3D%20%5Csum_a%20%5Cpi(a%20%7Cs)%20q_%7B%5Cpi%7D(a%2C%20s)"></div>
-where <!-- $q(s, a) = r(s, a) + \gamma^i v(s')$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=q(s%2C%20a)%20%3D%20r(s%2C%20a)%20%2B%20%5Cgamma%5Ei%20v(s')"> is the action value function. It means basically that we want to find a strategy to act in the environment, that will bring the biggest reward if we will start playing from state <!-- $s_0$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=s_0">. This looks like challenging task at first, but luckily for us there are a more easy way to deal with representation of gradient of value function, given by policy gradient algorithm, which states that
-<!-- $$
+$$
+where $q(s, a) = r(s, a) + \gamma^i v(s')$ is the action value function. It means basically that we want to find a strategy to act in the environment, that will bring the biggest reward if we will start playing from state $s_0$. This looks like challenging task at first, but luckily for us there are a more easy way to deal with representation of gradient of value function, given by policy gradient algorithm, which states that
+$$
 \nabla J \propto \sum_s \mu(s) \sum_a q_\pi (s, a) \nabla \pi(a |s, \theta)
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cnabla%20J%20%5Cpropto%20%5Csum_s%20%5Cmu(s)%20%5Csum_a%20q_%5Cpi%20(s%2C%20a)%20%5Cnabla%20%5Cpi(a%20%7Cs%2C%20%5Ctheta)"></div>
-Here the <!-- $\mu$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cmu"> is the distribution of being in given state under policy <!-- $\pi$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi">. Therefore, the expression above can be rewritten as <!-- $E_\pi \left[\sum_a q_\pi (s_t, a) \nabla \pi(a |s_t, \theta)\right]$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=E_%5Cpi%20%5Cleft%5B%5Csum_a%20q_%5Cpi%20(s_t%2C%20a)%20%5Cnabla%20%5Cpi(a%20%7Cs_t%2C%20%5Ctheta)%5Cright%5D">. Now, the only thing left is dealing with unknown function of <!-- $q$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=q">. One of possible approaches is for example to estimate it by some other easy to compute function <!-- $\hat{q}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%7Bq%7D">. The approach of interest for this work it to introduce another expectation in the expression, rewriting it as:
-<!-- $$
+$$
+Here the $\mu$ is the distribution of being in given state under policy $\pi$. Therefore, the expression above can be rewritten as $E_\pi \left[\sum_a q_\pi (s_t, a) \nabla \pi(a |s_t, \theta)\right]$. Now, the only thing left is dealing with unknown function of $q$. One of possible approaches is for example to estimate it by some other easy to compute function $\hat{q}$. The approach of interest for this work it to introduce another expectation in the expression, rewriting it as:
+$$
     \begin{aligned}
     \nabla J
     &\propto E_\pi \left[\sum_a q_\pi (s_t, a) \nabla \pi(a |s_t, \theta)\right]\\
@@ -47,11 +41,9 @@ Here the <!-- $\mu$ --> <img style="transform: translateY(0.1em); background: wh
     &=E_\pi \left[E_\pi \left( q_\pi(s_t, a) \frac{\nabla \pi(a_t |s_t, \theta)}{\pi(a_t|s_t, \theta)} \right)\right]\\
     &=E_\pi \left[ q_\pi(s_t, a_t) \frac{\nabla \pi(a_t |s_t, \theta)}{\pi(a_t|s_t, \theta)}\right]\\
     \end{aligned}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla%20J%0A%20%20%20%20%26%5Cpropto%20E_%5Cpi%20%5Cleft%5B%5Csum_a%20q_%5Cpi%20(s_t%2C%20a)%20%5Cnabla%20%5Cpi(a%20%7Cs_t%2C%20%5Ctheta)%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%5Csum_a%20%5Cpi(a%7Cs_t%2C%20%5Ctheta)%20q_%5Cpi(s_t%2C%20a)%20%5Cfrac%7B%5Cnabla%20%5Cpi(a%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5BE_%5Cpi%20%5Cleft(%20q_%5Cpi(s_t%2C%20a)%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%20%5Cright)%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20q_%5Cpi(s_t%2C%20a_t)%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
-Now by replacing the <!-- $q(s, a) = E [G|s,a]$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=q(s%2C%20a)%20%3D%20E%20%5BG%7Cs%2Ca%5D">, where <!-- $G$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G"> is by definition the expected return of the action <!-- $a$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=a"> taken from the state <!-- $s$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=s">, e.g. sum of all the rewards obtained during one terminated scenario, we get to the final resulting formula
-<!-- $$
+$$
+Now by replacing the $q(s, a) = E [G|s,a]$, where $G$ is by definition the expected return of the action $a$ taken from the state $s$, e.g. sum of all the rewards obtained during one terminated scenario, we get to the final resulting formula
+$$
     \begin{aligned}
     \nabla J
     &\propto E_\pi \left[ q_\pi(s_t, a_t) \frac{\nabla \pi(a_t |s_t, \theta)}{\pi(a_t|s_t, \theta)}\right]\\
@@ -59,11 +51,9 @@ Now by replacing the <!-- $q(s, a) = E [G|s,a]$ --> <img style="transform: trans
     &=E_\pi \left[ G_t \frac{\nabla \pi(a_t |s_t, \theta)}{\pi(a_t|s_t, \theta)}\right]\\
     &=E_\pi \left[ \nabla \log \pi(a_t |s_t, \theta) G_t \right]\\
     \end{aligned}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla%20J%0A%20%20%20%20%26%5Cpropto%20E_%5Cpi%20%5Cleft%5B%20q_%5Cpi(s_t%2C%20a_t)%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20E_%5Cpi%5BG_t%20%7C%20s_t%2C%20a_t%5D%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20G_t%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20G_t%20%5Cright%5D%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
-Here <!-- $G_t, s_t, a_t \sim \pi$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G_t%2C%20s_t%2C%20a_t%20%5Csim%20%5Cpi"> are variables sampled from observing the agent, that follows the strategy $\pi$. Even though this strategy looks wonderful, it have a downside. The function <!-- $G_t$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G_t"> can be estimated only after the whole episode is played. Therefore, making the whole method episodic. The possible logical continuation is to replace <!-- $G_t$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G_t"> by some estimate, that can be easily computed at the time of agent taking action to speed up and facilitate the computations. Its easy to see, that by following the definitions
-<!-- $$
+$$
+Here $G_t, s_t, a_t \sim \pi$ are variables sampled from observing the agent, that follows the strategy $\pi$. Even though this strategy looks wonderful, it have a downside. The function $G_t$ can be estimated only after the whole episode is played. Therefore, making the whole method episodic. The possible logical continuation is to replace $G_t$ by some estimate, that can be easily computed at the time of agent taking action to speed up and facilitate the computations. Its easy to see, that by following the definitions
+$$
     \begin{aligned}
     v(s)
     &= E_\pi \left[ G_t | S = s \right]\\
@@ -71,157 +61,111 @@ Here <!-- $G_t, s_t, a_t \sim \pi$ --> <img style="transform: translateY(0.1em);
     &= E_\pi \left[ R_t + \gamma E_\pi [G_{t+1} |S = s'] | S = s \right]\\
     &= E_\pi \left[ R_t + \gamma v(s') | S = s \right]\\
     \end{aligned}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20v(s)%0A%20%20%20%20%26%3D%20E_%5Cpi%20%5Cleft%5B%20G_t%20%7C%20S%20%3D%20s%20%5Cright%5D%5C%5C%0A%20%20%20%20%26%3D%20E_%5Cpi%20%5Cleft%5B%20R_t%20%2B%20%5Cgamma%20G_%7Bt%2B1%7D%20%7C%20S%20%3D%20s%20%5Cright%5D%5C%5C%0A%20%20%20%20%26%3D%20E_%5Cpi%20%5Cleft%5B%20R_t%20%2B%20%5Cgamma%20E_%5Cpi%20%5BG_%7Bt%2B1%7D%20%7CS%20%3D%20s'%5D%20%7C%20S%20%3D%20s%20%5Cright%5D%5C%5C%0A%20%20%20%20%26%3D%20E_%5Cpi%20%5Cleft%5B%20R_t%20%2B%20%5Cgamma%20v(s')%20%7C%20S%20%3D%20s%20%5Cright%5D%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
+$$
 Therefore, we can replace out estimate of gradient of value function by following expression 
-<!-- $$
+$$
     \begin{aligned}
     \nabla J
     &=E_\pi \left[ \nabla \log \pi(a_t |s_t, \theta) G_t \right]\\
     &=E_\pi \left[ R_t +  \gamma v(s_{t+1}) \nabla \log \pi(a_t |s_t, \theta)  \right]\\
     \end{aligned}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla%20J%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20G_t%20%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20R_t%20%2B%20%20%5Cgamma%20v(s_%7Bt%2B1%7D)%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
+$$
 Lets also notice, that:
-<!-- $$\nabla_{\theta} f(s, a) = f(s, a) \nabla \sum_a \pi(a |s, \theta)$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
-Where <!-- $f(s, a)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=f(s%2C%20a)"> is any function independent of <!-- $\theta$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta">. This observation yields an interesting result. We now can add the term to introduced expectation, without changing it
-<!-- $$
+$$\nabla_{\theta} f(s, a) = f(s, a) \nabla \sum_a \pi(a |s, \theta)$$
+Where $f(s, a)$ is any function independent of $\theta$. This observation yields an interesting result. We now can add the term to introduced expectation, without changing it
+$$
 E_\pi \left[ ( R_t +  \gamma v(s_{t+1}) -f(s, a))\, \nabla \log \pi(a_t |s_t, \theta)  \right]
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=E_%5Cpi%20%5Cleft%5B%20(%20R_t%20%2B%20%20%5Cgamma%20v(s_%7Bt%2B1%7D)%20-f(s%2C%20a))%5C%2C%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D"></div>
+$$
 Setting the $f(s, a) = v(s)$, we obtain one of the most commonly used estimator of the desired gradient:
-<!-- $$
+$$
 E_\pi \left[ ( \hat{Q}(s, a) - \hat{v}(s))\, \nabla \log \pi(a_t |s_t, \theta)  \right] = E_\pi \left[\hat{A_t}(s, a)\, \nabla \log \pi(a_t |s_t, \theta)  \right] 
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=E_%5Cpi%20%5Cleft%5B%20(%20%5Chat%7BQ%7D(s%2C%20a)%20-%20%5Chat%7Bv%7D(s))%5C%2C%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D%20%3D%20E_%5Cpi%20%5Cleft%5B%5Chat%7BA_t%7D(s%2C%20a)%5C%2C%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D%20"></div>
+$$
 The hat indicates that we use the approximation of the value function of any given state to compute the advantage function at time step t and expectation is replaced empirical expectation $\hat{E}$ by averaging over batch of series played by the same agent. A lot of software are using the automatic differentiation packages, and in that case it makes more sense to introduce the differentiable function which we are going to maximise by changing the $\theta$.
-<!-- $$
+$$
 L(\theta) = \hat{E}_\pi \left[\hat{A_t}(s, a)\, \log \pi(a_t |s_t, \theta)  \right] 
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=L(%5Ctheta)%20%3D%20%5Chat%7BE%7D_%5Cpi%20%5Cleft%5B%5Chat%7BA_t%7D(s%2C%20a)%5C%2C%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D%20"></div>
+$$
 This expression can be easily extended to continuous spaces of states and actions. Of course taking $J$ as a value function is one of possible choices, that yield arguably the most general approach and REINFORCE algorithm. There exists different propositions. One of disadvantages of REINFORCE and REINFORCE with baseline is that in original the update can be done only after the episod is played in backward manner. So the updates are performed once for each action-state pair in a given episode, e.g.
-<!-- $$
+$$
 \theta_{t+1} = \theta_{t} + \alpha G_t\frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta_%7Bt%2B1%7D%20%3D%20%5Ctheta_%7Bt%7D%20%2B%20%5Calpha%20G_t%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D"></div>
+$$
 This is a terrible estimate of expectation over the policy and can create a huge error. One may desire to take more stable version, by considering the expectation of returns over set of trajectories. For example by optimising finite-horizon undiscounted return  e.g. 
-<!-- $$
+$$
  J(\theta) = E_{\tau \sim \pi} [R(\tau)] = \int  P(\tau|\theta) R(\tau)\\
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20J(%5Ctheta)%20%3D%20E_%7B%5Ctau%20%5Csim%20%5Cpi%7D%20%5BR(%5Ctau)%5D%20%3D%20%5Cint%20%20P(%5Ctau%7C%5Ctheta)%20R(%5Ctau)%5C%5C"></div>
+$$
 This approach yields well known Vanila Gradient Policy algorithm.
 In this expression the probabilities over trajectories is taken, trajectory $\tau$ is chain of states and actions taken $s_0, a_0, s_1, ...$. Its easy to see, that probability of the trajectory can be described as a product of probabilities of taking successive actions and moving between states after taking them 
-<!-- $$
+$$
 P(\tau|\theta) = \rho(s_0) \prod_{t=0}^{T} P(s_{t+1}|s_{t}, a_{t}) \pi_{\theta}(a_{t}, s_{t})
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=P(%5Ctau%7C%5Ctheta)%20%3D%20%5Crho(s_0)%20%5Cprod_%7Bt%3D0%7D%5E%7BT%7D%20P(s_%7Bt%2B1%7D%7Cs_%7Bt%7D%2C%20a_%7Bt%7D)%20%5Cpi_%7B%5Ctheta%7D(a_%7Bt%7D%2C%20s_%7Bt%7D)"></div>
+$$
 Here $\rho(\cdot)$ is distribution of initial position of the agent. Now by considering the $\nabla \log(\cdot)$ trick
-<!-- $$
+$$
 \nabla_{\theta} P(\tau |\theta) = P(\tau |\theta) \nabla_{\theta} \log P(\tau | \theta)
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cnabla_%7B%5Ctheta%7D%20P(%5Ctau%20%7C%5Ctheta)%20%3D%20P(%5Ctau%20%7C%5Ctheta)%20%5Cnabla_%7B%5Ctheta%7D%20%5Clog%20P(%5Ctau%20%7C%20%5Ctheta)"></div>
+$$
 we can transform
-<!-- $$
+$$
     \begin{aligned}
     \nabla_{\theta} J(\theta) 
     &= \nabla_{\theta} E_{\tau \sim \pi} [R(\tau)] = \nabla_{\theta} \int  P(\tau|\theta) R(\tau)\\
     &= \int \nabla_{\theta} P(\tau|\theta) R(\tau) = \int R(\tau) P(\tau |\theta) \nabla_{\theta} \log P(\tau | \theta) \\
     &= E_{\tau \sim \pi} [ R(\tau) \nabla_{\theta} \log P(\tau | \theta) ]
     \end{aligned}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla_%7B%5Ctheta%7D%20J(%5Ctheta)%20%0A%20%20%20%20%26%3D%20%5Cnabla_%7B%5Ctheta%7D%20E_%7B%5Ctau%20%5Csim%20%5Cpi%7D%20%5BR(%5Ctau)%5D%20%3D%20%5Cnabla_%7B%5Ctheta%7D%20%5Cint%20%20P(%5Ctau%7C%5Ctheta)%20R(%5Ctau)%5C%5C%0A%20%20%20%20%26%3D%20%5Cint%20%5Cnabla_%7B%5Ctheta%7D%20P(%5Ctau%7C%5Ctheta)%20R(%5Ctau)%20%3D%20%5Cint%20R(%5Ctau)%20P(%5Ctau%20%7C%5Ctheta)%20%5Cnabla_%7B%5Ctheta%7D%20%5Clog%20P(%5Ctau%20%7C%20%5Ctheta)%20%5C%5C%0A%20%20%20%20%26%3D%20E_%7B%5Ctau%20%5Csim%20%5Cpi%7D%20%5B%20R(%5Ctau)%20%5Cnabla_%7B%5Ctheta%7D%20%5Clog%20P(%5Ctau%20%7C%20%5Ctheta)%20%5D%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
+$$
 But at the same time
-<!-- $$
+$$
     \begin{aligned}
     \nabla_{\theta} \log P(\tau | \theta)
     &= \nabla_{\theta} \left(\log(\rho(s_0)) + \sum_{t=0}^{T} \log(P(s_{t+1}|s_{t}, a_{t})) + \log( \pi_{\theta}(a_{t}, s_{t}))\right)\\ 
     &= \sum_{t=0}^{T}  \nabla_{\theta}  \log( \pi_{\theta}(a_{t}, s_{t}))\\
     \end{aligned}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla_%7B%5Ctheta%7D%20%5Clog%20P(%5Ctau%20%7C%20%5Ctheta)%0A%20%20%20%20%26%3D%20%5Cnabla_%7B%5Ctheta%7D%20%5Cleft(%5Clog(%5Crho(s_0))%20%2B%20%5Csum_%7Bt%3D0%7D%5E%7BT%7D%20%5Clog(P(s_%7Bt%2B1%7D%7Cs_%7Bt%7D%2C%20a_%7Bt%7D))%20%2B%20%5Clog(%20%5Cpi_%7B%5Ctheta%7D(a_%7Bt%7D%2C%20s_%7Bt%7D))%5Cright)%5C%5C%20%0A%20%20%20%20%26%3D%20%5Csum_%7Bt%3D0%7D%5E%7BT%7D%20%20%5Cnabla_%7B%5Ctheta%7D%20%20%5Clog(%20%5Cpi_%7B%5Ctheta%7D(a_%7Bt%7D%2C%20s_%7Bt%7D))%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
+$$
 This manoeuvre yields final result
-<!-- $$
+$$
 \nabla J(\theta) = E_{\tau \sim\pi}\left[R(\tau) \sum_{t=0}^T \frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}\right]
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cnabla%20J(%5Ctheta)%20%3D%20E_%7B%5Ctau%20%5Csim%5Cpi%7D%5Cleft%5BR(%5Ctau)%20%5Csum_%7Bt%3D0%7D%5ET%20%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%5Cright%5D"></div>
+$$
 They do look very similar in objective functions, but they are different. The biggest difference probably comes from different approach to derivation of policy gradient, since in REINFORCE the expectation is taken over actions and states sampled from given distribution $\pi$ but in VPG the expectation is taken over all possible trajectories given a fixed policy. Also, the way the gradient ascent is performed differs strongly since in REINFORCE method the gradient ascent is performed once for each action taken for each episode and the direction of ascent is taken as 
 
-<!-- $$
+$$
 G_t\frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=G_t%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D"></div>
+$$
 so the update becomes
-<!-- $$
+$$
 \theta_{t+1} = \theta_{t} + \alpha G_t\frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta_%7Bt%2B1%7D%20%3D%20%5Ctheta_%7Bt%7D%20%2B%20%5Calpha%20G_t%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D"></div>
+$$
 but in VPG algorithm the gradient ascents performed once over multiple episodes and direction of ascent taken as average
 
-<!-- $$
+$$
 \frac{1}{|\mathcal{T}|}\sum_{\tau\in\mathcal{T}} \sum_{t=0}^T R(\tau) \frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="svg/XNPePVlArN.svg"></div>
+$$
 
 and gradient ascent step is
 
-<!-- $$
+$$
 \theta_{t+1} = \theta_{t} + \alpha \frac{1}{|\mathcal{T}|}\sum_{\tau\in\mathcal{T}} \sum_{t=0}^T R(\tau) \frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta_%7Bt%2B1%7D%20%3D%20%5Ctheta_%7Bt%7D%20%2B%20%5Calpha%20%5Cfrac%7B1%7D%7B%7C%5Cmathcal%7BT%7D%7C%7D%5Csum_%7B%5Ctau%5Cin%5Cmathcal%7BT%7D%7D%20%5Csum_%7Bt%3D0%7D%5ET%20R(%5Ctau)%20%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D"></div>
-Where <!-- $\mathcal{T}$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/khOLO9Hnfn.svg"> is set of all the trajectories. In accordance with baseline trick introduced before, this objective function can too be transformed into more general version
-<!-- $$
+$$
+Where $\mathcal{T}$ is set of all the trajectories. In accordance with baseline trick introduced before, this objective function can too be transformed into more general version
+$$
 \nabla J(\theta) = E_{\tau \sim\pi}\left[ \sum_{t=0}^T \Phi_t \frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}\right]
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cnabla%20J(%5Ctheta)%20%3D%20E_%7B%5Ctau%20%5Csim%5Cpi%7D%5Cleft%5B%20%5Csum_%7Bt%3D0%7D%5ET%20%5CPhi_t%20%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%5Cright%5D"></div>
+$$
 where 
-<!-- $$
+$$
 \Phi_t = R(\tau)
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5CPhi_t%20%3D%20R(%5Ctau)"></div>
+$$
 or
-<!-- $$
+$$
 \Phi_t = \sum_{t`=t}^TR(s_{t`}, a_{t`}, s_{t`+1}, a_{t`+1})
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5CPhi_t%20%3D%20%5Csum_%7Bt%60%3Dt%7D%5ETR(s_%7Bt%60%7D%2C%20a_%7Bt%60%7D%2C%20s_%7Bt%60%2B1%7D%2C%20a_%7Bt%60%2B1%7D)"></div>
+$$
 or
-<!-- $$
+$$
 \Phi_t = \sum_{t`=t}^TR(s_{t`}, a_{t`}, s_{t`+1}, a_{t`+1}) - f(a_t, s_t)
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5CPhi_t%20%3D%20%5Csum_%7Bt%60%3Dt%7D%5ETR(s_%7Bt%60%7D%2C%20a_%7Bt%60%7D%2C%20s_%7Bt%60%2B1%7D%2C%20a_%7Bt%60%2B1%7D)%20-%20f(a_t%2C%20s_t)"></div>
+$$
 yielding family of algorithms, which average over the trajectories taken when optimising the agent's policy. We would later assume, without proving, that they are equivalent from theoretical stand point, e.g. method described for 
-<!-- $$
+$$
 E_{\tau \sim\pi}\left[ \sum_{t=0}^T \Phi_t \frac{\nabla \pi (A_t |S_t, \theta)}{\pi (A_t |S_t, \theta)}\right]
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=E_%7B%5Ctau%20%5Csim%5Cpi%7D%5Cleft%5B%20%5Csum_%7Bt%3D0%7D%5ET%20%5CPhi_t%20%5Cfrac%7B%5Cnabla%20%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%7B%5Cpi%20(A_t%20%7CS_t%2C%20%5Ctheta)%7D%5Cright%5D"></div>
+$$
 can be equivalently deduced for 
-<!-- $$
+$$
 E_\pi \left[\Phi_t(s, a)\, \nabla \log \pi(a_t |s_t, \theta)  \right]
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=E_%5Cpi%20%5Cleft%5B%5CPhi_t(s%2C%20a)%5C%2C%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D"></div>
+$$
 and the only difference between them will be the way of computing the gradient ascent step. This meaning, either minimizing over the batch of episodes or taking each episode separately.
 In Deep Learning the method of averaging over batch and performing several epochs on the same database is often utilised due to limited amount of data. In reinforcement learning paradigm the same approach is desirable. But while it is appealing to perform multiple steps of optimisation over the same trajectory, it is not justified and empirically it often leads to destructively large policy updates.
 ## Gradient Ascent Optimisation
@@ -229,81 +173,64 @@ In Deep Learning the method of averaging over batch and performing several epoch
 ### Vanilla policy gradient methods
 
 In the last section, we saw that in the policy gradient methods, the most classical form of the gradient was 
-<!-- $$
+$$
 \hat{g} =  \hat{E_{t}} \left[\hat{A_t}(s, a)\, \nabla \log \pi(a_t |s_t, \theta)  \right] 
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%7Bg%7D%20%3D%20%20%5Chat%7BE_%7Bt%7D%7D%20%5Cleft%5B%5Chat%7BA_t%7D(s%2C%20a)%5C%2C%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20%20%5Cright%5D%20"></div>
+$$
 Classically, we will use a stochastic gradient ascent by computing this gradient to maximize the function.
-<!-- $$ LPG(\theta) = \hat{E_{t}} \left[\hat{A_t}(s, a)\, \log \pi(a_t |s_t, \theta)  \right] $$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
+$$ LPG(\theta) = \hat{E_{t}} \left[\hat{A_t}(s, a)\, \log \pi(a_t |s_t, \theta)  \right] $$
 In Algorithm we present the *Vanilla Policy Gradient* algorithm, that allows to make one of the most simple implementations of gradient ascent.
 ******
 **Vanila Policy Gradient Algorithm**
 ******
-1. State Input: initial policy parameters <!-- $\theta_0$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/EXglaBVW0t.svg">, initial value function parameters <!-- $\phi_0$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/cPopePa4WI.svg">
-2. For k=0, 1, 2, ...
-3. Collect set of trajectories <!-- $\mathcal{D}_k = \{\tau_i\}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cmathcal%7BD%7D_k%20%3D%20%5C%7B%5Ctau_i%5C%7D"> by running policy <!-- $\pi_k = \pi_k(\theta_k)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi_k%20%3D%20%5Cpi_k(%5Ctheta_k)"> in the environment.
-4. Compute rewards-to-go <!-- $\hat{R}_t$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%7BR%7D_t">.
-5. Compute advantage estimates, <!-- $\hat{A}_t$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%7BA%7D_t">(using any method of advantage estimation) base on the current value function <!-- $V_{\phi_k}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=V_%7B%5Cphi_k%7D">.
+1. State Input: initial policy parameters $\theta_0$, initial value function parameters $\phi_0$
+2. For $k=0, 1, 2, ...$
+3. Collect set of trajectories $\mathcal{D}_k = \{\tau_i\}$ by running policy $\pi_k = \pi_k(\theta_k)$ in the environment.
+4. Compute rewards-to-go $\hat{R}_t$.
+5. Compute advantage estimates, $\hat{A}_t$(using any method of advantage estimation) base on the current value function $V_{\phi_k}$.
 6. Estimate policy gradient as 
-<!-- $$
+$$
 \hat{g}_k = \frac{1}{|\mathcal{D}_k|} \sum_{\tau\in\mathcal{D}_k}\sum_{t=0}^{T}\nabla_{\theta} \log \pi_{\theta}(a_t |s_t)|_{\theta_k} \hat{A}_k.
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%7Bg%7D_k%20%3D%20%5Cfrac%7B1%7D%7B%7C%5Cmathcal%7BD%7D_k%7C%7D%20%5Csum_%7B%5Ctau%5Cin%5Cmathcal%7BD%7D_k%7D%5Csum_%7Bt%3D0%7D%5E%7BT%7D%5Cnabla_%7B%5Ctheta%7D%20%5Clog%20%5Cpi_%7B%5Ctheta%7D(a_t%20%7Cs_t)%7C_%7B%5Ctheta_k%7D%20%5Chat%7BA%7D_k."></div>
-6. Compute policy update, either using standard gradient ascent,
-<!-- $$
+$$
+\State Compute policy update, either using standard gradient ascent,
+$$
 \theta_{k+1} = \theta_{k} + \alpha_k \hat{g}_k,
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta_%7Bk%2B1%7D%20%3D%20%5Ctheta_%7Bk%7D%20%2B%20%5Calpha_k%20%5Chat%7Bg%7D_k%2C"></div>
+$$
 or via another gradient ascent algorithm like Adam.
 7. Fit value function by regression on mean-squared error:
-<!-- $$
+$$
 \phi_{k+1} = \text{arg}\, \min_{\phi} \frac{1}{|\mathcal{D}_k|}\sum_{\tau\in\mathcal{D}_k}\frac{1}{T}\sum_{t=0}^{T}(V_\phi(s_t)-\hat{R}_t)^2
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cphi_%7Bk%2B1%7D%20%3D%20%5Ctext%7Barg%7D%5C%2C%20%5Cmin_%7B%5Cphi%7D%20%5Cfrac%7B1%7D%7B%7C%5Cmathcal%7BD%7D_k%7C%7D%5Csum_%7B%5Ctau%5Cin%5Cmathcal%7BD%7D_k%7D%5Cfrac%7B1%7D%7BT%7D%5Csum_%7Bt%3D0%7D%5E%7BT%7D(V_%5Cphi(s_t)-%5Chat%7BR%7D_t)%5E2"></div>
+$$
 typically via some gradient descent algorithm.
+8.
 ******
-In the *Vanilla Policy Gradient* or VPG, we start by choosing the parametrisation of <!-- $\pi_{\theta}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi_%7B%5Ctheta%7D">, by some differential function of latent parameter <!-- $\theta$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta">. It is usually characterised by neural network. As initial guess we set the weights of neural network randomly.  Now for updating its weights in the right direction we are in need of advantage function. Which is inaccessible, but can be estimated from value functions of state. Often even the value functions of the states are out of reach and we have to estimate them too. It makes sense to use similar parametric approach (value function can be estimated by different method, but VPG classically uses neural network for estimation). We initialise Value function neural network by random values. Its easy to notice, that the value function of a given state is exactly the mean rewards gain by following the policy from its state until the end of the episode. This gives rise to estimate written in Algorithm .We will leave the question of advantage function estimation for later.  Now assuming that we have a reasonable estimation of advantage function, we can finally compute the policy gradient direction and optimise the objective function.
+In the *Vanilla Policy Gradient* or VPG, we start by choosing the parametrisation of $\pi_{\theta}$, by some differential function of latent parameter $\theta$. It is usually characterised by neural network. As initial guess we set the weights of neural network randomly.  Now for updating its weights in the right direction we are in need of advantage function. Which is inaccessible, but can be estimated from value functions of state. Often even the value functions of the states are out of reach and we have to estimate them too. It makes sense to use similar parametric approach (value function can be estimated by different method, but VPG classically uses neural network for estimation). We initialise Value function neural network by random values. Its easy to notice, that the value function of a given state is exactly the mean rewards gain by following the policy from its state until the end of the episode. This gives rise to estimate written in Algorithm .We will leave the question of advantage function estimation for later.  Now assuming that we have a reasonable estimation of advantage function, we can finally compute the policy gradient direction and optimise the objective function.
 
 ### Advantages and Drawbacks
-In VGP, to maximize our objective function, we use the line search approach. At each step, we update the <!-- $\theta$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta"> parameters using 
+In VGP, to maximize our objective function, we use the line search approach. At each step, we update the $\theta$ parameters using 
 
-<!-- $$\theta_{t+1} = \theta_{t} + \alpha \nabla LPG(\theta)$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
+$$\theta_{t+1} = \theta_{t} + \alpha \nabla LPG(\theta)$$
 Assuming the gradient of the function to maximise is known, the gradient ascent is easy to implement. However it has major drawback in the choice of the parameter $\alpha$. Just as in the gradient descent algorithm it's choice is very important to the optimisation procedure. Taking it too big can change the policy too rapidly, which will make the destructive to the policy update. This problem also arises, when during the optimisation process we are reusing the sampled trajectory multiple times, since it produces the same effect of moving in to possible wrong direction in policy space for too long. This intuition was reinforced in . In this work the authors have developed a bound for changes in estimated discounted rewards from a given state, indicating that small change in policy in steepest ascent direction will surely improve the total expected reward of the agent. This result was developed for update rule represented by mixture of two distributions, which is not of big use in the policy gradient approach we are working with. 
 
 ### From line search to trust region
-The idea of small incremental changes to the policy was further developed in , by providing the bound for improvement of general update of the policy. To deal with the possible destructive step, the idea is to use the trust region approach. Further, it has been empirically proven that the critical network that determines the value function of a state is most sensitive to the weights of the network than to the policy. To summarize, a small change of <!-- $\theta$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta"> can generate a big change of the value function V, while most of the time, a small change of <!-- $\pi_{\theta}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi_%7B%5Ctheta%7D"> generates a small change of V. In order to have a relatively stable updating process, it is thus in our interest to act directly on the policy, and to make sure that the latter does not change too much from one iteration to another. 
+The idea of small incremental changes to the policy was further developed in , by providing the bound for improvement of general update of the policy. To deal with the possible destructive step, the idea is to use the trust region approach. Further, it has been empirically proven that the critical network that determines the value function of a state is most sensitive to the weights of the network than to the policy. To summarize, a small change of $\theta$ can generate a big change of the value function V, while most of the time, a small change of $\pi_{\theta}$ generates a small change of V. In order to have a relatively stable updating process, it is thus in our interest to act directly on the policy, and to make sure that the latter does not change too much from one iteration to another. 
 To be sure not to go too far in our update, we first identify the maximum step size that we allow ourselves. Then, we look for the optimal point in the considered region. Thus, in Trust Region Policy Optimization or TRPO, we limit how far we can change our policy in each iteration through restricting how much the policy will change after the gradient update.
-Since policy <!-- $\pi$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi"> defines the distribution over state, action space, it is possible to use any form of divergence between distributions. The TRPO uses the KL (Kullback-Leibler) divergence, for two discrete probability distributions <!-- $P$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P"> and <!-- $Q$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=Q"> :
-<!-- $$D_{KL}(P,Q) = \sum_{x} P(x) \log(\frac{P(x)}{Q(x)})$$ --> 
+Since policy $\pi$ defines the distribution over state, action space, it is possible to use any form of divergence between distributions. The TRPO uses the KL (Kullback-Leibler) divergence, for two discrete probability distributions $P$ and $Q$ :
+$$D_{KL}(P,Q) = \sum_{x} P(x) \log(\frac{P(x)}{Q(x)})$$
 
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
-
-We take for <!-- $P$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P"> and <!-- $Q$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=Q"> the old policy and the new policy obtained after updating the parameters.When the probability of an event <!-- $P(x)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(x)"> in <!-- $P$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P"> is high, if the same event in <!-- $Q$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=Q"> has a low probability, this creates a large KL divergence. Conversely, if the probability is low in $P$ and high in $Q$, the KL divergence is lower.
-For the policies <!-- $\pi_{\theta}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi_%7B%5Ctheta%7D"> and <!-- $\pi_{\theta_\text{old}}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi_%7B%5Ctheta_%5Ctext%7Bold%7D%7D"> not to be too far from each other, we will use the following update process:
-<!-- $$
+We take for $P$ and $Q$ the old policy and the new policy obtained after updating the parameters.When the probability of an event $P(x)$ in $P$ is high, if the same event in $Q$ has a low probability, this creates a large KL divergence. Conversely, if the probability is low in $P$ and high in $Q$, the KL divergence is lower.
+For the policies $\pi_{\theta}$ and $\pi_{\theta_\text{old}}$ not to be too far from each other, we will use the following update process:
+$$
     \begin{aligned}
         \text{maximize }&\,\hat{\mathbb{E}}\left[ \frac{\pi_\theta(a_t |s_t)}{\pi_{\theta_{\text{old}}}(a_t |s_t)} \hat{A}_t \right]\\
         \text{subject to }&\,\hat{\mathbb{E}}_t [\text{KL}[\pi_{\theta_{\text{old}}}(\cdot | s_t), \pi_{\theta}(\cdot|s_t)]] \leq \delta.
     \end{aligned}
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%20%20%20%20%5Ctext%7Bmaximize%20%7D%26%5C%2C%5Chat%7B%5Cmathbb%7BE%7D%7D%5Cleft%5B%20%5Cfrac%7B%5Cpi_%5Ctheta(a_t%20%7Cs_t)%7D%7B%5Cpi_%7B%5Ctheta_%7B%5Ctext%7Bold%7D%7D%7D(a_t%20%7Cs_t)%7D%20%5Chat%7BA%7D_t%20%5Cright%5D%5C%5C%0A%20%20%20%20%20%20%20%20%5Ctext%7Bsubject%20to%20%7D%26%5C%2C%5Chat%7B%5Cmathbb%7BE%7D%7D_t%20%5B%5Ctext%7BKL%7D%5B%5Cpi_%7B%5Ctheta_%7B%5Ctext%7Bold%7D%7D%7D(%5Ccdot%20%7C%20s_t)%2C%20%5Cpi_%7B%5Ctheta%7D(%5Ccdot%7Cs_t)%5D%5D%20%5Cleq%20%5Cdelta.%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
+$$
 We define a region in which our two policies are close according to the KL divergence, and we try to maximize our objective function in this region. 
 However, classical deep learning framewors like Tensorflow and PyTorch do not allow to do optimization under constraints. It is well known, that solving such an optimisation problem is equivalent to solving problem, in which we replace the constraint by a penalty term in the function to be optimized: 
-<!-- $$
+$$
 \text{maximize }\,\hat{\mathbb{E}}\left[ \frac{\pi_\theta(a_t |s_t)}{\pi_{\theta_{\text{old}}}(a_t |s_t)} \hat{A}_t - \beta \, \text{KL}[\pi_{\theta_{\text{old}}}(\cdot | s_t), \pi_{\theta}(\cdot|s_t)] \right]
-$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Ctext%7Bmaximize%20%7D%5C%2C%5Chat%7B%5Cmathbb%7BE%7D%7D%5Cleft%5B%20%5Cfrac%7B%5Cpi_%5Ctheta(a_t%20%7Cs_t)%7D%7B%5Cpi_%7B%5Ctheta_%7B%5Ctext%7Bold%7D%7D%7D(a_t%20%7Cs_t)%7D%20%5Chat%7BA%7D_t%20-%20%5Cbeta%20%5C%2C%20%5Ctext%7BKL%7D%5B%5Cpi_%7B%5Ctheta_%7B%5Ctext%7Bold%7D%7D%7D(%5Ccdot%20%7C%20s_t)%2C%20%5Cpi_%7B%5Ctheta%7D(%5Ccdot%7Cs_t)%5D%20%5Cright%5D"></div>
- We have gotten ride of the problem of choosing the suitable parameter <!-- $\alpha$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Calpha">, but we have introduced two new parameters to be optimised <!-- $\delta, \beta$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cdelta%2C%20%5Cbeta">. If the difficulty in the line search methods lay in the choice of the <!-- $\alpha$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Calpha"> parameter, it is still complicated to choose the $\delta$ or $\beta$ parameters in the Trust Region methods. 
+$$
+ We have gotten ride of the problem of choosing the suitable parameter $\alpha$, but we have introduced two new parameters to be optimised $\delta, \beta$. If the difficulty in the line search methods lay in the choice of the $\alpha$ parameter, it is still complicated to choose the $\delta$ or $\beta$ parameters in the Trust Region methods. 
 # Proximal Policy Optimisation
 
 Now that we have studied the main points of our problem, by focusing on the objective functions that we want to optimize, let's focus on the added value of the article studied. This article proposes algorithms to solve the problems identified in the previous part, namely the choice of the hyper-parameters of the gradient ascent, $\alpha$, $\beta$ and $\delta$.
