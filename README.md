@@ -25,19 +25,21 @@ The other way of solving the stated problem is to introduce a function that can 
 $$ --> 
 
 <div align="center"><img style="background: black;" src="https://render.githubusercontent.com/render/math?math=%5Ctheta%20%3D%20%5Ctheta%20%2B%20%5Calpha%20%5Cnabla%20J(%5Ctheta)."></div>
-Now the challenging problem is creating the suitable function $J$ that can be efficiently computed for the simulated scenarios. The function of interest have to satisfy some mathematical constraints. It have to be easily computed and its maximisation have to lead to optimal agent for specified problem.
-One of the choices is to use value function of the starting state of the algorithm $v(s_0)$. By definition $v(s)$ is given by
+Now the challenging problem is creating the suitable function J that can be efficiently computed for the simulated scenarios. The function of interest have to satisfy some mathematical constraints. It have to be easily computed and its maximisation have to lead to optimal agent for specified problem.
+One of the choices is to use value function of the starting state of the algorithm <!-- $v(s_0)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=v(s_0)">. By definition <!-- $v(s)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=v(s)"> is given by
 <!-- $$s
 v(s) = \sum_a \pi(a |s) q_{\pi}(a, s)
 $$ --> 
 
 <div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=v(s)%20%3D%20%5Csum_a%20%5Cpi(a%20%7Cs)%20q_%7B%5Cpi%7D(a%2C%20s)"></div>
-where $q(s, a) = r(s, a) + \gamma^i v(s')$ is the action value function. It means basically that we want to find a strategy to act in the environment, that will bring the biggest reward if we will start playing from state $s_0$. This looks like challenging task at first, but luckily for us there are a more easy way to deal with representation of gradient of value function, given by policy gradient algorithm, which states that
-$$
+where <!-- $q(s, a) = r(s, a) + \gamma^i v(s')$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=q(s%2C%20a)%20%3D%20r(s%2C%20a)%20%2B%20%5Cgamma%5Ei%20v(s')"> is the action value function. It means basically that we want to find a strategy to act in the environment, that will bring the biggest reward if we will start playing from state <!-- $s_0$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=s_0">. This looks like challenging task at first, but luckily for us there are a more easy way to deal with representation of gradient of value function, given by policy gradient algorithm, which states that
+<!-- $$
 \nabla J \propto \sum_s \mu(s) \sum_a q_\pi (s, a) \nabla \pi(a |s, \theta)
-$$
-Here the $\mu$ is the distribution of being in given state under policy $\pi$. Therefore, the expression above can be rewritten as $E_\pi \left[\sum_a q_\pi (s_t, a) \nabla \pi(a |s_t, \theta)\right]$. Now, the only thing left is dealing with unknown function of $q$. One of possible approaches is for example to estimate it by some other easy to compute function $\hat{q}$. The approach of interest for this work it to introduce another expectation in the expression, rewriting it as:
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cnabla%20J%20%5Cpropto%20%5Csum_s%20%5Cmu(s)%20%5Csum_a%20q_%5Cpi%20(s%2C%20a)%20%5Cnabla%20%5Cpi(a%20%7Cs%2C%20%5Ctheta)"></div>
+Here the <!-- $\mu$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cmu"> is the distribution of being in given state under policy <!-- $\pi$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cpi">. Therefore, the expression above can be rewritten as <!-- $E_\pi \left[\sum_a q_\pi (s_t, a) \nabla \pi(a |s_t, \theta)\right]$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=E_%5Cpi%20%5Cleft%5B%5Csum_a%20q_%5Cpi%20(s_t%2C%20a)%20%5Cnabla%20%5Cpi(a%20%7Cs_t%2C%20%5Ctheta)%5Cright%5D">. Now, the only thing left is dealing with unknown function of <!-- $q$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=q">. One of possible approaches is for example to estimate it by some other easy to compute function <!-- $\hat{q}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%7Bq%7D">. The approach of interest for this work it to introduce another expectation in the expression, rewriting it as:
+<!-- $$
     \begin{aligned}
     \nabla J
     &\propto E_\pi \left[\sum_a q_\pi (s_t, a) \nabla \pi(a |s_t, \theta)\right]\\
@@ -45,9 +47,11 @@ $$
     &=E_\pi \left[E_\pi \left( q_\pi(s_t, a) \frac{\nabla \pi(a_t |s_t, \theta)}{\pi(a_t|s_t, \theta)} \right)\right]\\
     &=E_\pi \left[ q_\pi(s_t, a_t) \frac{\nabla \pi(a_t |s_t, \theta)}{\pi(a_t|s_t, \theta)}\right]\\
     \end{aligned}
-$$
-Now by replacing the $q(s, a) = E [G|s,a]$, where $G$ is by definition the expected return of the action $a$ taken from the state $s$, e.g. sum of all the rewards obtained during one terminated scenario, we get to the final resulting formula
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla%20J%0A%20%20%20%20%26%5Cpropto%20E_%5Cpi%20%5Cleft%5B%5Csum_a%20q_%5Cpi%20(s_t%2C%20a)%20%5Cnabla%20%5Cpi(a%20%7Cs_t%2C%20%5Ctheta)%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%5Csum_a%20%5Cpi(a%7Cs_t%2C%20%5Ctheta)%20q_%5Cpi(s_t%2C%20a)%20%5Cfrac%7B%5Cnabla%20%5Cpi(a%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5BE_%5Cpi%20%5Cleft(%20q_%5Cpi(s_t%2C%20a)%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%20%5Cright)%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20q_%5Cpi(s_t%2C%20a_t)%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
+Now by replacing the <!-- $q(s, a) = E [G|s,a]$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=q(s%2C%20a)%20%3D%20E%20%5BG%7Cs%2Ca%5D">, where <!-- $G$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G"> is by definition the expected return of the action <!-- $a$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=a"> taken from the state <!-- $s$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=s">, e.g. sum of all the rewards obtained during one terminated scenario, we get to the final resulting formula
+<!-- $$
     \begin{aligned}
     \nabla J
     &\propto E_\pi \left[ q_\pi(s_t, a_t) \frac{\nabla \pi(a_t |s_t, \theta)}{\pi(a_t|s_t, \theta)}\right]\\
@@ -55,8 +59,10 @@ $$
     &=E_\pi \left[ G_t \frac{\nabla \pi(a_t |s_t, \theta)}{\pi(a_t|s_t, \theta)}\right]\\
     &=E_\pi \left[ \nabla \log \pi(a_t |s_t, \theta) G_t \right]\\
     \end{aligned}
-$$
-Here $G_t, s_t, a_t \sim \pi$ are variables sampled from observing the agent, that follows the strategy $\pi$. Even though this strategy looks wonderful, it have a downside. The function $G_t$ can be estimated only after the whole episode is played. Therefore, making the whole method episodic. The possible logical continuation is to replace $G_t$ by some estimate, that can be easily computed at the time of agent taking action to speed up and facilitate the computations. Its easy to see, that by following the definitions
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%20%20%20%20%5Cbegin%7Baligned%7D%0A%20%20%20%20%5Cnabla%20J%0A%20%20%20%20%26%5Cpropto%20E_%5Cpi%20%5Cleft%5B%20q_%5Cpi(s_t%2C%20a_t)%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20E_%5Cpi%5BG_t%20%7C%20s_t%2C%20a_t%5D%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20G_t%20%5Cfrac%7B%5Cnabla%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%7D%7B%5Cpi(a_t%7Cs_t%2C%20%5Ctheta)%7D%5Cright%5D%5C%5C%0A%20%20%20%20%26%3DE_%5Cpi%20%5Cleft%5B%20%5Cnabla%20%5Clog%20%5Cpi(a_t%20%7Cs_t%2C%20%5Ctheta)%20G_t%20%5Cright%5D%5C%5C%0A%20%20%20%20%5Cend%7Baligned%7D"></div>
+Here <!-- $G_t, s_t, a_t \sim \pi$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G_t%2C%20s_t%2C%20a_t%20%5Csim%20%5Cpi"> are variables sampled from observing the agent, that follows the strategy $\pi$. Even though this strategy looks wonderful, it have a downside. The function <!-- $G_t$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=G_t"> can be estimated only after the whole episode is played. Therefore, making the whole method episodic. The possible logical continuation is to replace $G_t$ by some estimate, that can be easily computed at the time of agent taking action to speed up and facilitate the computations. Its easy to see, that by following the definitions
 $$
     \begin{aligned}
     v(s)
