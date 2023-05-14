@@ -108,7 +108,7 @@ def main(args):
 	# Creates the environment we'll be running. If you want to replace with your own
 	# custom environment, note that it must inherit Gym and have both continuous
 	# observation and action spaces.
-	env = gym.make('Pendulum-v0')
+	env = gym.make('BipedalWalker-v3', render_mode="human")
 
 	# Train or test, depending on the mode specified
 	if args.mode == 'train':

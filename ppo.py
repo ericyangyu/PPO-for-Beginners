@@ -6,6 +6,7 @@
 
 import gym
 import time
+import os
 
 import numpy as np
 import time
@@ -184,6 +185,7 @@ class PPO:
 
 			# Reset the environment. sNote that obs is short for observation. 
 			obs = self.env.reset()
+			obs = torch.tensor(obs[0])
 			done = False
 
 			# Run an episode for a maximum of max_timesteps_per_episode timesteps
@@ -200,7 +202,7 @@ class PPO:
 				# Calculate action and make a step in the env. 
 				# Note that rew is short for reward.
 				action, log_prob = self.get_action(obs)
-				obs, rew, done, _ = self.env.step(action)
+				obs, rew, done, _, _ = self.env.step(action)
 
 				# Track recent reward, action, and action log probability
 				ep_rews.append(rew)
@@ -216,8 +218,9 @@ class PPO:
 			batch_rews.append(ep_rews)
 
 		# Reshape data as tensors in the shape specified in function description, before returning
-		batch_obs = torch.tensor(batch_obs, dtype=torch.float)
-		batch_acts = torch.tensor(batch_acts, dtype=torch.float)
+		batch_obs = convertToTensor(batch_obs)
+		#batch_acts = torch.tensor(batch_acts, dtype=torch.float)
+		batch_acts = convertToTensor(batch_acts)
 		batch_log_probs = torch.tensor(batch_log_probs, dtype=torch.float)
 		batch_rtgs = self.compute_rtgs(batch_rews)                                                              # ALG STEP 4
 
@@ -397,3 +400,22 @@ class PPO:
 		self.logger['batch_lens'] = []
 		self.logger['batch_rews'] = []
 		self.logger['actor_losses'] = []
+
+def convertToTensor(list):
+	'''
+
+	Args:
+		list: an array of 1D tensors
+
+	Returns: a 2D tensor
+
+	'''
+	ans = []
+	temp = []
+	for i in range(len(list)):
+		temp = []
+		for j in range(len(list[i])):
+			temp.append(list[i][j])
+		ans.append(temp)
+	return torch.tensor(ans)
+
