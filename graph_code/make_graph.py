@@ -111,6 +111,8 @@ def extract_stable_baselines_data(env, filename):
             l = [e.strip() for e in l.split('|')]
             if 'ep_reward_mean' in l:
                 y.append(float(l[2]))
+            elif 'ep_rew_mean' in l:
+                y.append(float(l[2]))
             if 'total_timesteps' in l:
                 x.append(int(l[2]))
     return x, y
@@ -334,7 +336,7 @@ def graph_data(paths):
         plt.title(f'{env} on Random Seeds {seeds}')
         plt.xlabel('Average Total Timesteps So Far')
         plt.ylabel('Average Episodic Return')
-        plt.legend(['Stable Baselines PPO2', 'PPO for Beginners'])
+        plt.legend(['Stable Baselines PPO3', 'PPO for Beginners'])
         # Show graph so user can screenshot
         plt.show()
 

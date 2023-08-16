@@ -102,13 +102,17 @@ def main(args):
 				'lr': 3e-4, 
 				'clip': 0.2,
 				'render': True,
-				'render_every_i': 10
+				'render_every_i': 10,
+				'max_grad_norm':0.5,
+				'target_kl':0.02,
+				'ent_coef':0,
+				'num_minibatches':6
 			  }
-
+	
 	# Creates the environment we'll be running. If you want to replace with your own
 	# custom environment, note that it must inherit Gym and have both continuous
 	# observation and action spaces.
-	env = gym.make('Pendulum-v0')
+	env = gym.make('Pendulum-v1')
 
 	# Train or test, depending on the mode specified
 	if args.mode == 'train':
