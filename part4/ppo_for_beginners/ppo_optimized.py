@@ -4,7 +4,6 @@
             It can be found here: https://spinningup.openai.com/en/latest/_images/math/e62a8971472597f4b014c2da064f636ffe365ba3.svg
 """
 
-# import gym
 import time
 import gymnasium as gym
 
@@ -34,7 +33,6 @@ class PPO:
                 None
         """
         # Make sure the environment is compatible with our code
-        print(type(env.observation_space))
         assert(type(env.observation_space) == gym.spaces.box.Box)
         assert(type(env.action_space) == gym.spaces.box.Box)
         
@@ -118,23 +116,27 @@ class PPO:
                 # Learning Rate Annealing
                 frac = (t_so_far - 1.0) / total_timesteps
                 new_lr = self.lr * (1.0 - frac)
+
+                # Make sure learning rate doesn't go below 0
                 new_lr = max(new_lr, 0.0)
                 self.actor_optim.param_groups[0]["lr"] = new_lr
                 self.critic_optim.param_groups[0]["lr"] = new_lr
+                # Log learning rate
                 self.logger['lr'] = new_lr
 
                 # Mini-batch Update
-                np.random.shuffle(inds)
+                np.random.shuffle(inds) # Shuffling the index
                 for start in range(0, step, minibatch_size):
                     end = start + minibatch_size
                     idx = inds[start:end]
+                    # Extract data at the sampled indices
                     mini_obs = batch_obs[idx]
                     mini_acts = batch_acts[idx]
                     mini_log_prob = batch_log_probs[idx]
                     mini_advantage = A_k[idx]
                     mini_rtgs = batch_rtgs[idx]
 
-                    # Calculate V_phi and pi_theta(a_t | s_t)
+                    # Calculate V_phi and pi_theta(a_t | s_t) and entropy
                     V, curr_log_probs, entropy = self.evaluate(mini_obs, mini_acts)
 
                     # Calculate the ratio pi_theta(a_t | s_t) / pi_theta_k(a_t | s_t)
@@ -161,12 +163,13 @@ class PPO:
 
                     # Entropy Regularization
                     entropy_loss = entropy.mean()
+                    # Discount entropy loss by given coefficient
                     actor_loss = actor_loss - self.ent_coef * entropy_loss                    
                     
                     # Calculate gradients and perform backward propagation for actor network
                     self.actor_optim.zero_grad()
                     actor_loss.backward(retain_graph=True)
-                    # Gradient Clipping
+                    # Gradient Clipping with given threshold
                     nn.utils.clip_grad_norm_(self.actor.parameters(), self.max_grad_norm)
                     self.actor_optim.step()
 
@@ -179,7 +182,7 @@ class PPO:
                     loss.append(actor_loss.detach())
                 # Approximating KL Divergence
                 if approx_kl > self.target_kl:
-                    break
+                    break # if kl aboves threshold
             # Log actor loss
             avg_loss = sum(loss) / len(loss)
             self.logger['actor_losses'].append(avg_loss)
@@ -193,25 +196,33 @@ class PPO:
                 torch.save(self.critic.state_dict(), './ppo_critic.pth')
 
     def calculate_gae(self, rewards, values, dones):
-        batch_advantages = []
+        batch_advantages = []  # List to store computed advantages for each timestep
 
+        # Iterate over each episode's rewards, values, and done flags
         for ep_rews, ep_vals, ep_dones in zip(rewards, values, dones):
-            advantages = []
-            last_advantage = 0
+            advantages = []  # List to store advantages for the current episode
+            last_advantage = 0  # Initialize the last computed advantage
 
+            # Calculate episode advantage in reverse order (from last timestep to first)
             for t in reversed(range(len(ep_rews))):
                 if t + 1 < len(ep_rews):
+                    # Calculate the temporal difference (TD) error for the current timestep
                     delta = ep_rews[t] + self.gamma * ep_vals[t+1] * (1 - ep_dones[t+1]) - ep_vals[t]
                 else:
+                    # Special case at the boundary (last timestep)
                     delta = ep_rews[t] - ep_vals[t]
 
+                # Calculate Generalized Advantage Estimation (GAE) for the current timestep
                 advantage = delta + self.gamma * self.lam * (1 - ep_dones[t]) * last_advantage
-                last_advantage = advantage
-                advantages.insert(0, advantage)
+                last_advantage = advantage  # Update the last advantage for the next timestep
+                advantages.insert(0, advantage)  # Insert advantage at the beginning of the list
 
+            # Extend the batch_advantages list with advantages computed for the current episode
             batch_advantages.extend(advantages)
 
+        # Convert the batch_advantages list to a PyTorch tensor of type float
         return torch.tensor(batch_advantages, dtype=torch.float)
+
 
     def rollout(self):
        
@@ -237,6 +248,7 @@ class PPO:
             ep_dones = [] # done flag collected per episode
             # Reset the environment. Note that obs is short for observation. 
             obs, _ = self.env.reset()
+            # Initially, the game is not done
             done = False
 
             # Run an episode for a maximum of max_timesteps_per_episode timesteps
@@ -244,6 +256,7 @@ class PPO:
                 # If render is specified, render the environment
                 if self.render:
                     self.env.render()
+                # Track done flag of the current state
                 ep_dones.append(done)
 
                 t += 1 # Increment timesteps ran this batch so far
@@ -281,6 +294,8 @@ class PPO:
         # Log the episodic returns and episodic lengths in this batch.
         self.logger['batch_rews'] = batch_rews
         self.logger['batch_lens'] = batch_lens
+
+        # Here, we return the batch_rews instead of batch_rtgs for later calculation of GAE
         return batch_obs, batch_acts, batch_log_probs, batch_rews, batch_lens, batch_vals,batch_dones
 
     def get_action(self, obs):
