@@ -1,0 +1,5692 @@
+Successfully set seed to 120
+Learning... Running 1000 timesteps per episode, 1024 timesteps per batch for a total of 1005000 timesteps
+
+-------------------- Iteration #1 --------------------
+Average Episodic Length: 101.45
+Average Episodic Return: -297.71
+Average Loss: -0.00249
+Timesteps So Far: 1116
+Iteration took: 1.5 secs
+Learning rate: 0.0002497226368159204
+------------------------------------------------------
+
+
+-------------------- Iteration #2 --------------------
+Average Episodic Length: 106.2
+Average Episodic Return: -229.71
+Average Loss: -0.00257
+Timesteps So Far: 2178
+Iteration took: 1.25 secs
+Learning rate: 0.0002494584577114428
+------------------------------------------------------
+
+
+-------------------- Iteration #3 --------------------
+Average Episodic Length: 100.18
+Average Episodic Return: -241.14
+Average Loss: -0.01703
+Timesteps So Far: 3280
+Iteration took: 1.42 secs
+Learning rate: 0.00024918432835820895
+------------------------------------------------------
+
+
+-------------------- Iteration #4 --------------------
+Average Episodic Length: 98.82
+Average Episodic Return: -107.34
+Average Loss: -0.01519
+Timesteps So Far: 4367
+Iteration took: 1.33 secs
+Learning rate: 0.0002489139303482587
+------------------------------------------------------
+
+
+-------------------- Iteration #5 --------------------
+Average Episodic Length: 114.22
+Average Episodic Return: -280.49
+Average Loss: -0.01088
+Timesteps So Far: 5395
+Iteration took: 1.37 secs
+Learning rate: 0.0002486582089552239
+------------------------------------------------------
+
+
+-------------------- Iteration #6 --------------------
+Average Episodic Length: 95.64
+Average Episodic Return: -167.84
+Average Loss: 0.03065
+Timesteps So Far: 6447
+Iteration took: 1.39 secs
+Learning rate: 0.0002483965174129353
+------------------------------------------------------
+
+
+-------------------- Iteration #7 --------------------
+Average Episodic Length: 108.8
+Average Episodic Return: -171.27
+Average Loss: -0.0294
+Timesteps So Far: 7535
+Iteration took: 1.3 secs
+Learning rate: 0.0002481258706467662
+------------------------------------------------------
+
+
+-------------------- Iteration #8 --------------------
+Average Episodic Length: 101.18
+Average Episodic Return: -184.01
+Average Loss: 0.05608
+Timesteps So Far: 8648
+Iteration took: 1.42 secs
+Learning rate: 0.0002478490049751244
+------------------------------------------------------
+
+
+-------------------- Iteration #9 --------------------
+Average Episodic Length: 120.89
+Average Episodic Return: -150.91
+Average Loss: -0.00106
+Timesteps So Far: 9736
+Iteration took: 1.35 secs
+Learning rate: 0.0002475783582089552
+------------------------------------------------------
+
+
+-------------------- Iteration #10 --------------------
+Average Episodic Length: 580.0
+Average Episodic Return: -32.54
+Average Loss: 0.05131
+Timesteps So Far: 10896
+Iteration took: 1.55 secs
+Learning rate: 0.0002472898009950249
+------------------------------------------------------
+
+
+-------------------- Iteration #11 --------------------
+Average Episodic Length: 103.7
+Average Episodic Return: -127.11
+Average Loss: -0.00667
+Timesteps So Far: 11933
+Iteration took: 1.22 secs
+Learning rate: 0.00024703184079601987
+------------------------------------------------------
+
+
+-------------------- Iteration #12 --------------------
+Average Episodic Length: 128.75
+Average Episodic Return: -147.39
+Average Loss: 0.00262
+Timesteps So Far: 12963
+Iteration took: 1.37 secs
+Learning rate: 0.00024677562189054727
+------------------------------------------------------
+
+
+-------------------- Iteration #13 --------------------
+Average Episodic Length: 148.86
+Average Episodic Return: -140.09
+Average Loss: 0.01434
+Timesteps So Far: 14005
+Iteration took: 1.27 secs
+Learning rate: 0.00024651641791044774
+------------------------------------------------------
+
+
+-------------------- Iteration #14 --------------------
+Average Episodic Length: 138.88
+Average Episodic Return: -111.66
+Average Loss: -0.01941
+Timesteps So Far: 15116
+Iteration took: 1.93 secs
+Learning rate: 0.00024624004975124376
+------------------------------------------------------
+
+
+-------------------- Iteration #15 --------------------
+Average Episodic Length: 135.0
+Average Episodic Return: -143.74
+Average Loss: -0.00414
+Timesteps So Far: 16196
+Iteration took: 2.52 secs
+Learning rate: 0.00024597139303482587
+------------------------------------------------------
+
+
+-------------------- Iteration #16 --------------------
+Average Episodic Length: 153.0
+Average Episodic Return: -102.42
+Average Loss: -0.0317
+Timesteps So Far: 17267
+Iteration took: 2.0 secs
+Learning rate: 0.0002457049751243781
+------------------------------------------------------
+
+
+-------------------- Iteration #17 --------------------
+Average Episodic Length: 117.78
+Average Episodic Return: -113.93
+Average Loss: -0.06144
+Timesteps So Far: 18327
+Iteration took: 1.57 secs
+Learning rate: 0.0002454412935323383
+------------------------------------------------------
+
+
+-------------------- Iteration #18 --------------------
+Average Episodic Length: 155.14
+Average Episodic Return: -154.41
+Average Loss: -0.00731
+Timesteps So Far: 19413
+Iteration took: 1.25 secs
+Learning rate: 0.000245171144278607
+------------------------------------------------------
+
+
+-------------------- Iteration #19 --------------------
+Average Episodic Length: 137.88
+Average Episodic Return: -146.05
+Average Loss: -0.02899
+Timesteps So Far: 20516
+Iteration took: 1.48 secs
+Learning rate: 0.00024489676616915425
+------------------------------------------------------
+
+
+-------------------- Iteration #20 --------------------
+Average Episodic Length: 132.62
+Average Episodic Return: -87.67
+Average Loss: -0.03242
+Timesteps So Far: 21577
+Iteration took: 1.32 secs
+Learning rate: 0.0002446328358208955
+------------------------------------------------------
+
+
+-------------------- Iteration #21 --------------------
+Average Episodic Length: 208.0
+Average Episodic Return: -190.85
+Average Loss: -0.02999
+Timesteps So Far: 22617
+Iteration took: 1.58 secs
+Learning rate: 0.00024437412935323386
+------------------------------------------------------
+
+
+-------------------- Iteration #22 --------------------
+Average Episodic Length: 146.43
+Average Episodic Return: -90.1
+Average Loss: 0.01388
+Timesteps So Far: 23642
+Iteration took: 1.25 secs
+Learning rate: 0.00024411915422885573
+------------------------------------------------------
+
+
+-------------------- Iteration #23 --------------------
+Average Episodic Length: 130.62
+Average Episodic Return: -71.02
+Average Loss: -0.03339
+Timesteps So Far: 24687
+Iteration took: 1.3 secs
+Learning rate: 0.0002438592039800995
+------------------------------------------------------
+
+
+-------------------- Iteration #24 --------------------
+Average Episodic Length: 190.83
+Average Episodic Return: -203.2
+Average Loss: 0.00726
+Timesteps So Far: 25832
+Iteration took: 1.39 secs
+Learning rate: 0.00024357437810945275
+------------------------------------------------------
+
+
+-------------------- Iteration #25 --------------------
+Average Episodic Length: 228.4
+Average Episodic Return: -110.07
+Average Loss: -0.00179
+Timesteps So Far: 26974
+Iteration took: 1.42 secs
+Learning rate: 0.0002432902985074627
+------------------------------------------------------
+
+
+-------------------- Iteration #26 --------------------
+Average Episodic Length: 440.67
+Average Episodic Return: -24.63
+Average Loss: 0.02574
+Timesteps So Far: 28296
+Iteration took: 1.61 secs
+Learning rate: 0.00024296144278606967
+------------------------------------------------------
+
+
+-------------------- Iteration #27 --------------------
+Average Episodic Length: 156.86
+Average Episodic Return: -98.27
+Average Loss: -0.0025
+Timesteps So Far: 29394
+Iteration took: 1.28 secs
+Learning rate: 0.00024268830845771146
+------------------------------------------------------
+
+
+-------------------- Iteration #28 --------------------
+Average Episodic Length: 150.71
+Average Episodic Return: -121.08
+Average Loss: 0.00474
+Timesteps So Far: 30449
+Iteration took: 1.36 secs
+Learning rate: 0.00024242587064676616
+------------------------------------------------------
+
+
+-------------------- Iteration #29 --------------------
+Average Episodic Length: 158.0
+Average Episodic Return: -76.84
+Average Loss: 0.00162
+Timesteps So Far: 31555
+Iteration took: 1.27 secs
+Learning rate: 0.0002421507462686567
+------------------------------------------------------
+
+
+-------------------- Iteration #30 --------------------
+Average Episodic Length: 193.5
+Average Episodic Return: -73.58
+Average Loss: -0.01908
+Timesteps So Far: 32716
+Iteration took: 1.58 secs
+Learning rate: 0.00024186194029850747
+------------------------------------------------------
+
+
+-------------------- Iteration #31 --------------------
+Average Episodic Length: 575.5
+Average Episodic Return: -6.3
+Average Loss: -0.05037
+Timesteps So Far: 33867
+Iteration took: 1.33 secs
+Learning rate: 0.00024157562189054728
+------------------------------------------------------
+
+
+-------------------- Iteration #32 --------------------
+Average Episodic Length: 263.0
+Average Episodic Return: -153.5
+Average Loss: 0.01838
+Timesteps So Far: 34919
+Iteration took: 1.43 secs
+Learning rate: 0.00024131393034825872
+------------------------------------------------------
+
+
+-------------------- Iteration #33 --------------------
+Average Episodic Length: 584.0
+Average Episodic Return: -161.11
+Average Loss: 0.00072
+Timesteps So Far: 36087
+Iteration took: 1.34 secs
+Learning rate: 0.00024102338308457712
+------------------------------------------------------
+
+
+-------------------- Iteration #34 --------------------
+Average Episodic Length: 199.5
+Average Episodic Return: -74.29
+Average Loss: -0.01238
+Timesteps So Far: 37284
+Iteration took: 1.58 secs
+Learning rate: 0.0002407256218905473
+------------------------------------------------------
+
+
+-------------------- Iteration #35 --------------------
+Average Episodic Length: 130.44
+Average Episodic Return: -41.01
+Average Loss: 0.00601
+Timesteps So Far: 38458
+Iteration took: 1.39 secs
+Learning rate: 0.00024043358208955223
+------------------------------------------------------
+
+
+-------------------- Iteration #36 --------------------
+Average Episodic Length: 149.14
+Average Episodic Return: -34.87
+Average Loss: -0.00323
+Timesteps So Far: 39502
+Iteration took: 1.51 secs
+Learning rate: 0.00024017388059701492
+------------------------------------------------------
+
+
+-------------------- Iteration #37 --------------------
+Average Episodic Length: 179.43
+Average Episodic Return: -32.24
+Average Loss: -0.05607
+Timesteps So Far: 40758
+Iteration took: 1.52 secs
+Learning rate: 0.00023986144278606968
+------------------------------------------------------
+
+
+-------------------- Iteration #38 --------------------
+Average Episodic Length: 166.57
+Average Episodic Return: -56.53
+Average Loss: -0.00229
+Timesteps So Far: 41924
+Iteration took: 1.51 secs
+Learning rate: 0.00023957139303482585
+------------------------------------------------------
+
+
+-------------------- Iteration #39 --------------------
+Average Episodic Length: 174.67
+Average Episodic Return: -22.54
+Average Loss: 0.02388
+Timesteps So Far: 42972
+Iteration took: 1.32 secs
+Learning rate: 0.00023931069651741293
+------------------------------------------------------
+
+
+-------------------- Iteration #40 --------------------
+Average Episodic Length: 386.0
+Average Episodic Return: -207.34
+Average Loss: -0.00301
+Timesteps So Far: 44130
+Iteration took: 1.44 secs
+Learning rate: 0.0002390226368159204
+------------------------------------------------------
+
+
+-------------------- Iteration #41 --------------------
+Average Episodic Length: 514.67
+Average Episodic Return: -19.92
+Average Loss: -0.06972
+Timesteps So Far: 45674
+Iteration took: 2.0 secs
+Learning rate: 0.00023863855721393035
+------------------------------------------------------
+
+
+-------------------- Iteration #42 --------------------
+Average Episodic Length: 266.75
+Average Episodic Return: -131.86
+Average Loss: -0.0701
+Timesteps So Far: 46741
+Iteration took: 2.27 secs
+Learning rate: 0.00023837313432835823
+------------------------------------------------------
+
+
+-------------------- Iteration #43 --------------------
+Average Episodic Length: 616.5
+Average Episodic Return: -111.0
+Average Loss: -0.00669
+Timesteps So Far: 47974
+Iteration took: 1.64 secs
+Learning rate: 0.00023806641791044775
+------------------------------------------------------
+
+
+-------------------- Iteration #44 --------------------
+Average Episodic Length: 565.5
+Average Episodic Return: 16.07
+Average Loss: -0.06553
+Timesteps So Far: 49105
+Iteration took: 1.43 secs
+Learning rate: 0.00023778507462686568
+------------------------------------------------------
+
+
+-------------------- Iteration #45 --------------------
+Average Episodic Length: 370.4
+Average Episodic Return: -37.51
+Average Loss: 0.02397
+Timesteps So Far: 50957
+Iteration took: 2.61 secs
+Learning rate: 0.00023732437810945273
+------------------------------------------------------
+
+
+-------------------- Iteration #46 --------------------
+Average Episodic Length: 156.29
+Average Episodic Return: -33.78
+Average Loss: -0.10752
+Timesteps So Far: 52051
+Iteration took: 1.31 secs
+Learning rate: 0.00023705223880597016
+------------------------------------------------------
+
+
+-------------------- Iteration #47 --------------------
+Average Episodic Length: 227.4
+Average Episodic Return: -17.66
+Average Loss: -0.04541
+Timesteps So Far: 53188
+Iteration took: 1.44 secs
+Learning rate: 0.00023676940298507463
+------------------------------------------------------
+
+
+-------------------- Iteration #48 --------------------
+Average Episodic Length: 561.5
+Average Episodic Return: 25.71
+Average Loss: 0.04994
+Timesteps So Far: 54311
+Iteration took: 1.52 secs
+Learning rate: 0.00023649004975124377
+------------------------------------------------------
+
+
+-------------------- Iteration #49 --------------------
+Average Episodic Length: 380.6
+Average Episodic Return: -28.73
+Average Loss: -0.09141
+Timesteps So Far: 56214
+Iteration took: 3.49 secs
+Learning rate: 0.00023601666666666667
+------------------------------------------------------
+
+
+-------------------- Iteration #50 --------------------
+Average Episodic Length: 931.0
+Average Episodic Return: -98.5
+Average Loss: -0.02151
+Timesteps So Far: 58076
+Iteration took: 2.62 secs
+Learning rate: 0.00023555348258706468
+------------------------------------------------------
+
+
+-------------------- Iteration #51 --------------------
+Average Episodic Length: 535.0
+Average Episodic Return: -228.66
+Average Loss: -0.02262
+Timesteps So Far: 59146
+Iteration took: 1.61 secs
+Learning rate: 0.00023528731343283582
+------------------------------------------------------
+
+
+-------------------- Iteration #52 --------------------
+Average Episodic Length: 334.0
+Average Episodic Return: -82.03
+Average Loss: 0.01328
+Timesteps So Far: 60482
+Iteration took: 3.35 secs
+Learning rate: 0.0002349549751243781
+------------------------------------------------------
+
+
+-------------------- Iteration #53 --------------------
+Average Episodic Length: 213.2
+Average Episodic Return: -80.49
+Average Loss: -0.01634
+Timesteps So Far: 61548
+Iteration took: 1.71 secs
+Learning rate: 0.00023468980099502487
+------------------------------------------------------
+
+
+-------------------- Iteration #54 --------------------
+Average Episodic Length: 381.6
+Average Episodic Return: -60.76
+Average Loss: -0.00156
+Timesteps So Far: 63456
+Iteration took: 2.47 secs
+Learning rate: 0.00023421517412935324
+------------------------------------------------------
+
+
+-------------------- Iteration #55 --------------------
+Average Episodic Length: 530.5
+Average Episodic Return: -256.91
+Average Loss: -0.00552
+Timesteps So Far: 64517
+Iteration took: 1.5 secs
+Learning rate: 0.00023395124378109452
+------------------------------------------------------
+
+
+-------------------- Iteration #56 --------------------
+Average Episodic Length: 477.75
+Average Episodic Return: -95.41
+Average Loss: -0.01535
+Timesteps So Far: 66428
+Iteration took: 2.36 secs
+Learning rate: 0.00023347587064676619
+------------------------------------------------------
+
+
+-------------------- Iteration #57 --------------------
+Average Episodic Length: 555.5
+Average Episodic Return: -35.82
+Average Loss: -0.03491
+Timesteps So Far: 67539
+Iteration took: 1.4 secs
+Learning rate: 0.00023319950248756218
+------------------------------------------------------
+
+
+-------------------- Iteration #58 --------------------
+Average Episodic Length: 634.5
+Average Episodic Return: -102.27
+Average Loss: 0.00237
+Timesteps So Far: 68808
+Iteration took: 1.59 secs
+Learning rate: 0.00023288383084577114
+------------------------------------------------------
+
+
+-------------------- Iteration #59 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -25.23
+Average Loss: 0.04769
+Timesteps So Far: 70808
+Iteration took: 3.02 secs
+Learning rate: 0.00023238631840796022
+------------------------------------------------------
+
+
+-------------------- Iteration #60 --------------------
+Average Episodic Length: 676.5
+Average Episodic Return: -79.54
+Average Loss: 0.02592
+Timesteps So Far: 72161
+Iteration took: 1.69 secs
+Learning rate: 0.00023204975124378112
+------------------------------------------------------
+
+
+-------------------- Iteration #61 --------------------
+Average Episodic Length: 578.5
+Average Episodic Return: -5.31
+Average Loss: -0.02407
+Timesteps So Far: 73318
+Iteration took: 3.27 secs
+Learning rate: 0.00023176194029850747
+------------------------------------------------------
+
+
+-------------------- Iteration #62 --------------------
+Average Episodic Length: 195.5
+Average Episodic Return: -49.28
+Average Loss: -0.03115
+Timesteps So Far: 74491
+Iteration took: 2.03 secs
+Learning rate: 0.00023147014925373137
+------------------------------------------------------
+
+
+-------------------- Iteration #63 --------------------
+Average Episodic Length: 610.0
+Average Episodic Return: -20.07
+Average Loss: -0.0483
+Timesteps So Far: 75711
+Iteration took: 2.62 secs
+Learning rate: 0.00023116666666666666
+------------------------------------------------------
+
+
+-------------------- Iteration #64 --------------------
+Average Episodic Length: 267.5
+Average Episodic Return: -68.01
+Average Loss: -0.04187
+Timesteps So Far: 76781
+Iteration took: 1.37 secs
+Learning rate: 0.0002309004975124378
+------------------------------------------------------
+
+
+-------------------- Iteration #65 --------------------
+Average Episodic Length: 558.0
+Average Episodic Return: -20.84
+Average Loss: -0.00232
+Timesteps So Far: 77897
+Iteration took: 1.96 secs
+Learning rate: 0.00023062288557213932
+------------------------------------------------------
+
+
+-------------------- Iteration #66 --------------------
+Average Episodic Length: 427.0
+Average Episodic Return: -7.52
+Average Loss: 0.00527
+Timesteps So Far: 79178
+Iteration took: 1.94 secs
+Learning rate: 0.0002303042288557214
+------------------------------------------------------
+
+
+-------------------- Iteration #67 --------------------
+Average Episodic Length: 656.0
+Average Episodic Return: 11.57
+Average Loss: 0.02356
+Timesteps So Far: 80490
+Iteration took: 1.76 secs
+Learning rate: 0.00022997786069651742
+------------------------------------------------------
+
+
+-------------------- Iteration #68 --------------------
+Average Episodic Length: 578.0
+Average Episodic Return: -121.37
+Average Loss: -0.00221
+Timesteps So Far: 82224
+Iteration took: 2.43 secs
+Learning rate: 0.00022954651741293535
+------------------------------------------------------
+
+
+-------------------- Iteration #69 --------------------
+Average Episodic Length: 183.67
+Average Episodic Return: -37.72
+Average Loss: 0.03416
+Timesteps So Far: 83326
+Iteration took: 1.41 secs
+Learning rate: 0.0002292723880597015
+------------------------------------------------------
+
+
+-------------------- Iteration #70 --------------------
+Average Episodic Length: 994.0
+Average Episodic Return: -130.83
+Average Loss: 0.00827
+Timesteps So Far: 85314
+Iteration took: 2.54 secs
+Learning rate: 0.00022877786069651742
+------------------------------------------------------
+
+
+-------------------- Iteration #71 --------------------
+Average Episodic Length: 230.6
+Average Episodic Return: -10.47
+Average Loss: 0.1217
+Timesteps So Far: 86467
+Iteration took: 1.6 secs
+Learning rate: 0.0002284910447761194
+------------------------------------------------------
+
+
+-------------------- Iteration #72 --------------------
+Average Episodic Length: 611.5
+Average Episodic Return: 14.9
+Average Loss: 0.01896
+Timesteps So Far: 87690
+Iteration took: 1.7 secs
+Learning rate: 0.00022818681592039802
+------------------------------------------------------
+
+
+-------------------- Iteration #73 --------------------
+Average Episodic Length: 610.0
+Average Episodic Return: -0.1
+Average Loss: -0.11151
+Timesteps So Far: 88910
+Iteration took: 1.84 secs
+Learning rate: 0.00022788333333333333
+------------------------------------------------------
+
+
+-------------------- Iteration #74 --------------------
+Average Episodic Length: 633.5
+Average Episodic Return: -47.61
+Average Loss: -0.09478
+Timesteps So Far: 90177
+Iteration took: 1.6 secs
+Learning rate: 0.00022756815920398012
+------------------------------------------------------
+
+
+-------------------- Iteration #75 --------------------
+Average Episodic Length: 852.5
+Average Episodic Return: -55.39
+Average Loss: -0.03636
+Timesteps So Far: 91882
+Iteration took: 2.04 secs
+Learning rate: 0.00022714402985074628
+------------------------------------------------------
+
+
+-------------------- Iteration #76 --------------------
+Average Episodic Length: 449.67
+Average Episodic Return: 18.37
+Average Loss: -0.08118
+Timesteps So Far: 93231
+Iteration took: 1.68 secs
+Learning rate: 0.00022680845771144278
+------------------------------------------------------
+
+
+-------------------- Iteration #77 --------------------
+Average Episodic Length: 669.0
+Average Episodic Return: -32.59
+Average Loss: -0.04446
+Timesteps So Far: 95238
+Iteration took: 2.85 secs
+Learning rate: 0.00022630920398009953
+------------------------------------------------------
+
+
+-------------------- Iteration #78 --------------------
+Average Episodic Length: 787.5
+Average Episodic Return: -7.77
+Average Loss: -0.01822
+Timesteps So Far: 96813
+Iteration took: 2.02 secs
+Learning rate: 0.0002259174129353234
+------------------------------------------------------
+
+
+-------------------- Iteration #79 --------------------
+Average Episodic Length: 640.0
+Average Episodic Return: 26.26
+Average Loss: 0.00148
+Timesteps So Far: 98093
+Iteration took: 1.71 secs
+Learning rate: 0.0002255990049751244
+------------------------------------------------------
+
+
+-------------------- Iteration #80 --------------------
+Average Episodic Length: 866.5
+Average Episodic Return: -57.73
+Average Loss: 0.01488
+Timesteps So Far: 99826
+Iteration took: 2.26 secs
+Learning rate: 0.0002251679104477612
+------------------------------------------------------
+
+
+-------------------- Iteration #81 --------------------
+Average Episodic Length: 448.0
+Average Episodic Return: -17.68
+Average Loss: -0.00296
+Timesteps So Far: 101170
+Iteration took: 1.7 secs
+Learning rate: 0.00022483358208955223
+------------------------------------------------------
+
+
+-------------------- Iteration #82 --------------------
+Average Episodic Length: 677.5
+Average Episodic Return: 15.25
+Average Loss: -0.01191
+Timesteps So Far: 102525
+Iteration took: 3.7 secs
+Learning rate: 0.00022449651741293533
+------------------------------------------------------
+
+
+-------------------- Iteration #83 --------------------
+Average Episodic Length: 205.6
+Average Episodic Return: 16.36
+Average Loss: 0.02136
+Timesteps So Far: 103553
+Iteration took: 1.76 secs
+Learning rate: 0.0002242407960199005
+------------------------------------------------------
+
+
+-------------------- Iteration #84 --------------------
+Average Episodic Length: 621.0
+Average Episodic Return: 33.46
+Average Loss: -0.00143
+Timesteps So Far: 104795
+Iteration took: 1.9 secs
+Learning rate: 0.0002239318407960199
+------------------------------------------------------
+
+
+-------------------- Iteration #85 --------------------
+Average Episodic Length: 735.0
+Average Episodic Return: -89.33
+Average Loss: -0.0036
+Timesteps So Far: 106265
+Iteration took: 1.75 secs
+Learning rate: 0.00022356616915422887
+------------------------------------------------------
+
+
+-------------------- Iteration #86 --------------------
+Average Episodic Length: 672.5
+Average Episodic Return: -39.29
+Average Loss: 0.15085
+Timesteps So Far: 107610
+Iteration took: 1.94 secs
+Learning rate: 0.000223231592039801
+------------------------------------------------------
+
+
+-------------------- Iteration #87 --------------------
+Average Episodic Length: 483.33
+Average Episodic Return: 28.07
+Average Loss: 0.01752
+Timesteps So Far: 109060
+Iteration took: 1.91 secs
+Learning rate: 0.00022287089552238806
+------------------------------------------------------
+
+
+-------------------- Iteration #88 --------------------
+Average Episodic Length: 664.5
+Average Episodic Return: 21.01
+Average Loss: 0.00532
+Timesteps So Far: 110389
+Iteration took: 1.63 secs
+Learning rate: 0.0002225402985074627
+------------------------------------------------------
+
+
+-------------------- Iteration #89 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 47.13
+Average Loss: -0.00837
+Timesteps So Far: 112389
+Iteration took: 2.54 secs
+Learning rate: 0.00022204278606965177
+------------------------------------------------------
+
+
+-------------------- Iteration #90 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 58.18
+Average Loss: 0.0186
+Timesteps So Far: 114389
+Iteration took: 2.74 secs
+Learning rate: 0.00022154527363184079
+------------------------------------------------------
+
+
+-------------------- Iteration #91 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 67.47
+Average Loss: -0.02871
+Timesteps So Far: 116389
+Iteration took: 2.4 secs
+Learning rate: 0.00022104776119402986
+------------------------------------------------------
+
+
+-------------------- Iteration #92 --------------------
+Average Episodic Length: 641.0
+Average Episodic Return: 30.52
+Average Loss: 0.03501
+Timesteps So Far: 117671
+Iteration took: 1.61 secs
+Learning rate: 0.00022072885572139303
+------------------------------------------------------
+
+
+-------------------- Iteration #93 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -4.77
+Average Loss: 0.09944
+Timesteps So Far: 119671
+Iteration took: 2.42 secs
+Learning rate: 0.0002202313432835821
+------------------------------------------------------
+
+
+-------------------- Iteration #94 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -21.97
+Average Loss: 0.02295
+Timesteps So Far: 121671
+Iteration took: 2.64 secs
+Learning rate: 0.00021973383084577115
+------------------------------------------------------
+
+
+-------------------- Iteration #95 --------------------
+Average Episodic Length: 662.0
+Average Episodic Return: 21.32
+Average Loss: -0.00435
+Timesteps So Far: 122995
+Iteration took: 1.7 secs
+Learning rate: 0.0002194044776119403
+------------------------------------------------------
+
+
+-------------------- Iteration #96 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 62.74
+Average Loss: 0.04459
+Timesteps So Far: 124995
+Iteration took: 2.46 secs
+Learning rate: 0.00021890696517412936
+------------------------------------------------------
+
+
+-------------------- Iteration #97 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 89.51
+Average Loss: 0.00854
+Timesteps So Far: 126995
+Iteration took: 2.7 secs
+Learning rate: 0.0002184094527363184
+------------------------------------------------------
+
+
+-------------------- Iteration #98 --------------------
+Average Episodic Length: 610.5
+Average Episodic Return: 68.94
+Average Loss: 0.04497
+Timesteps So Far: 128216
+Iteration took: 2.05 secs
+Learning rate: 0.00021810572139303484
+------------------------------------------------------
+
+
+-------------------- Iteration #99 --------------------
+Average Episodic Length: 632.0
+Average Episodic Return: 39.26
+Average Loss: -0.00072
+Timesteps So Far: 129480
+Iteration took: 2.03 secs
+Learning rate: 0.0002177912935323383
+------------------------------------------------------
+
+
+-------------------- Iteration #100 --------------------
+Average Episodic Length: 771.5
+Average Episodic Return: -70.08
+Average Loss: -0.06599
+Timesteps So Far: 131023
+Iteration took: 1.99 secs
+Learning rate: 0.00021740746268656717
+------------------------------------------------------
+
+
+-------------------- Iteration #101 --------------------
+Average Episodic Length: 639.5
+Average Episodic Return: 63.23
+Average Loss: -0.0345
+Timesteps So Far: 132302
+Iteration took: 1.69 secs
+Learning rate: 0.00021708930348258708
+------------------------------------------------------
+
+
+-------------------- Iteration #102 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 57.99
+Average Loss: -0.01262
+Timesteps So Far: 134302
+Iteration took: 2.52 secs
+Learning rate: 0.0002165917910447761
+------------------------------------------------------
+
+
+-------------------- Iteration #103 --------------------
+Average Episodic Length: 679.0
+Average Episodic Return: -76.24
+Average Loss: 0.04414
+Timesteps So Far: 135660
+Iteration took: 1.76 secs
+Learning rate: 0.00021625398009950247
+------------------------------------------------------
+
+
+-------------------- Iteration #104 --------------------
+Average Episodic Length: 497.33
+Average Episodic Return: 31.03
+Average Loss: 0.03686
+Timesteps So Far: 137152
+Iteration took: 1.94 secs
+Learning rate: 0.00021588283582089552
+------------------------------------------------------
+
+
+-------------------- Iteration #105 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 93.2
+Average Loss: -0.06344
+Timesteps So Far: 139152
+Iteration took: 2.61 secs
+Learning rate: 0.0002153853233830846
+------------------------------------------------------
+
+
+-------------------- Iteration #106 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 94.25
+Average Loss: -0.07923
+Timesteps So Far: 141152
+Iteration took: 2.46 secs
+Learning rate: 0.00021488781094527364
+------------------------------------------------------
+
+
+-------------------- Iteration #107 --------------------
+Average Episodic Length: 601.5
+Average Episodic Return: 62.63
+Average Loss: -0.03059
+Timesteps So Far: 142355
+Iteration took: 1.57 secs
+Learning rate: 0.00021458855721393034
+------------------------------------------------------
+
+
+-------------------- Iteration #108 --------------------
+Average Episodic Length: 619.5
+Average Episodic Return: 78.71
+Average Loss: 0.03045
+Timesteps So Far: 143594
+Iteration took: 1.75 secs
+Learning rate: 0.00021428034825870645
+------------------------------------------------------
+
+
+-------------------- Iteration #109 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 118.69
+Average Loss: 0.02403
+Timesteps So Far: 145594
+Iteration took: 2.48 secs
+Learning rate: 0.00021378283582089552
+------------------------------------------------------
+
+
+-------------------- Iteration #110 --------------------
+Average Episodic Length: 514.67
+Average Episodic Return: -3.63
+Average Loss: -0.02644
+Timesteps So Far: 147138
+Iteration took: 3.87 secs
+Learning rate: 0.00021339875621890548
+------------------------------------------------------
+
+
+-------------------- Iteration #111 --------------------
+Average Episodic Length: 807.0
+Average Episodic Return: -37.34
+Average Loss: -0.00381
+Timesteps So Far: 148752
+Iteration took: 2.78 secs
+Learning rate: 0.00021299726368159206
+------------------------------------------------------
+
+
+-------------------- Iteration #112 --------------------
+Average Episodic Length: 415.0
+Average Episodic Return: 64.13
+Average Loss: -0.02477
+Timesteps So Far: 150412
+Iteration took: 2.48 secs
+Learning rate: 0.00021258432835820896
+------------------------------------------------------
+
+
+-------------------- Iteration #113 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 88.85
+Average Loss: 0.05909
+Timesteps So Far: 152412
+Iteration took: 2.99 secs
+Learning rate: 0.00021208681592039803
+------------------------------------------------------
+
+
+-------------------- Iteration #114 --------------------
+Average Episodic Length: 592.0
+Average Episodic Return: 90.32
+Average Loss: -0.02196
+Timesteps So Far: 153596
+Iteration took: 1.57 secs
+Learning rate: 0.00021179228855721394
+------------------------------------------------------
+
+
+-------------------- Iteration #115 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 40.78
+Average Loss: -0.04712
+Timesteps So Far: 155596
+Iteration took: 2.48 secs
+Learning rate: 0.00021129477611940298
+------------------------------------------------------
+
+
+-------------------- Iteration #116 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 96.04
+Average Loss: -0.01378
+Timesteps So Far: 157596
+Iteration took: 2.67 secs
+Learning rate: 0.00021079726368159206
+------------------------------------------------------
+
+
+-------------------- Iteration #117 --------------------
+Average Episodic Length: 647.0
+Average Episodic Return: 19.98
+Average Loss: 0.01897
+Timesteps So Far: 158890
+Iteration took: 1.74 secs
+Learning rate: 0.00021047537313432835
+------------------------------------------------------
+
+
+-------------------- Iteration #118 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 106.51
+Average Loss: -0.04008
+Timesteps So Far: 160890
+Iteration took: 2.78 secs
+Learning rate: 0.00020997786069651742
+------------------------------------------------------
+
+
+-------------------- Iteration #119 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 101.84
+Average Loss: 0.03141
+Timesteps So Far: 162890
+Iteration took: 2.4 secs
+Learning rate: 0.0002094803482587065
+------------------------------------------------------
+
+
+-------------------- Iteration #120 --------------------
+Average Episodic Length: 577.33
+Average Episodic Return: -17.1
+Average Loss: 0.01685
+Timesteps So Far: 164622
+Iteration took: 2.15 secs
+Learning rate: 0.0002090495024875622
+------------------------------------------------------
+
+
+-------------------- Iteration #121 --------------------
+Average Episodic Length: 658.33
+Average Episodic Return: 32.0
+Average Loss: -0.04892
+Timesteps So Far: 166597
+Iteration took: 2.39 secs
+Learning rate: 0.00020855820895522388
+------------------------------------------------------
+
+
+-------------------- Iteration #122 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 77.53
+Average Loss: -0.02508
+Timesteps So Far: 168597
+Iteration took: 2.55 secs
+Learning rate: 0.00020806069651741293
+------------------------------------------------------
+
+
+-------------------- Iteration #123 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 94.58
+Average Loss: 0.06237
+Timesteps So Far: 170597
+Iteration took: 2.56 secs
+Learning rate: 0.000207563184079602
+------------------------------------------------------
+
+
+-------------------- Iteration #124 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 107.62
+Average Loss: -0.11693
+Timesteps So Far: 172597
+Iteration took: 2.58 secs
+Learning rate: 0.00020706567164179105
+------------------------------------------------------
+
+
+-------------------- Iteration #125 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 11.38
+Average Loss: -0.00133
+Timesteps So Far: 174597
+Iteration took: 2.55 secs
+Learning rate: 0.0002065681592039801
+------------------------------------------------------
+
+
+-------------------- Iteration #126 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -27.75
+Average Loss: 0.04827
+Timesteps So Far: 176597
+Iteration took: 2.48 secs
+Learning rate: 0.00020607064676616917
+------------------------------------------------------
+
+
+-------------------- Iteration #127 --------------------
+Average Episodic Length: 717.0
+Average Episodic Return: 0.7
+Average Loss: -0.00334
+Timesteps So Far: 178031
+Iteration took: 1.75 secs
+Learning rate: 0.00020571393034825872
+------------------------------------------------------
+
+
+-------------------- Iteration #128 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 2.69
+Average Loss: -0.02129
+Timesteps So Far: 180031
+Iteration took: 2.41 secs
+Learning rate: 0.00020521641791044777
+------------------------------------------------------
+
+
+-------------------- Iteration #129 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -90.31
+Average Loss: 0.04707
+Timesteps So Far: 182031
+Iteration took: 2.49 secs
+Learning rate: 0.00020471890547263684
+------------------------------------------------------
+
+
+-------------------- Iteration #130 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -52.45
+Average Loss: 0.04406
+Timesteps So Far: 184031
+Iteration took: 2.74 secs
+Learning rate: 0.00020422139303482586
+------------------------------------------------------
+
+
+-------------------- Iteration #131 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 29.69
+Average Loss: -0.00242
+Timesteps So Far: 186031
+Iteration took: 2.59 secs
+Learning rate: 0.00020372388059701493
+------------------------------------------------------
+
+
+-------------------- Iteration #132 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 25.18
+Average Loss: 0.00452
+Timesteps So Far: 188031
+Iteration took: 2.48 secs
+Learning rate: 0.00020322636815920398
+------------------------------------------------------
+
+
+-------------------- Iteration #133 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 32.7
+Average Loss: 0.01112
+Timesteps So Far: 190031
+Iteration took: 2.49 secs
+Learning rate: 0.00020272885572139305
+------------------------------------------------------
+
+
+-------------------- Iteration #134 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 79.53
+Average Loss: 0.02855
+Timesteps So Far: 192031
+Iteration took: 4.84 secs
+Learning rate: 0.0002022313432835821
+------------------------------------------------------
+
+
+-------------------- Iteration #135 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 105.64
+Average Loss: -0.02288
+Timesteps So Far: 194031
+Iteration took: 3.2 secs
+Learning rate: 0.00020173383084577114
+------------------------------------------------------
+
+
+-------------------- Iteration #136 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 91.71
+Average Loss: -0.14271
+Timesteps So Far: 196031
+Iteration took: 2.67 secs
+Learning rate: 0.0002012363184079602
+------------------------------------------------------
+
+
+-------------------- Iteration #137 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 104.99
+Average Loss: 0.02669
+Timesteps So Far: 198031
+Iteration took: 2.66 secs
+Learning rate: 0.00020073880597014926
+------------------------------------------------------
+
+
+-------------------- Iteration #138 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 112.38
+Average Loss: -0.0242
+Timesteps So Far: 200031
+Iteration took: 2.95 secs
+Learning rate: 0.0002002412935323383
+------------------------------------------------------
+
+
+-------------------- Iteration #139 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 122.5
+Average Loss: -0.00309
+Timesteps So Far: 202031
+Iteration took: 3.03 secs
+Learning rate: 0.00019974378109452738
+------------------------------------------------------
+
+
+-------------------- Iteration #140 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 93.55
+Average Loss: 0.04107
+Timesteps So Far: 204031
+Iteration took: 2.52 secs
+Learning rate: 0.0001992462686567164
+------------------------------------------------------
+
+
+-------------------- Iteration #141 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 135.53
+Average Loss: -0.11284
+Timesteps So Far: 206031
+Iteration took: 2.82 secs
+Learning rate: 0.00019874875621890548
+------------------------------------------------------
+
+
+-------------------- Iteration #142 --------------------
+Average Episodic Length: 627.0
+Average Episodic Return: 92.44
+Average Loss: -0.00315
+Timesteps So Far: 207285
+Iteration took: 1.54 secs
+Learning rate: 0.00019843681592039803
+------------------------------------------------------
+
+
+-------------------- Iteration #143 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 117.81
+Average Loss: -0.01466
+Timesteps So Far: 209285
+Iteration took: 2.44 secs
+Learning rate: 0.00019793930348258707
+------------------------------------------------------
+
+
+-------------------- Iteration #144 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 141.19
+Average Loss: -0.01229
+Timesteps So Far: 211285
+Iteration took: 2.41 secs
+Learning rate: 0.00019744179104477612
+------------------------------------------------------
+
+
+-------------------- Iteration #145 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 106.82
+Average Loss: -0.0253
+Timesteps So Far: 213285
+Iteration took: 2.57 secs
+Learning rate: 0.00019694427860696517
+------------------------------------------------------
+
+
+-------------------- Iteration #146 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 155.7
+Average Loss: -0.03558
+Timesteps So Far: 215285
+Iteration took: 2.64 secs
+Learning rate: 0.00019644676616915424
+------------------------------------------------------
+
+
+-------------------- Iteration #147 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 109.76
+Average Loss: 0.04896
+Timesteps So Far: 217285
+Iteration took: 3.22 secs
+Learning rate: 0.00019594925373134329
+------------------------------------------------------
+
+
+-------------------- Iteration #148 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 100.32
+Average Loss: 0.03311
+Timesteps So Far: 219285
+Iteration took: 3.15 secs
+Learning rate: 0.00019545174129353233
+------------------------------------------------------
+
+
+-------------------- Iteration #149 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 126.15
+Average Loss: -0.00792
+Timesteps So Far: 221285
+Iteration took: 3.05 secs
+Learning rate: 0.0001949542288557214
+------------------------------------------------------
+
+
+-------------------- Iteration #150 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 125.77
+Average Loss: 0.00495
+Timesteps So Far: 223285
+Iteration took: 3.12 secs
+Learning rate: 0.00019445671641791045
+------------------------------------------------------
+
+
+-------------------- Iteration #151 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 98.77
+Average Loss: -0.03188
+Timesteps So Far: 225285
+Iteration took: 3.07 secs
+Learning rate: 0.0001939592039800995
+------------------------------------------------------
+
+
+-------------------- Iteration #152 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 124.01
+Average Loss: -0.12957
+Timesteps So Far: 227285
+Iteration took: 3.04 secs
+Learning rate: 0.00019346169154228857
+------------------------------------------------------
+
+
+-------------------- Iteration #153 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 71.5
+Average Loss: -0.03255
+Timesteps So Far: 229285
+Iteration took: 3.0 secs
+Learning rate: 0.00019296417910447762
+------------------------------------------------------
+
+
+-------------------- Iteration #154 --------------------
+Average Episodic Length: 792.0
+Average Episodic Return: 41.36
+Average Loss: -0.00168
+Timesteps So Far: 230869
+Iteration took: 2.23 secs
+Learning rate: 0.00019257014925373134
+------------------------------------------------------
+
+
+-------------------- Iteration #155 --------------------
+Average Episodic Length: 851.0
+Average Episodic Return: -6.14
+Average Loss: 0.02155
+Timesteps So Far: 232571
+Iteration took: 2.76 secs
+Learning rate: 0.00019214676616915422
+------------------------------------------------------
+
+
+-------------------- Iteration #156 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 12.88
+Average Loss: 0.067
+Timesteps So Far: 234571
+Iteration took: 3.86 secs
+Learning rate: 0.0001916492537313433
+------------------------------------------------------
+
+
+-------------------- Iteration #157 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 76.6
+Average Loss: 0.00761
+Timesteps So Far: 236571
+Iteration took: 6.39 secs
+Learning rate: 0.00019115174129353236
+------------------------------------------------------
+
+
+-------------------- Iteration #158 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 43.54
+Average Loss: 0.03276
+Timesteps So Far: 238571
+Iteration took: 3.03 secs
+Learning rate: 0.00019065422885572138
+------------------------------------------------------
+
+
+-------------------- Iteration #159 --------------------
+Average Episodic Length: 925.5
+Average Episodic Return: 85.55
+Average Loss: 0.08083
+Timesteps So Far: 240422
+Iteration took: 2.48 secs
+Learning rate: 0.00019019378109452737
+------------------------------------------------------
+
+
+-------------------- Iteration #160 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -74.53
+Average Loss: 0.00416
+Timesteps So Far: 242422
+Iteration took: 2.01 secs
+Learning rate: 0.00018969626865671642
+------------------------------------------------------
+
+
+-------------------- Iteration #161 --------------------
+Average Episodic Length: 876.0
+Average Episodic Return: -78.81
+Average Loss: -0.00199
+Timesteps So Far: 244174
+Iteration took: 1.88 secs
+Learning rate: 0.00018926044776119402
+------------------------------------------------------
+
+
+-------------------- Iteration #162 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -28.43
+Average Loss: -0.04022
+Timesteps So Far: 246174
+Iteration took: 2.12 secs
+Learning rate: 0.0001887629353233831
+------------------------------------------------------
+
+
+-------------------- Iteration #163 --------------------
+Average Episodic Length: 824.5
+Average Episodic Return: -80.95
+Average Loss: -0.00941
+Timesteps So Far: 247823
+Iteration took: 1.69 secs
+Learning rate: 0.00018835273631840797
+------------------------------------------------------
+
+
+-------------------- Iteration #164 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 17.73
+Average Loss: 0.00344
+Timesteps So Far: 249823
+Iteration took: 2.07 secs
+Learning rate: 0.00018785522388059701
+------------------------------------------------------
+
+
+-------------------- Iteration #165 --------------------
+Average Episodic Length: 753.5
+Average Episodic Return: -7.5
+Average Loss: 0.17529
+Timesteps So Far: 251330
+Iteration took: 1.53 secs
+Learning rate: 0.00018748034825870647
+------------------------------------------------------
+
+
+-------------------- Iteration #166 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -16.68
+Average Loss: -0.0455
+Timesteps So Far: 253330
+Iteration took: 1.87 secs
+Learning rate: 0.00018698283582089555
+------------------------------------------------------
+
+
+-------------------- Iteration #167 --------------------
+Average Episodic Length: 814.0
+Average Episodic Return: -21.11
+Average Loss: 0.00654
+Timesteps So Far: 254958
+Iteration took: 1.89 secs
+Learning rate: 0.00018657786069651742
+------------------------------------------------------
+
+
+-------------------- Iteration #168 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 71.69
+Average Loss: 0.07443
+Timesteps So Far: 256958
+Iteration took: 1.86 secs
+Learning rate: 0.00018608034825870647
+------------------------------------------------------
+
+
+-------------------- Iteration #169 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 107.36
+Average Loss: 0.01904
+Timesteps So Far: 258958
+Iteration took: 1.92 secs
+Learning rate: 0.0001855828358208955
+------------------------------------------------------
+
+
+-------------------- Iteration #170 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 49.32
+Average Loss: 0.00157
+Timesteps So Far: 260958
+Iteration took: 1.84 secs
+Learning rate: 0.0001850853233830846
+------------------------------------------------------
+
+
+-------------------- Iteration #171 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 88.87
+Average Loss: 0.01325
+Timesteps So Far: 262958
+Iteration took: 1.88 secs
+Learning rate: 0.00018458781094527363
+------------------------------------------------------
+
+
+-------------------- Iteration #172 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 92.24
+Average Loss: 0.01646
+Timesteps So Far: 264958
+Iteration took: 2.01 secs
+Learning rate: 0.00018409029850746268
+------------------------------------------------------
+
+
+-------------------- Iteration #173 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 86.37
+Average Loss: 0.04064
+Timesteps So Far: 266958
+Iteration took: 2.17 secs
+Learning rate: 0.00018359278606965175
+------------------------------------------------------
+
+
+-------------------- Iteration #174 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 74.61
+Average Loss: 0.02708
+Timesteps So Far: 268958
+Iteration took: 1.87 secs
+Learning rate: 0.0001830952736318408
+------------------------------------------------------
+
+
+-------------------- Iteration #175 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 93.55
+Average Loss: -0.03467
+Timesteps So Far: 270958
+Iteration took: 1.95 secs
+Learning rate: 0.00018259776119402985
+------------------------------------------------------
+
+
+-------------------- Iteration #176 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 120.53
+Average Loss: 0.06474
+Timesteps So Far: 272958
+Iteration took: 2.05 secs
+Learning rate: 0.0001821002487562189
+------------------------------------------------------
+
+
+-------------------- Iteration #177 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 133.49
+Average Loss: 0.00242
+Timesteps So Far: 274958
+Iteration took: 1.87 secs
+Learning rate: 0.00018160273631840797
+------------------------------------------------------
+
+
+-------------------- Iteration #178 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 116.86
+Average Loss: -0.01437
+Timesteps So Far: 276958
+Iteration took: 1.98 secs
+Learning rate: 0.000181105223880597
+------------------------------------------------------
+
+
+-------------------- Iteration #179 --------------------
+Average Episodic Length: 871.5
+Average Episodic Return: 118.81
+Average Loss: -0.02426
+Timesteps So Far: 278701
+Iteration took: 1.71 secs
+Learning rate: 0.0001806716417910448
+------------------------------------------------------
+
+
+-------------------- Iteration #180 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 143.98
+Average Loss: 0.00556
+Timesteps So Far: 280701
+Iteration took: 1.85 secs
+Learning rate: 0.00018017412935323384
+------------------------------------------------------
+
+
+-------------------- Iteration #181 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 126.12
+Average Loss: -0.03788
+Timesteps So Far: 282701
+Iteration took: 1.96 secs
+Learning rate: 0.00017967661691542289
+------------------------------------------------------
+
+
+-------------------- Iteration #182 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 94.12
+Average Loss: 0.04819
+Timesteps So Far: 284701
+Iteration took: 1.95 secs
+Learning rate: 0.00017917910447761193
+------------------------------------------------------
+
+
+-------------------- Iteration #183 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 93.6
+Average Loss: -0.05978
+Timesteps So Far: 286701
+Iteration took: 1.94 secs
+Learning rate: 0.000178681592039801
+------------------------------------------------------
+
+
+-------------------- Iteration #184 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 77.96
+Average Loss: 0.0062
+Timesteps So Far: 288701
+Iteration took: 3.35 secs
+Learning rate: 0.00017818407960199008
+------------------------------------------------------
+
+
+-------------------- Iteration #185 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 64.0
+Average Loss: 0.00663
+Timesteps So Far: 290701
+Iteration took: 2.36 secs
+Learning rate: 0.0001776865671641791
+------------------------------------------------------
+
+
+-------------------- Iteration #186 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 101.33
+Average Loss: -0.02948
+Timesteps So Far: 292701
+Iteration took: 1.98 secs
+Learning rate: 0.00017718905472636815
+------------------------------------------------------
+
+
+-------------------- Iteration #187 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 98.83
+Average Loss: 0.02073
+Timesteps So Far: 294701
+Iteration took: 2.08 secs
+Learning rate: 0.00017669154228855722
+------------------------------------------------------
+
+
+-------------------- Iteration #188 --------------------
+Average Episodic Length: 642.0
+Average Episodic Return: 75.6
+Average Loss: -0.00233
+Timesteps So Far: 295985
+Iteration took: 1.33 secs
+Learning rate: 0.0001763721393034826
+------------------------------------------------------
+
+
+-------------------- Iteration #189 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 125.47
+Average Loss: -0.08791
+Timesteps So Far: 297985
+Iteration took: 1.76 secs
+Learning rate: 0.00017587462686567164
+------------------------------------------------------
+
+
+-------------------- Iteration #190 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 149.63
+Average Loss: -0.02005
+Timesteps So Far: 299985
+Iteration took: 2.03 secs
+Learning rate: 0.00017537711442786069
+------------------------------------------------------
+
+
+-------------------- Iteration #191 --------------------
+Average Episodic Length: 688.5
+Average Episodic Return: 56.25
+Average Loss: 0.00444
+Timesteps So Far: 301362
+Iteration took: 1.35 secs
+Learning rate: 0.00017503457711442788
+------------------------------------------------------
+
+
+-------------------- Iteration #192 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 96.19
+Average Loss: -0.00187
+Timesteps So Far: 303362
+Iteration took: 1.89 secs
+Learning rate: 0.00017453706467661693
+------------------------------------------------------
+
+
+-------------------- Iteration #193 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 124.18
+Average Loss: 0.01476
+Timesteps So Far: 305362
+Iteration took: 1.86 secs
+Learning rate: 0.00017403955223880597
+------------------------------------------------------
+
+
+-------------------- Iteration #194 --------------------
+Average Episodic Length: 541.0
+Average Episodic Return: 117.3
+Average Loss: -0.01213
+Timesteps So Far: 306985
+Iteration took: 1.5 secs
+Learning rate: 0.00017363582089552237
+------------------------------------------------------
+
+
+-------------------- Iteration #195 --------------------
+Average Episodic Length: 656.0
+Average Episodic Return: 70.75
+Average Loss: 0.0354
+Timesteps So Far: 308297
+Iteration took: 1.35 secs
+Learning rate: 0.00017330945273631842
+------------------------------------------------------
+
+
+-------------------- Iteration #196 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 82.16
+Average Loss: -0.00565
+Timesteps So Far: 310297
+Iteration took: 1.79 secs
+Learning rate: 0.00017281194029850747
+------------------------------------------------------
+
+
+-------------------- Iteration #197 --------------------
+Average Episodic Length: 657.5
+Average Episodic Return: 20.5
+Average Loss: 0.004
+Timesteps So Far: 311612
+Iteration took: 1.36 secs
+Learning rate: 0.00017248482587064678
+------------------------------------------------------
+
+
+-------------------- Iteration #198 --------------------
+Average Episodic Length: 640.5
+Average Episodic Return: 57.04
+Average Loss: -0.02275
+Timesteps So Far: 312893
+Iteration took: 1.3 secs
+Learning rate: 0.00017216616915422886
+------------------------------------------------------
+
+
+-------------------- Iteration #199 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 74.45
+Average Loss: 0.00097
+Timesteps So Far: 314893
+Iteration took: 1.96 secs
+Learning rate: 0.0001716686567164179
+------------------------------------------------------
+
+
+-------------------- Iteration #200 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -22.67
+Average Loss: 0.03662
+Timesteps So Far: 316893
+Iteration took: 1.82 secs
+Learning rate: 0.00017117114427860698
+------------------------------------------------------
+
+
+-------------------- Iteration #201 --------------------
+Average Episodic Length: 835.0
+Average Episodic Return: -21.21
+Average Loss: -0.02562
+Timesteps So Far: 318563
+Iteration took: 1.59 secs
+Learning rate: 0.00017075572139303483
+------------------------------------------------------
+
+
+-------------------- Iteration #202 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 41.3
+Average Loss: 0.02459
+Timesteps So Far: 320563
+Iteration took: 2.12 secs
+Learning rate: 0.00017025820895522387
+------------------------------------------------------
+
+
+-------------------- Iteration #203 --------------------
+Average Episodic Length: 797.0
+Average Episodic Return: 26.83
+Average Loss: 0.04907
+Timesteps So Far: 322157
+Iteration took: 1.56 secs
+Learning rate: 0.00016986169154228857
+------------------------------------------------------
+
+
+-------------------- Iteration #204 --------------------
+Average Episodic Length: 903.5
+Average Episodic Return: 123.27
+Average Loss: -0.01732
+Timesteps So Far: 323964
+Iteration took: 1.86 secs
+Learning rate: 0.00016941218905472638
+------------------------------------------------------
+
+
+-------------------- Iteration #205 --------------------
+Average Episodic Length: 847.0
+Average Episodic Return: 6.22
+Average Loss: -0.00086
+Timesteps So Far: 325658
+Iteration took: 1.55 secs
+Learning rate: 0.0001689907960199005
+------------------------------------------------------
+
+
+-------------------- Iteration #206 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 36.83
+Average Loss: 0.04916
+Timesteps So Far: 327658
+Iteration took: 1.85 secs
+Learning rate: 0.00016849328358208953
+------------------------------------------------------
+
+
+-------------------- Iteration #207 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -5.82
+Average Loss: -0.07009
+Timesteps So Far: 329658
+Iteration took: 1.81 secs
+Learning rate: 0.0001679957711442786
+------------------------------------------------------
+
+
+-------------------- Iteration #208 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: -29.57
+Average Loss: 0.03212
+Timesteps So Far: 331658
+Iteration took: 1.81 secs
+Learning rate: 0.00016749825870646768
+------------------------------------------------------
+
+
+-------------------- Iteration #209 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 39.95
+Average Loss: 0.01584
+Timesteps So Far: 333658
+Iteration took: 2.13 secs
+Learning rate: 0.00016700074626865673
+------------------------------------------------------
+
+
+-------------------- Iteration #210 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 64.73
+Average Loss: 0.10376
+Timesteps So Far: 335658
+Iteration took: 1.87 secs
+Learning rate: 0.00016650323383084575
+------------------------------------------------------
+
+
+-------------------- Iteration #211 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 105.87
+Average Loss: 0.03954
+Timesteps So Far: 337658
+Iteration took: 1.95 secs
+Learning rate: 0.00016600572139303482
+------------------------------------------------------
+
+
+-------------------- Iteration #212 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 121.98
+Average Loss: 0.006
+Timesteps So Far: 339658
+Iteration took: 2.27 secs
+Learning rate: 0.0001655082089552239
+------------------------------------------------------
+
+
+-------------------- Iteration #213 --------------------
+Average Episodic Length: 758.0
+Average Episodic Return: 52.46
+Average Loss: -0.05158
+Timesteps So Far: 341174
+Iteration took: 1.4 secs
+Learning rate: 0.00016513109452736318
+------------------------------------------------------
+
+
+-------------------- Iteration #214 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 138.62
+Average Loss: -0.00791
+Timesteps So Far: 343174
+Iteration took: 1.96 secs
+Learning rate: 0.00016463358208955225
+------------------------------------------------------
+
+
+-------------------- Iteration #215 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 142.09
+Average Loss: 0.08709
+Timesteps So Far: 345174
+Iteration took: 1.95 secs
+Learning rate: 0.0001641360696517413
+------------------------------------------------------
+
+
+-------------------- Iteration #216 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 108.82
+Average Loss: 0.03628
+Timesteps So Far: 347174
+Iteration took: 1.87 secs
+Learning rate: 0.00016363855721393035
+------------------------------------------------------
+
+
+-------------------- Iteration #217 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 130.55
+Average Loss: 0.04215
+Timesteps So Far: 349174
+Iteration took: 3.53 secs
+Learning rate: 0.00016314104477611942
+------------------------------------------------------
+
+
+-------------------- Iteration #218 --------------------
+Average Episodic Length: 672.0
+Average Episodic Return: 81.46
+Average Loss: -0.00178
+Timesteps So Far: 350518
+Iteration took: 1.62 secs
+Learning rate: 0.00016280671641791044
+------------------------------------------------------
+
+
+-------------------- Iteration #219 --------------------
+Average Episodic Length: 696.5
+Average Episodic Return: 87.94
+Average Loss: 0.25885
+Timesteps So Far: 351911
+Iteration took: 1.83 secs
+Learning rate: 0.00016246019900497514
+------------------------------------------------------
+
+
+-------------------- Iteration #220 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 113.45
+Average Loss: 0.04767
+Timesteps So Far: 353911
+Iteration took: 2.04 secs
+Learning rate: 0.00016196268656716418
+------------------------------------------------------
+
+
+-------------------- Iteration #221 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 140.05
+Average Loss: 0.02908
+Timesteps So Far: 355911
+Iteration took: 1.99 secs
+Learning rate: 0.00016146517412935323
+------------------------------------------------------
+
+
+-------------------- Iteration #222 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 72.07
+Average Loss: -0.03725
+Timesteps So Far: 357911
+Iteration took: 1.91 secs
+Learning rate: 0.0001609676616915423
+------------------------------------------------------
+
+
+-------------------- Iteration #223 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 127.02
+Average Loss: -0.00157
+Timesteps So Far: 359911
+Iteration took: 1.86 secs
+Learning rate: 0.00016047014925373135
+------------------------------------------------------
+
+
+-------------------- Iteration #224 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 132.01
+Average Loss: 0.00568
+Timesteps So Far: 361911
+Iteration took: 1.91 secs
+Learning rate: 0.0001599726368159204
+------------------------------------------------------
+
+
+-------------------- Iteration #225 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 116.58
+Average Loss: -0.01666
+Timesteps So Far: 363911
+Iteration took: 1.83 secs
+Learning rate: 0.00015947512437810947
+------------------------------------------------------
+
+
+-------------------- Iteration #226 --------------------
+Average Episodic Length: 684.5
+Average Episodic Return: 33.74
+Average Loss: 0.15703
+Timesteps So Far: 365280
+Iteration took: 1.35 secs
+Learning rate: 0.00015913457711442785
+------------------------------------------------------
+
+
+-------------------- Iteration #227 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 100.43
+Average Loss: 0.05041
+Timesteps So Far: 367280
+Iteration took: 1.9 secs
+Learning rate: 0.00015863706467661692
+------------------------------------------------------
+
+
+-------------------- Iteration #228 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 130.94
+Average Loss: -0.15661
+Timesteps So Far: 369280
+Iteration took: 1.96 secs
+Learning rate: 0.00015813955223880597
+------------------------------------------------------
+
+
+-------------------- Iteration #229 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 136.73
+Average Loss: -0.01205
+Timesteps So Far: 371280
+Iteration took: 1.96 secs
+Learning rate: 0.000157642039800995
+------------------------------------------------------
+
+
+-------------------- Iteration #230 --------------------
+Average Episodic Length: 665.0
+Average Episodic Return: 60.21
+Average Loss: -0.0349
+Timesteps So Far: 372610
+Iteration took: 1.25 secs
+Learning rate: 0.00015731119402985074
+------------------------------------------------------
+
+
+-------------------- Iteration #231 --------------------
+Average Episodic Length: 858.0
+Average Episodic Return: 162.37
+Average Loss: -0.00051
+Timesteps So Far: 374326
+Iteration took: 1.66 secs
+Learning rate: 0.00015688432835820896
+------------------------------------------------------
+
+
+-------------------- Iteration #232 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 105.76
+Average Loss: 0.03267
+Timesteps So Far: 376326
+Iteration took: 1.84 secs
+Learning rate: 0.000156386815920398
+------------------------------------------------------
+
+
+-------------------- Iteration #233 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 93.36
+Average Loss: -0.0039
+Timesteps So Far: 378326
+Iteration took: 1.93 secs
+Learning rate: 0.00015588930348258705
+------------------------------------------------------
+
+
+-------------------- Iteration #234 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 97.46
+Average Loss: -0.02545
+Timesteps So Far: 380326
+Iteration took: 1.94 secs
+Learning rate: 0.00015539179104477613
+------------------------------------------------------
+
+
+-------------------- Iteration #235 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 143.49
+Average Loss: 0.03854
+Timesteps So Far: 382326
+Iteration took: 1.8 secs
+Learning rate: 0.00015489427860696517
+------------------------------------------------------
+
+
+-------------------- Iteration #236 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 127.68
+Average Loss: 0.0349
+Timesteps So Far: 384326
+Iteration took: 2.01 secs
+Learning rate: 0.00015439676616915422
+------------------------------------------------------
+
+
+-------------------- Iteration #237 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 101.46
+Average Loss: 0.03079
+Timesteps So Far: 386326
+Iteration took: 1.94 secs
+Learning rate: 0.0001538992537313433
+------------------------------------------------------
+
+
+-------------------- Iteration #238 --------------------
+Average Episodic Length: 755.0
+Average Episodic Return: 24.21
+Average Loss: -0.02111
+Timesteps So Far: 387836
+Iteration took: 1.42 secs
+Learning rate: 0.00015352363184079605
+------------------------------------------------------
+
+
+-------------------- Iteration #239 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 64.51
+Average Loss: 0.05139
+Timesteps So Far: 389836
+Iteration took: 1.87 secs
+Learning rate: 0.0001530261194029851
+------------------------------------------------------
+
+
+-------------------- Iteration #240 --------------------
+Average Episodic Length: 738.0
+Average Episodic Return: 52.73
+Average Loss: -0.00262
+Timesteps So Far: 391312
+Iteration took: 1.39 secs
+Learning rate: 0.00015265895522388059
+------------------------------------------------------
+
+
+-------------------- Iteration #241 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 88.25
+Average Loss: 0.03462
+Timesteps So Far: 393312
+Iteration took: 1.91 secs
+Learning rate: 0.00015216144278606963
+------------------------------------------------------
+
+
+-------------------- Iteration #242 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 110.07
+Average Loss: -0.08845
+Timesteps So Far: 395312
+Iteration took: 1.9 secs
+Learning rate: 0.0001516639303482587
+------------------------------------------------------
+
+
+-------------------- Iteration #243 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 76.95
+Average Loss: 0.04669
+Timesteps So Far: 397312
+Iteration took: 2.07 secs
+Learning rate: 0.00015116641791044778
+------------------------------------------------------
+
+
+-------------------- Iteration #244 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 38.06
+Average Loss: 0.0378
+Timesteps So Far: 399312
+Iteration took: 2.04 secs
+Learning rate: 0.00015066890547263683
+------------------------------------------------------
+
+
+-------------------- Iteration #245 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 96.78
+Average Loss: 0.00882
+Timesteps So Far: 401312
+Iteration took: 1.87 secs
+Learning rate: 0.00015017139303482585
+------------------------------------------------------
+
+
+-------------------- Iteration #246 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 129.46
+Average Loss: -0.0287
+Timesteps So Far: 403312
+Iteration took: 1.98 secs
+Learning rate: 0.00014967388059701492
+------------------------------------------------------
+
+
+-------------------- Iteration #247 --------------------
+Average Episodic Length: 744.5
+Average Episodic Return: 41.64
+Average Loss: -0.01937
+Timesteps So Far: 404801
+Iteration took: 1.74 secs
+Learning rate: 0.00014930348258706467
+------------------------------------------------------
+
+
+-------------------- Iteration #248 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 80.81
+Average Loss: -0.02419
+Timesteps So Far: 406801
+Iteration took: 1.87 secs
+Learning rate: 0.00014880597014925372
+------------------------------------------------------
+
+
+-------------------- Iteration #249 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 55.2
+Average Loss: -0.03116
+Timesteps So Far: 408801
+Iteration took: 2.17 secs
+Learning rate: 0.0001483084577114428
+------------------------------------------------------
+
+
+-------------------- Iteration #250 --------------------
+Average Episodic Length: 765.0
+Average Episodic Return: -5.74
+Average Loss: -0.0003
+Timesteps So Far: 410331
+Iteration took: 2.84 secs
+Learning rate: 0.00014792786069651743
+------------------------------------------------------
+
+
+-------------------- Iteration #251 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 132.47
+Average Loss: -0.09006
+Timesteps So Far: 412331
+Iteration took: 2.42 secs
+Learning rate: 0.00014743034825870648
+------------------------------------------------------
+
+
+-------------------- Iteration #252 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 82.53
+Average Loss: 0.00271
+Timesteps So Far: 414331
+Iteration took: 2.03 secs
+Learning rate: 0.0001469328358208955
+------------------------------------------------------
+
+
+-------------------- Iteration #253 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 92.57
+Average Loss: 0.00287
+Timesteps So Far: 416331
+Iteration took: 1.96 secs
+Learning rate: 0.00014643532338308457
+------------------------------------------------------
+
+
+-------------------- Iteration #254 --------------------
+Average Episodic Length: 673.5
+Average Episodic Return: 45.22
+Average Loss: 0.01542
+Timesteps So Far: 417678
+Iteration took: 1.42 secs
+Learning rate: 0.0001461002487562189
+------------------------------------------------------
+
+
+-------------------- Iteration #255 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 93.89
+Average Loss: 0.03951
+Timesteps So Far: 419678
+Iteration took: 1.83 secs
+Learning rate: 0.00014560273631840799
+------------------------------------------------------
+
+
+-------------------- Iteration #256 --------------------
+Average Episodic Length: 698.0
+Average Episodic Return: 43.72
+Average Loss: -0.02725
+Timesteps So Far: 421074
+Iteration took: 1.39 secs
+Learning rate: 0.00014525547263681592
+------------------------------------------------------
+
+
+-------------------- Iteration #257 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 125.59
+Average Loss: 0.0359
+Timesteps So Far: 423074
+Iteration took: 1.87 secs
+Learning rate: 0.00014475796019900497
+------------------------------------------------------
+
+
+-------------------- Iteration #258 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 102.0
+Average Loss: -0.07911
+Timesteps So Far: 425074
+Iteration took: 1.88 secs
+Learning rate: 0.000144260447761194
+------------------------------------------------------
+
+
+-------------------- Iteration #259 --------------------
+Average Episodic Length: 672.5
+Average Episodic Return: 53.14
+Average Loss: -0.01195
+Timesteps So Far: 426419
+Iteration took: 1.27 secs
+Learning rate: 0.00014392587064676615
+------------------------------------------------------
+
+
+-------------------- Iteration #260 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 103.19
+Average Loss: -0.00319
+Timesteps So Far: 428419
+Iteration took: 1.87 secs
+Learning rate: 0.00014342835820895522
+------------------------------------------------------
+
+
+-------------------- Iteration #261 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 100.14
+Average Loss: 0.00759
+Timesteps So Far: 430419
+Iteration took: 1.97 secs
+Learning rate: 0.0001429308457711443
+------------------------------------------------------
+
+
+-------------------- Iteration #262 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 143.31
+Average Loss: 0.03161
+Timesteps So Far: 432419
+Iteration took: 1.81 secs
+Learning rate: 0.00014243333333333334
+------------------------------------------------------
+
+
+-------------------- Iteration #263 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 120.2
+Average Loss: -0.08024
+Timesteps So Far: 434419
+Iteration took: 1.92 secs
+Learning rate: 0.00014193582089552236
+------------------------------------------------------
+
+
+-------------------- Iteration #264 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 147.19
+Average Loss: -0.01883
+Timesteps So Far: 436419
+Iteration took: 1.84 secs
+Learning rate: 0.00014143830845771144
+------------------------------------------------------
+
+
+-------------------- Iteration #265 --------------------
+Average Episodic Length: 618.0
+Average Episodic Return: 78.12
+Average Loss: -0.00277
+Timesteps So Far: 437655
+Iteration took: 1.29 secs
+Learning rate: 0.00014113084577114425
+------------------------------------------------------
+
+
+-------------------- Iteration #266 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 135.76
+Average Loss: -0.01846
+Timesteps So Far: 439655
+Iteration took: 1.87 secs
+Learning rate: 0.00014063333333333333
+------------------------------------------------------
+
+
+-------------------- Iteration #267 --------------------
+Average Episodic Length: 626.0
+Average Episodic Return: 96.05
+Average Loss: 0.00751
+Timesteps So Far: 440907
+Iteration took: 1.2 secs
+Learning rate: 0.0001403218905472637
+------------------------------------------------------
+
+
+-------------------- Iteration #268 --------------------
+Average Episodic Length: 843.5
+Average Episodic Return: 120.56
+Average Loss: 0.03515
+Timesteps So Far: 442594
+Iteration took: 1.57 secs
+Learning rate: 0.00013990223880597013
+------------------------------------------------------
+
+
+-------------------- Iteration #269 --------------------
+Average Episodic Length: 620.0
+Average Episodic Return: -33.24
+Average Loss: -0.00157
+Timesteps So Far: 444454
+Iteration took: 1.88 secs
+Learning rate: 0.00013943955223880597
+------------------------------------------------------
+
+
+-------------------- Iteration #270 --------------------
+Average Episodic Length: 719.5
+Average Episodic Return: 32.49
+Average Loss: 0.00458
+Timesteps So Far: 445893
+Iteration took: 1.38 secs
+Learning rate: 0.000139081592039801
+------------------------------------------------------
+
+
+-------------------- Iteration #271 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 98.04
+Average Loss: 0.08921
+Timesteps So Far: 447893
+Iteration took: 1.81 secs
+Learning rate: 0.00013858407960199004
+------------------------------------------------------
+
+
+-------------------- Iteration #272 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 111.9
+Average Loss: -0.05705
+Timesteps So Far: 449893
+Iteration took: 1.9 secs
+Learning rate: 0.0001380865671641791
+------------------------------------------------------
+
+
+-------------------- Iteration #273 --------------------
+Average Episodic Length: 720.0
+Average Episodic Return: 16.28
+Average Loss: -0.00091
+Timesteps So Far: 451333
+Iteration took: 1.32 secs
+Learning rate: 0.00013772835820895525
+------------------------------------------------------
+
+
+-------------------- Iteration #274 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 56.26
+Average Loss: -0.0388
+Timesteps So Far: 453333
+Iteration took: 1.94 secs
+Learning rate: 0.00013723084577114427
+------------------------------------------------------
+
+
+-------------------- Iteration #275 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 136.76
+Average Loss: 0.00257
+Timesteps So Far: 455333
+Iteration took: 1.93 secs
+Learning rate: 0.00013673333333333331
+------------------------------------------------------
+
+
+-------------------- Iteration #276 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 81.76
+Average Loss: -0.02127
+Timesteps So Far: 457333
+Iteration took: 1.88 secs
+Learning rate: 0.0001362358208955224
+------------------------------------------------------
+
+
+-------------------- Iteration #277 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 117.05
+Average Loss: 0.03346
+Timesteps So Far: 459333
+Iteration took: 1.94 secs
+Learning rate: 0.00013573830845771146
+------------------------------------------------------
+
+
+-------------------- Iteration #278 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 128.66
+Average Loss: 0.012
+Timesteps So Far: 461333
+Iteration took: 1.83 secs
+Learning rate: 0.0001352407960199005
+------------------------------------------------------
+
+
+-------------------- Iteration #279 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 120.73
+Average Loss: 0.00981
+Timesteps So Far: 463333
+Iteration took: 1.96 secs
+Learning rate: 0.00013474328358208953
+------------------------------------------------------
+
+
+-------------------- Iteration #280 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 142.37
+Average Loss: -0.05409
+Timesteps So Far: 465333
+Iteration took: 1.93 secs
+Learning rate: 0.0001342457711442786
+------------------------------------------------------
+
+
+-------------------- Iteration #281 --------------------
+Average Episodic Length: 878.5
+Average Episodic Return: 160.0
+Average Loss: -0.00177
+Timesteps So Far: 467090
+Iteration took: 1.6 secs
+Learning rate: 0.00013380870646766168
+------------------------------------------------------
+
+
+-------------------- Iteration #282 --------------------
+Average Episodic Length: 617.5
+Average Episodic Return: 78.15
+Average Loss: -0.04681
+Timesteps So Far: 468325
+Iteration took: 1.26 secs
+Learning rate: 0.0001335014925373134
+------------------------------------------------------
+
+
+-------------------- Iteration #283 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 134.89
+Average Loss: 0.04119
+Timesteps So Far: 470325
+Iteration took: 1.85 secs
+Learning rate: 0.00013300398009950248
+------------------------------------------------------
+
+
+-------------------- Iteration #284 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 126.33
+Average Loss: 0.05008
+Timesteps So Far: 472325
+Iteration took: 3.38 secs
+Learning rate: 0.00013250646766169155
+------------------------------------------------------
+
+
+-------------------- Iteration #285 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 151.5
+Average Loss: 0.0736
+Timesteps So Far: 474325
+Iteration took: 2.47 secs
+Learning rate: 0.0001320089552238806
+------------------------------------------------------
+
+
+-------------------- Iteration #286 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 134.1
+Average Loss: -0.12267
+Timesteps So Far: 476325
+Iteration took: 1.95 secs
+Learning rate: 0.00013151144278606965
+------------------------------------------------------
+
+
+-------------------- Iteration #287 --------------------
+Average Episodic Length: 633.0
+Average Episodic Return: 107.79
+Average Loss: -0.00246
+Timesteps So Far: 477591
+Iteration took: 1.18 secs
+Learning rate: 0.00013119651741293531
+------------------------------------------------------
+
+
+-------------------- Iteration #288 --------------------
+Average Episodic Length: 617.5
+Average Episodic Return: 38.59
+Average Loss: 0.02402
+Timesteps So Far: 478826
+Iteration took: 1.38 secs
+Learning rate: 0.00013088930348258707
+------------------------------------------------------
+
+
+-------------------- Iteration #289 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 92.74
+Average Loss: 0.02449
+Timesteps So Far: 480826
+Iteration took: 1.87 secs
+Learning rate: 0.00013039179104477612
+------------------------------------------------------
+
+
+-------------------- Iteration #290 --------------------
+Average Episodic Length: 496.0
+Average Episodic Return: 43.48
+Average Loss: -0.00071
+Timesteps So Far: 482314
+Iteration took: 1.83 secs
+Learning rate: 0.00013002164179104478
+------------------------------------------------------
+
+
+-------------------- Iteration #291 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 115.35
+Average Loss: 0.01255
+Timesteps So Far: 484314
+Iteration took: 2.02 secs
+Learning rate: 0.00012952412935323383
+------------------------------------------------------
+
+
+-------------------- Iteration #292 --------------------
+Average Episodic Length: 494.67
+Average Episodic Return: 60.75
+Average Loss: 0.04376
+Timesteps So Far: 485798
+Iteration took: 1.47 secs
+Learning rate: 0.00012915497512437814
+------------------------------------------------------
+
+
+-------------------- Iteration #293 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 117.94
+Average Loss: -0.01576
+Timesteps So Far: 487798
+Iteration took: 1.9 secs
+Learning rate: 0.00012865746268656716
+------------------------------------------------------
+
+
+-------------------- Iteration #294 --------------------
+Average Episodic Length: 588.67
+Average Episodic Return: 100.89
+Average Loss: 0.05001
+Timesteps So Far: 489564
+Iteration took: 1.76 secs
+Learning rate: 0.00012821815920398012
+------------------------------------------------------
+
+
+-------------------- Iteration #295 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 117.19
+Average Loss: 0.0298
+Timesteps So Far: 491564
+Iteration took: 1.92 secs
+Learning rate: 0.00012772064676616916
+------------------------------------------------------
+
+
+-------------------- Iteration #296 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 166.79
+Average Loss: -0.03138
+Timesteps So Far: 493564
+Iteration took: 1.91 secs
+Learning rate: 0.00012722313432835818
+------------------------------------------------------
+
+
+-------------------- Iteration #297 --------------------
+Average Episodic Length: 821.0
+Average Episodic Return: 155.05
+Average Loss: 0.01587
+Timesteps So Far: 495206
+Iteration took: 1.53 secs
+Learning rate: 0.00012681467661691543
+------------------------------------------------------
+
+
+-------------------- Iteration #298 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 137.33
+Average Loss: -0.0078
+Timesteps So Far: 497206
+Iteration took: 1.87 secs
+Learning rate: 0.0001263171641791045
+------------------------------------------------------
+
+
+-------------------- Iteration #299 --------------------
+Average Episodic Length: 625.0
+Average Episodic Return: 64.09
+Average Loss: -0.04899
+Timesteps So Far: 498456
+Iteration took: 1.17 secs
+Learning rate: 0.00012600621890547265
+------------------------------------------------------
+
+
+-------------------- Iteration #300 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 148.92
+Average Loss: 0.02358
+Timesteps So Far: 500456
+Iteration took: 1.93 secs
+Learning rate: 0.0001255087064676617
+------------------------------------------------------
+
+
+-------------------- Iteration #301 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 152.3
+Average Loss: -0.01394
+Timesteps So Far: 502456
+Iteration took: 1.81 secs
+Learning rate: 0.00012501119402985077
+------------------------------------------------------
+
+
+-------------------- Iteration #302 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 153.93
+Average Loss: 0.00657
+Timesteps So Far: 504456
+Iteration took: 1.99 secs
+Learning rate: 0.00012451368159203979
+------------------------------------------------------
+
+
+-------------------- Iteration #303 --------------------
+Average Episodic Length: 907.0
+Average Episodic Return: 160.14
+Average Loss: 0.03535
+Timesteps So Far: 506270
+Iteration took: 1.81 secs
+Learning rate: 0.00012406243781094527
+------------------------------------------------------
+
+
+-------------------- Iteration #304 --------------------
+Average Episodic Length: 611.0
+Average Episodic Return: 87.12
+Average Loss: 0.001
+Timesteps So Far: 507492
+Iteration took: 1.17 secs
+Learning rate: 0.0001237584577114428
+------------------------------------------------------
+
+
+-------------------- Iteration #305 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 111.15
+Average Loss: 0.04499
+Timesteps So Far: 509492
+Iteration took: 1.89 secs
+Learning rate: 0.00012326094527363184
+------------------------------------------------------
+
+
+-------------------- Iteration #306 --------------------
+Average Episodic Length: 633.0
+Average Episodic Return: 62.61
+Average Loss: -0.00139
+Timesteps So Far: 510758
+Iteration took: 1.2 secs
+Learning rate: 0.0001229460199004975
+------------------------------------------------------
+
+
+-------------------- Iteration #307 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 147.86
+Average Loss: 0.08115
+Timesteps So Far: 512758
+Iteration took: 1.91 secs
+Learning rate: 0.00012244850746268658
+------------------------------------------------------
+
+
+-------------------- Iteration #308 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 154.1
+Average Loss: -0.00077
+Timesteps So Far: 514758
+Iteration took: 1.84 secs
+Learning rate: 0.00012195099502487561
+------------------------------------------------------
+
+
+-------------------- Iteration #309 --------------------
+Average Episodic Length: 610.5
+Average Episodic Return: 92.19
+Average Loss: -0.03596
+Timesteps So Far: 515979
+Iteration took: 1.33 secs
+Learning rate: 0.00012164726368159205
+------------------------------------------------------
+
+
+-------------------- Iteration #310 --------------------
+Average Episodic Length: 673.5
+Average Episodic Return: 193.73
+Average Loss: -0.04406
+Timesteps So Far: 517326
+Iteration took: 1.24 secs
+Learning rate: 0.00012131218905472638
+------------------------------------------------------
+
+
+-------------------- Iteration #311 --------------------
+Average Episodic Length: 610.0
+Average Episodic Return: 86.81
+Average Loss: -0.00859
+Timesteps So Far: 518546
+Iteration took: 1.19 secs
+Learning rate: 0.00012100870646766168
+------------------------------------------------------
+
+
+-------------------- Iteration #312 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 140.59
+Average Loss: -0.02554
+Timesteps So Far: 520546
+Iteration took: 1.93 secs
+Learning rate: 0.00012051119402985075
+------------------------------------------------------
+
+
+-------------------- Iteration #313 --------------------
+Average Episodic Length: 777.5
+Average Episodic Return: 189.07
+Average Loss: -0.08551
+Timesteps So Far: 522101
+Iteration took: 1.55 secs
+Learning rate: 0.00012012437810945273
+------------------------------------------------------
+
+
+-------------------- Iteration #314 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 112.68
+Average Loss: -0.03264
+Timesteps So Far: 524101
+Iteration took: 1.85 secs
+Learning rate: 0.0001196268656716418
+------------------------------------------------------
+
+
+-------------------- Iteration #315 --------------------
+Average Episodic Length: 635.0
+Average Episodic Return: 24.09
+Average Loss: -0.042
+Timesteps So Far: 525371
+Iteration took: 1.26 secs
+Learning rate: 0.00011931094527363184
+------------------------------------------------------
+
+
+-------------------- Iteration #316 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 101.14
+Average Loss: -0.03543
+Timesteps So Far: 527371
+Iteration took: 1.78 secs
+Learning rate: 0.00011881343283582091
+------------------------------------------------------
+
+
+-------------------- Iteration #317 --------------------
+Average Episodic Length: 880.5
+Average Episodic Return: 145.49
+Average Loss: -0.01151
+Timesteps So Far: 529132
+Iteration took: 1.76 secs
+Learning rate: 0.00011837537313432836
+------------------------------------------------------
+
+
+-------------------- Iteration #318 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 68.76
+Average Loss: -0.04941
+Timesteps So Far: 531132
+Iteration took: 1.96 secs
+Learning rate: 0.0001178778606965174
+------------------------------------------------------
+
+
+-------------------- Iteration #319 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 140.65
+Average Loss: -0.075
+Timesteps So Far: 533132
+Iteration took: 2.94 secs
+Learning rate: 0.00011738034825870648
+------------------------------------------------------
+
+
+-------------------- Iteration #320 --------------------
+Average Episodic Length: 625.0
+Average Episodic Return: 64.96
+Average Loss: -0.03808
+Timesteps So Far: 534382
+Iteration took: 1.58 secs
+Learning rate: 0.00011706940298507462
+------------------------------------------------------
+
+
+-------------------- Iteration #321 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 144.96
+Average Loss: -0.01694
+Timesteps So Far: 536382
+Iteration took: 3.61 secs
+Learning rate: 0.00011657189054726369
+------------------------------------------------------
+
+
+-------------------- Iteration #322 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 113.38
+Average Loss: -0.04517
+Timesteps So Far: 538382
+Iteration took: 2.01 secs
+Learning rate: 0.00011607437810945274
+------------------------------------------------------
+
+
+-------------------- Iteration #323 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 137.39
+Average Loss: -0.07628
+Timesteps So Far: 540382
+Iteration took: 1.98 secs
+Learning rate: 0.0001155768656716418
+------------------------------------------------------
+
+
+-------------------- Iteration #324 --------------------
+Average Episodic Length: 943.0
+Average Episodic Return: 146.33
+Average Loss: 0.00889
+Timesteps So Far: 542268
+Iteration took: 1.74 secs
+Learning rate: 0.00011510771144278607
+------------------------------------------------------
+
+
+-------------------- Iteration #325 --------------------
+Average Episodic Length: 632.5
+Average Episodic Return: 74.26
+Average Loss: -0.04238
+Timesteps So Far: 543533
+Iteration took: 1.34 secs
+Learning rate: 0.00011479303482587065
+------------------------------------------------------
+
+
+-------------------- Iteration #326 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 157.01
+Average Loss: -0.00677
+Timesteps So Far: 545533
+Iteration took: 1.8 secs
+Learning rate: 0.0001142955223880597
+------------------------------------------------------
+
+
+-------------------- Iteration #327 --------------------
+Average Episodic Length: 725.5
+Average Episodic Return: 154.03
+Average Loss: -0.08652
+Timesteps So Far: 546984
+Iteration took: 1.45 secs
+Learning rate: 0.00011393457711442787
+------------------------------------------------------
+
+
+-------------------- Iteration #328 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 89.8
+Average Loss: -0.05663
+Timesteps So Far: 548984
+Iteration took: 1.81 secs
+Learning rate: 0.0001134370646766169
+------------------------------------------------------
+
+
+-------------------- Iteration #329 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 123.05
+Average Loss: -0.00359
+Timesteps So Far: 550984
+Iteration took: 7.43 secs
+Learning rate: 0.00011293955223880598
+------------------------------------------------------
+
+
+-------------------- Iteration #330 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 131.65
+Average Loss: -0.03541
+Timesteps So Far: 552984
+Iteration took: 2.4 secs
+Learning rate: 0.00011244203980099501
+------------------------------------------------------
+
+
+-------------------- Iteration #331 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 136.37
+Average Loss: -0.01382
+Timesteps So Far: 554984
+Iteration took: 2.1 secs
+Learning rate: 0.00011194452736318408
+------------------------------------------------------
+
+
+-------------------- Iteration #332 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 74.14
+Average Loss: -0.10998
+Timesteps So Far: 556984
+Iteration took: 2.22 secs
+Learning rate: 0.00011144701492537313
+------------------------------------------------------
+
+
+-------------------- Iteration #333 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 98.99
+Average Loss: 0.01142
+Timesteps So Far: 558984
+Iteration took: 2.05 secs
+Learning rate: 0.00011094950248756219
+------------------------------------------------------
+
+
+-------------------- Iteration #334 --------------------
+Average Episodic Length: 700.0
+Average Episodic Return: 53.74
+Average Loss: -0.00891
+Timesteps So Far: 560384
+Iteration took: 1.39 secs
+Learning rate: 0.00011060124378109453
+------------------------------------------------------
+
+
+-------------------- Iteration #335 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 99.78
+Average Loss: -0.00387
+Timesteps So Far: 562384
+Iteration took: 2.01 secs
+Learning rate: 0.00011010373134328358
+------------------------------------------------------
+
+
+-------------------- Iteration #336 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 89.76
+Average Loss: -0.08502
+Timesteps So Far: 564384
+Iteration took: 2.02 secs
+Learning rate: 0.00010960621890547265
+------------------------------------------------------
+
+
+-------------------- Iteration #337 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 126.24
+Average Loss: 0.02897
+Timesteps So Far: 566384
+Iteration took: 2.01 secs
+Learning rate: 0.00010910870646766169
+------------------------------------------------------
+
+
+-------------------- Iteration #338 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 131.6
+Average Loss: 0.01462
+Timesteps So Far: 568384
+Iteration took: 1.98 secs
+Learning rate: 0.00010861119402985076
+------------------------------------------------------
+
+
+-------------------- Iteration #339 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 128.05
+Average Loss: -0.09755
+Timesteps So Far: 570384
+Iteration took: 1.83 secs
+Learning rate: 0.0001081136815920398
+------------------------------------------------------
+
+
+-------------------- Iteration #340 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 122.61
+Average Loss: -0.10864
+Timesteps So Far: 572384
+Iteration took: 2.01 secs
+Learning rate: 0.00010761616915422887
+------------------------------------------------------
+
+
+-------------------- Iteration #341 --------------------
+Average Episodic Length: 635.5
+Average Episodic Return: 94.49
+Average Loss: -0.01609
+Timesteps So Far: 573655
+Iteration took: 1.36 secs
+Learning rate: 0.0001073
+------------------------------------------------------
+
+
+-------------------- Iteration #342 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 88.4
+Average Loss: -0.04196
+Timesteps So Far: 575655
+Iteration took: 1.93 secs
+Learning rate: 0.00010680248756218905
+------------------------------------------------------
+
+
+-------------------- Iteration #343 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 111.93
+Average Loss: 0.03088
+Timesteps So Far: 577655
+Iteration took: 2.0 secs
+Learning rate: 0.00010630497512437811
+------------------------------------------------------
+
+
+-------------------- Iteration #344 --------------------
+Average Episodic Length: 647.5
+Average Episodic Return: 62.51
+Average Loss: 0.02355
+Timesteps So Far: 578950
+Iteration took: 1.3 secs
+Learning rate: 0.00010598283582089552
+------------------------------------------------------
+
+
+-------------------- Iteration #345 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 131.72
+Average Loss: 0.00132
+Timesteps So Far: 580950
+Iteration took: 2.0 secs
+Learning rate: 0.00010548532338308459
+------------------------------------------------------
+
+
+-------------------- Iteration #346 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 140.01
+Average Loss: -0.01244
+Timesteps So Far: 582950
+Iteration took: 1.88 secs
+Learning rate: 0.00010498781094527362
+------------------------------------------------------
+
+
+-------------------- Iteration #347 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 118.29
+Average Loss: 0.00078
+Timesteps So Far: 584950
+Iteration took: 2.19 secs
+Learning rate: 0.0001044902985074627
+------------------------------------------------------
+
+
+-------------------- Iteration #348 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 102.37
+Average Loss: -0.07966
+Timesteps So Far: 586950
+Iteration took: 2.95 secs
+Learning rate: 0.00010399278606965173
+------------------------------------------------------
+
+
+-------------------- Iteration #349 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 125.89
+Average Loss: -0.03771
+Timesteps So Far: 588950
+Iteration took: 2.54 secs
+Learning rate: 0.0001034952736318408
+------------------------------------------------------
+
+
+-------------------- Iteration #350 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 148.44
+Average Loss: 0.08901
+Timesteps So Far: 590950
+Iteration took: 1.99 secs
+Learning rate: 0.00010299776119402985
+------------------------------------------------------
+
+
+-------------------- Iteration #351 --------------------
+Average Episodic Length: 499.75
+Average Episodic Return: 82.86
+Average Loss: 0.09224
+Timesteps So Far: 592949
+Iteration took: 2.04 secs
+Learning rate: 0.00010250049751243781
+------------------------------------------------------
+
+
+-------------------- Iteration #352 --------------------
+Average Episodic Length: 828.0
+Average Episodic Return: 157.63
+Average Loss: -0.00291
+Timesteps So Far: 594605
+Iteration took: 1.65 secs
+Learning rate: 0.00010208855721393034
+------------------------------------------------------
+
+
+-------------------- Iteration #353 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 148.02
+Average Loss: 0.05619
+Timesteps So Far: 596605
+Iteration took: 2.27 secs
+Learning rate: 0.00010159104477611941
+------------------------------------------------------
+
+
+-------------------- Iteration #354 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 138.02
+Average Loss: -0.00131
+Timesteps So Far: 598605
+Iteration took: 1.85 secs
+Learning rate: 0.00010109353233830845
+------------------------------------------------------
+
+
+-------------------- Iteration #355 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 142.22
+Average Loss: 0.00675
+Timesteps So Far: 600605
+Iteration took: 1.85 secs
+Learning rate: 0.00010059601990049752
+------------------------------------------------------
+
+
+-------------------- Iteration #356 --------------------
+Average Episodic Length: 813.0
+Average Episodic Return: 181.14
+Average Loss: -0.00306
+Timesteps So Far: 602231
+Iteration took: 1.6 secs
+Learning rate: 0.0001001915422885572
+------------------------------------------------------
+
+
+-------------------- Iteration #357 --------------------
+Average Episodic Length: 503.67
+Average Episodic Return: 76.08
+Average Loss: 0.04779
+Timesteps So Far: 603742
+Iteration took: 1.52 secs
+Learning rate: 9.981567164179103e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #358 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 150.77
+Average Loss: 0.01555
+Timesteps So Far: 605742
+Iteration took: 1.96 secs
+Learning rate: 9.93181592039801e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #359 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 106.44
+Average Loss: 0.07055
+Timesteps So Far: 607742
+Iteration took: 1.85 secs
+Learning rate: 9.882064676616916e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #360 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 114.67
+Average Loss: 0.03955
+Timesteps So Far: 609742
+Iteration took: 1.88 secs
+Learning rate: 9.832313432835821e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #361 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 119.2
+Average Loss: -0.02223
+Timesteps So Far: 611742
+Iteration took: 1.93 secs
+Learning rate: 9.782562189054728e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #362 --------------------
+Average Episodic Length: 564.5
+Average Episodic Return: 140.43
+Average Loss: -0.01938
+Timesteps So Far: 612871
+Iteration took: 1.08 secs
+Learning rate: 9.754477611940298e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #363 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 149.74
+Average Loss: 0.03645
+Timesteps So Far: 614871
+Iteration took: 1.89 secs
+Learning rate: 9.704726368159203e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #364 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 148.17
+Average Loss: -0.02325
+Timesteps So Far: 616871
+Iteration took: 1.77 secs
+Learning rate: 9.654975124378109e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #365 --------------------
+Average Episodic Length: 664.0
+Average Episodic Return: 18.55
+Average Loss: -0.02248
+Timesteps So Far: 618199
+Iteration took: 1.29 secs
+Learning rate: 9.621940298507461e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #366 --------------------
+Average Episodic Length: 925.0
+Average Episodic Return: 168.1
+Average Loss: 0.02178
+Timesteps So Far: 620049
+Iteration took: 1.68 secs
+Learning rate: 9.57592039800995e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #367 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 110.78
+Average Loss: 0.05213
+Timesteps So Far: 622049
+Iteration took: 1.94 secs
+Learning rate: 9.526169154228856e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #368 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 80.82
+Average Loss: -0.01715
+Timesteps So Far: 624049
+Iteration took: 1.98 secs
+Learning rate: 9.476417910447763e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #369 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 163.09
+Average Loss: 0.06048
+Timesteps So Far: 626049
+Iteration took: 1.85 secs
+Learning rate: 9.426666666666666e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #370 --------------------
+Average Episodic Length: 657.5
+Average Episodic Return: 83.85
+Average Loss: -0.04144
+Timesteps So Far: 627364
+Iteration took: 1.67 secs
+Learning rate: 9.393955223880596e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #371 --------------------
+Average Episodic Length: 619.0
+Average Episodic Return: 84.2
+Average Loss: -0.02928
+Timesteps So Far: 628602
+Iteration took: 1.16 secs
+Learning rate: 9.363159203980099e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #372 --------------------
+Average Episodic Length: 623.0
+Average Episodic Return: 67.41
+Average Loss: -0.04478
+Timesteps So Far: 629848
+Iteration took: 1.25 secs
+Learning rate: 9.332164179104477e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #373 --------------------
+Average Episodic Length: 643.5
+Average Episodic Return: 89.18
+Average Loss: -0.03595
+Timesteps So Far: 631135
+Iteration took: 1.26 secs
+Learning rate: 9.300149253731344e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #374 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 148.44
+Average Loss: -0.08782
+Timesteps So Far: 633135
+Iteration took: 1.93 secs
+Learning rate: 9.250398009950247e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #375 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 141.97
+Average Loss: -0.04179
+Timesteps So Far: 635135
+Iteration took: 1.97 secs
+Learning rate: 9.200646766169154e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #376 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 106.44
+Average Loss: -0.00698
+Timesteps So Far: 637135
+Iteration took: 1.94 secs
+Learning rate: 9.150895522388059e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #377 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 125.8
+Average Loss: 0.01343
+Timesteps So Far: 639135
+Iteration took: 1.9 secs
+Learning rate: 9.101144278606965e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #378 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 61.44
+Average Loss: -0.05245
+Timesteps So Far: 641135
+Iteration took: 1.84 secs
+Learning rate: 9.051393034825872e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #379 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 109.89
+Average Loss: 0.04911
+Timesteps So Far: 643135
+Iteration took: 2.22 secs
+Learning rate: 9.001641791044776e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #380 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 128.53
+Average Loss: -0.13495
+Timesteps So Far: 645135
+Iteration took: 1.82 secs
+Learning rate: 8.951890547263683e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #381 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 162.88
+Average Loss: 0.04262
+Timesteps So Far: 647135
+Iteration took: 2.91 secs
+Learning rate: 8.902139303482588e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #382 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 132.22
+Average Loss: 0.07276
+Timesteps So Far: 649135
+Iteration took: 2.2 secs
+Learning rate: 8.852388059701494e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #383 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 135.15
+Average Loss: -0.1132
+Timesteps So Far: 651135
+Iteration took: 2.05 secs
+Learning rate: 8.802636815920398e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #384 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 151.01
+Average Loss: 0.02223
+Timesteps So Far: 653135
+Iteration took: 1.85 secs
+Learning rate: 8.752885572139304e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #385 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 127.26
+Average Loss: 0.07227
+Timesteps So Far: 655135
+Iteration took: 2.09 secs
+Learning rate: 8.703134328358209e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #386 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 101.85
+Average Loss: 0.02659
+Timesteps So Far: 657135
+Iteration took: 2.07 secs
+Learning rate: 8.653383084577115e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #387 --------------------
+Average Episodic Length: 624.0
+Average Episodic Return: 64.5
+Average Loss: -0.0016
+Timesteps So Far: 658383
+Iteration took: 1.21 secs
+Learning rate: 8.622338308457711e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #388 --------------------
+Average Episodic Length: 647.5
+Average Episodic Return: 40.09
+Average Loss: -0.01582
+Timesteps So Far: 659678
+Iteration took: 1.29 secs
+Learning rate: 8.590124378109454e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #389 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 133.22
+Average Loss: 0.03658
+Timesteps So Far: 661678
+Iteration took: 1.78 secs
+Learning rate: 8.540373134328358e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #390 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 156.95
+Average Loss: 0.03082
+Timesteps So Far: 663678
+Iteration took: 1.97 secs
+Learning rate: 8.490621890547265e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #391 --------------------
+Average Episodic Length: 488.5
+Average Episodic Return: -12.06
+Average Loss: -0.07005
+Timesteps So Far: 665632
+Iteration took: 1.91 secs
+Learning rate: 8.442014925373134e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #392 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 121.96
+Average Loss: 0.02084
+Timesteps So Far: 667632
+Iteration took: 1.86 secs
+Learning rate: 8.392263681592042e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #393 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 132.44
+Average Loss: -0.00254
+Timesteps So Far: 669632
+Iteration took: 1.95 secs
+Learning rate: 8.342512437810945e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #394 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 76.91
+Average Loss: -0.09126
+Timesteps So Far: 671632
+Iteration took: 1.87 secs
+Learning rate: 8.292761194029852e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #395 --------------------
+Average Episodic Length: 693.0
+Average Episodic Return: 49.47
+Average Loss: -0.00209
+Timesteps So Far: 673018
+Iteration took: 1.4 secs
+Learning rate: 8.258283582089552e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #396 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 99.35
+Average Loss: 0.01205
+Timesteps So Far: 675018
+Iteration took: 1.93 secs
+Learning rate: 8.208532338308458e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #397 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 128.04
+Average Loss: -0.05849
+Timesteps So Far: 677018
+Iteration took: 1.85 secs
+Learning rate: 8.158781094527362e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #398 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 133.69
+Average Loss: 0.06924
+Timesteps So Far: 679018
+Iteration took: 1.92 secs
+Learning rate: 8.109029850746268e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #399 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 127.74
+Average Loss: -0.05822
+Timesteps So Far: 681018
+Iteration took: 1.84 secs
+Learning rate: 8.059278606965173e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #400 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 153.11
+Average Loss: -0.1017
+Timesteps So Far: 683018
+Iteration took: 1.85 secs
+Learning rate: 8.00952736318408e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #401 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 119.81
+Average Loss: -0.02006
+Timesteps So Far: 685018
+Iteration took: 2.04 secs
+Learning rate: 7.959776119402986e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #402 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 113.24
+Average Loss: -0.04929
+Timesteps So Far: 687018
+Iteration took: 1.85 secs
+Learning rate: 7.910024875621891e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #403 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 99.47
+Average Loss: 0.03771
+Timesteps So Far: 689018
+Iteration took: 2.0 secs
+Learning rate: 7.860273631840797e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #404 --------------------
+Average Episodic Length: 653.0
+Average Episodic Return: 35.37
+Average Loss: 0.01375
+Timesteps So Far: 690324
+Iteration took: 1.35 secs
+Learning rate: 7.82778606965174e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #405 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 140.38
+Average Loss: 0.04815
+Timesteps So Far: 692324
+Iteration took: 1.87 secs
+Learning rate: 7.778034825870648e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #406 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 134.23
+Average Loss: -0.04539
+Timesteps So Far: 694324
+Iteration took: 2.03 secs
+Learning rate: 7.728283582089551e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #407 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 89.3
+Average Loss: 0.0059
+Timesteps So Far: 696324
+Iteration took: 1.89 secs
+Learning rate: 7.678532338308458e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #408 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 87.1
+Average Loss: 0.04246
+Timesteps So Far: 698324
+Iteration took: 1.91 secs
+Learning rate: 7.628781094527362e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #409 --------------------
+Average Episodic Length: 660.0
+Average Episodic Return: 61.5
+Average Loss: -0.00204
+Timesteps So Far: 699644
+Iteration took: 1.3 secs
+Learning rate: 7.59594527363184e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #410 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 136.58
+Average Loss: -0.05801
+Timesteps So Far: 701644
+Iteration took: 1.88 secs
+Learning rate: 7.546194029850747e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #411 --------------------
+Average Episodic Length: 716.0
+Average Episodic Return: 32.3
+Average Loss: 0.01948
+Timesteps So Far: 703076
+Iteration took: 1.57 secs
+Learning rate: 7.510572139303482e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #412 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 128.51
+Average Loss: 0.00322
+Timesteps So Far: 705076
+Iteration took: 2.18 secs
+Learning rate: 7.460820895522388e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #413 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 164.17
+Average Loss: -0.00126
+Timesteps So Far: 707076
+Iteration took: 2.13 secs
+Learning rate: 7.411069651741293e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #414 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 138.06
+Average Loss: 0.06935
+Timesteps So Far: 709076
+Iteration took: 3.16 secs
+Learning rate: 7.361318407960199e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #415 --------------------
+Average Episodic Length: 636.0
+Average Episodic Return: 74.1
+Average Loss: -0.00166
+Timesteps So Far: 710348
+Iteration took: 1.77 secs
+Learning rate: 7.329676616915423e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #416 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 103.06
+Average Loss: 0.05583
+Timesteps So Far: 712348
+Iteration took: 1.84 secs
+Learning rate: 7.279925373134327e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #417 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 136.57
+Average Loss: -0.00277
+Timesteps So Far: 714348
+Iteration took: 2.12 secs
+Learning rate: 7.230174129353235e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #418 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 101.85
+Average Loss: 0.05502
+Timesteps So Far: 716348
+Iteration took: 2.04 secs
+Learning rate: 7.180422885572138e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #419 --------------------
+Average Episodic Length: 585.33
+Average Episodic Return: 1.72
+Average Loss: -0.01253
+Timesteps So Far: 718104
+Iteration took: 1.62 secs
+Learning rate: 7.13674129353234e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #420 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 144.97
+Average Loss: 0.05003
+Timesteps So Far: 720104
+Iteration took: 2.05 secs
+Learning rate: 7.086990049751243e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #421 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 160.82
+Average Loss: 0.03674
+Timesteps So Far: 722104
+Iteration took: 1.95 secs
+Learning rate: 7.03723880597015e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #422 --------------------
+Average Episodic Length: 978.0
+Average Episodic Return: -16.4
+Average Loss: -0.00092
+Timesteps So Far: 724060
+Iteration took: 1.82 secs
+Learning rate: 6.98858208955224e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #423 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 109.34
+Average Loss: -0.05552
+Timesteps So Far: 726060
+Iteration took: 2.09 secs
+Learning rate: 6.938830845771143e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #424 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 114.3
+Average Loss: 0.03621
+Timesteps So Far: 728060
+Iteration took: 1.87 secs
+Learning rate: 6.889079601990051e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #425 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 148.89
+Average Loss: -0.01293
+Timesteps So Far: 730060
+Iteration took: 1.86 secs
+Learning rate: 6.839328358208954e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #426 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 148.39
+Average Loss: 0.00311
+Timesteps So Far: 732060
+Iteration took: 1.91 secs
+Learning rate: 6.789577114427861e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #427 --------------------
+Average Episodic Length: 640.5
+Average Episodic Return: 43.35
+Average Loss: 0.00205
+Timesteps So Far: 733341
+Iteration took: 1.24 secs
+Learning rate: 6.757711442786068e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #428 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 127.88
+Average Loss: -0.02251
+Timesteps So Far: 735341
+Iteration took: 1.96 secs
+Learning rate: 6.707960199004975e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #429 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 119.96
+Average Loss: -0.0153
+Timesteps So Far: 737341
+Iteration took: 1.86 secs
+Learning rate: 6.65820895522388e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #430 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 158.42
+Average Loss: 0.00644
+Timesteps So Far: 739341
+Iteration took: 1.92 secs
+Learning rate: 6.608457711442786e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #431 --------------------
+Average Episodic Length: 970.0
+Average Episodic Return: 158.34
+Average Loss: 0.03862
+Timesteps So Far: 741281
+Iteration took: 1.88 secs
+Learning rate: 6.560199004975126e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #432 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 149.61
+Average Loss: 0.04446
+Timesteps So Far: 743281
+Iteration took: 1.89 secs
+Learning rate: 6.51044776119403e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #433 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 106.92
+Average Loss: -0.00145
+Timesteps So Far: 745281
+Iteration took: 1.95 secs
+Learning rate: 6.460696517412936e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #434 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 129.47
+Average Loss: -0.00427
+Timesteps So Far: 747281
+Iteration took: 1.9 secs
+Learning rate: 6.410945273631841e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #435 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 137.44
+Average Loss: 0.02267
+Timesteps So Far: 749281
+Iteration took: 1.85 secs
+Learning rate: 6.361194029850747e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #436 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 130.17
+Average Loss: 0.00121
+Timesteps So Far: 751281
+Iteration took: 1.9 secs
+Learning rate: 6.311442786069652e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #437 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 150.13
+Average Loss: 0.0222
+Timesteps So Far: 753281
+Iteration took: 1.93 secs
+Learning rate: 6.261691542288558e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #438 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 146.13
+Average Loss: 0.02767
+Timesteps So Far: 755281
+Iteration took: 1.97 secs
+Learning rate: 6.211940298507462e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #439 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 143.45
+Average Loss: 0.00456
+Timesteps So Far: 757281
+Iteration took: 2.22 secs
+Learning rate: 6.16218905472637e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #440 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 130.17
+Average Loss: 0.03399
+Timesteps So Far: 759281
+Iteration took: 2.2 secs
+Learning rate: 6.112437810945273e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #441 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 132.6
+Average Loss: 0.00318
+Timesteps So Far: 761281
+Iteration took: 1.85 secs
+Learning rate: 6.0626865671641804e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #442 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 98.3
+Average Loss: 0.00462
+Timesteps So Far: 763281
+Iteration took: 2.12 secs
+Learning rate: 6.0129353233830843e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #443 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 163.0
+Average Loss: -0.03842
+Timesteps So Far: 765281
+Iteration took: 2.08 secs
+Learning rate: 5.963184079601991e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #444 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 139.95
+Average Loss: -0.05825
+Timesteps So Far: 767281
+Iteration took: 1.81 secs
+Learning rate: 5.913432835820895e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #445 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 124.81
+Average Loss: 0.07554
+Timesteps So Far: 769281
+Iteration took: 3.66 secs
+Learning rate: 5.8636815920398017e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #446 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 126.84
+Average Loss: 0.00114
+Timesteps So Far: 771281
+Iteration took: 2.46 secs
+Learning rate: 5.8139303482587056e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #447 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 154.29
+Average Loss: 0.04758
+Timesteps So Far: 773281
+Iteration took: 2.01 secs
+Learning rate: 5.764179104477612e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #448 --------------------
+Average Episodic Length: 606.0
+Average Episodic Return: 89.88
+Average Loss: -0.00188
+Timesteps So Far: 774493
+Iteration took: 1.15 secs
+Learning rate: 5.7340298507462695e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #449 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 143.09
+Average Loss: -0.01562
+Timesteps So Far: 776493
+Iteration took: 2.06 secs
+Learning rate: 5.6842786069651735e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #450 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 168.02
+Average Loss: 0.00809
+Timesteps So Far: 778493
+Iteration took: 2.28 secs
+Learning rate: 5.63452736318408e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #451 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 139.05
+Average Loss: 0.01579
+Timesteps So Far: 780493
+Iteration took: 2.07 secs
+Learning rate: 5.584776119402984e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #452 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 149.32
+Average Loss: -0.05462
+Timesteps So Far: 782493
+Iteration took: 1.88 secs
+Learning rate: 5.5350248756218915e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #453 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 124.48
+Average Loss: -0.00723
+Timesteps So Far: 784493
+Iteration took: 2.0 secs
+Learning rate: 5.4852736318407955e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #454 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 140.44
+Average Loss: -0.08541
+Timesteps So Far: 786493
+Iteration took: 1.85 secs
+Learning rate: 5.435522388059702e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #455 --------------------
+Average Episodic Length: 667.0
+Average Episodic Return: 59.8
+Average Loss: -0.00713
+Timesteps So Far: 787827
+Iteration took: 1.33 secs
+Learning rate: 5.40233830845771e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #456 --------------------
+Average Episodic Length: 624.5
+Average Episodic Return: 88.63
+Average Loss: -0.04243
+Timesteps So Far: 789076
+Iteration took: 1.19 secs
+Learning rate: 5.371268656716419e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #457 --------------------
+Average Episodic Length: 632.0
+Average Episodic Return: 101.67
+Average Loss: 0.01397
+Timesteps So Far: 790340
+Iteration took: 1.26 secs
+Learning rate: 5.3398258706467665e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #458 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 143.28
+Average Loss: 0.02538
+Timesteps So Far: 792340
+Iteration took: 1.85 secs
+Learning rate: 5.2900746268656705e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #459 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 146.18
+Average Loss: 0.08039
+Timesteps So Far: 794340
+Iteration took: 2.01 secs
+Learning rate: 5.240323383084578e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #460 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 134.48
+Average Loss: 0.02311
+Timesteps So Far: 796340
+Iteration took: 1.97 secs
+Learning rate: 5.190572139303482e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #461 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 108.7
+Average Loss: -0.06055
+Timesteps So Far: 798340
+Iteration took: 1.84 secs
+Learning rate: 5.1408208955223885e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #462 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 144.92
+Average Loss: 0.0474
+Timesteps So Far: 800340
+Iteration took: 1.88 secs
+Learning rate: 5.0910696517412925e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #463 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 129.64
+Average Loss: -0.00552
+Timesteps So Far: 802340
+Iteration took: 1.93 secs
+Learning rate: 5.041318407960199e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #464 --------------------
+Average Episodic Length: 819.5
+Average Episodic Return: 153.85
+Average Loss: -0.02462
+Timesteps So Far: 803979
+Iteration took: 1.59 secs
+Learning rate: 5.000547263681593e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #465 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 145.57
+Average Loss: -0.16614
+Timesteps So Far: 805979
+Iteration took: 1.92 secs
+Learning rate: 4.950796019900497e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #466 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 147.28
+Average Loss: -0.01806
+Timesteps So Far: 807979
+Iteration took: 1.91 secs
+Learning rate: 4.9010447761194035e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #467 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 120.56
+Average Loss: -0.08503
+Timesteps So Far: 809979
+Iteration took: 2.12 secs
+Learning rate: 4.851293532338308e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #468 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 161.78
+Average Loss: -0.16382
+Timesteps So Far: 811979
+Iteration took: 2.04 secs
+Learning rate: 4.801542288557215e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #469 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 130.86
+Average Loss: 0.01782
+Timesteps So Far: 813979
+Iteration took: 1.99 secs
+Learning rate: 4.751791044776119e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #470 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 105.86
+Average Loss: 0.02505
+Timesteps So Far: 815979
+Iteration took: 1.88 secs
+Learning rate: 4.7020398009950254e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #471 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 154.52
+Average Loss: 0.02846
+Timesteps So Far: 817979
+Iteration took: 1.96 secs
+Learning rate: 4.6522885572139294e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #472 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 122.18
+Average Loss: 0.02318
+Timesteps So Far: 819979
+Iteration took: 1.84 secs
+Learning rate: 4.602537313432836e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #473 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 123.32
+Average Loss: -0.02361
+Timesteps So Far: 821979
+Iteration took: 1.91 secs
+Learning rate: 4.55278606965174e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #474 --------------------
+Average Episodic Length: 949.5
+Average Episodic Return: 162.18
+Average Loss: -0.01446
+Timesteps So Far: 823878
+Iteration took: 1.83 secs
+Learning rate: 4.505547263681592e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #475 --------------------
+Average Episodic Length: 630.0
+Average Episodic Return: 83.96
+Average Loss: -0.00115
+Timesteps So Far: 825138
+Iteration took: 1.29 secs
+Learning rate: 4.474203980099503e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #476 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 158.05
+Average Loss: 0.0408
+Timesteps So Far: 827138
+Iteration took: 1.94 secs
+Learning rate: 4.424452736318407e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #477 --------------------
+Average Episodic Length: 741.0
+Average Episodic Return: 143.95
+Average Loss: -0.002
+Timesteps So Far: 828620
+Iteration took: 2.2 secs
+Learning rate: 4.387587064676618e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #478 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 118.39
+Average Loss: 0.04282
+Timesteps So Far: 830620
+Iteration took: 2.56 secs
+Learning rate: 4.337835820895522e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #479 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 135.05
+Average Loss: 0.06983
+Timesteps So Far: 832620
+Iteration took: 2.2 secs
+Learning rate: 4.288084577114429e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #480 --------------------
+Average Episodic Length: 638.5
+Average Episodic Return: 70.4
+Average Loss: 0.008
+Timesteps So Far: 833897
+Iteration took: 1.21 secs
+Learning rate: 4.2563184079602e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #481 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 138.08
+Average Loss: -0.04867
+Timesteps So Far: 835897
+Iteration took: 2.01 secs
+Learning rate: 4.206567164179104e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #482 --------------------
+Average Episodic Length: 753.5
+Average Episodic Return: 192.98
+Average Loss: -0.00094
+Timesteps So Far: 837404
+Iteration took: 1.47 secs
+Learning rate: 4.1690796019900504e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #483 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 118.12
+Average Loss: 0.01249
+Timesteps So Far: 839404
+Iteration took: 2.0 secs
+Learning rate: 4.119328358208954e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #484 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 121.74
+Average Loss: 0.08165
+Timesteps So Far: 841404
+Iteration took: 1.92 secs
+Learning rate: 4.069577114427861e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #485 --------------------
+Average Episodic Length: 673.0
+Average Episodic Return: 66.78
+Average Loss: -0.0306
+Timesteps So Far: 842750
+Iteration took: 1.4 secs
+Learning rate: 4.036094527363185e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #486 --------------------
+Average Episodic Length: 670.5
+Average Episodic Return: 63.87
+Average Loss: -0.03413
+Timesteps So Far: 844091
+Iteration took: 1.37 secs
+Learning rate: 4.002736318407959e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #487 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 148.15
+Average Loss: -0.01725
+Timesteps So Far: 846091
+Iteration took: 1.88 secs
+Learning rate: 3.952985074626867e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #488 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 147.32
+Average Loss: 0.0556
+Timesteps So Far: 848091
+Iteration took: 1.9 secs
+Learning rate: 3.9032338308457706e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #489 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 70.73
+Average Loss: 0.0067
+Timesteps So Far: 850091
+Iteration took: 1.93 secs
+Learning rate: 3.853482587064677e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #490 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 113.55
+Average Loss: 0.00862
+Timesteps So Far: 852091
+Iteration took: 1.89 secs
+Learning rate: 3.803731343283581e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #491 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 105.23
+Average Loss: -0.05482
+Timesteps So Far: 854091
+Iteration took: 2.13 secs
+Learning rate: 3.753980099502488e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #492 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 151.23
+Average Loss: -0.03048
+Timesteps So Far: 856091
+Iteration took: 2.19 secs
+Learning rate: 3.704228855721392e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #493 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 116.66
+Average Loss: 0.00711
+Timesteps So Far: 858091
+Iteration took: 1.82 secs
+Learning rate: 3.654477611940299e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #494 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 146.21
+Average Loss: 0.01543
+Timesteps So Far: 860091
+Iteration took: 2.06 secs
+Learning rate: 3.604726368159203e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #495 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 121.63
+Average Loss: -0.01684
+Timesteps So Far: 862091
+Iteration took: 2.46 secs
+Learning rate: 3.55497512437811e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #496 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 127.89
+Average Loss: -0.00467
+Timesteps So Far: 864091
+Iteration took: 2.17 secs
+Learning rate: 3.505223880597014e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #497 --------------------
+Average Episodic Length: 639.0
+Average Episodic Return: 76.94
+Average Loss: -0.00091
+Timesteps So Far: 865369
+Iteration took: 1.39 secs
+Learning rate: 3.4734328358208946e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #498 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 139.85
+Average Loss: 0.00141
+Timesteps So Far: 867369
+Iteration took: 2.21 secs
+Learning rate: 3.423681592039801e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #499 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 116.88
+Average Loss: 0.01294
+Timesteps So Far: 869369
+Iteration took: 1.97 secs
+Learning rate: 3.373930348258705e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #500 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 135.77
+Average Loss: 0.00142
+Timesteps So Far: 871369
+Iteration took: 2.0 secs
+Learning rate: 3.324179104477612e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #501 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 130.8
+Average Loss: -0.07462
+Timesteps So Far: 873369
+Iteration took: 2.1 secs
+Learning rate: 3.274427860696516e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #502 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 119.46
+Average Loss: 0.00459
+Timesteps So Far: 875369
+Iteration took: 1.81 secs
+Learning rate: 3.2246766169154226e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #503 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 106.35
+Average Loss: 0.01479
+Timesteps So Far: 877369
+Iteration took: 2.01 secs
+Learning rate: 3.17492537313433e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #504 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 130.79
+Average Loss: 0.01059
+Timesteps So Far: 879369
+Iteration took: 1.87 secs
+Learning rate: 3.125174129353234e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #505 --------------------
+Average Episodic Length: 650.0
+Average Episodic Return: 89.37
+Average Loss: -0.00238
+Timesteps So Far: 880669
+Iteration took: 1.22 secs
+Learning rate: 3.0928358208955234e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #506 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 136.27
+Average Loss: 0.01431
+Timesteps So Far: 882669
+Iteration took: 1.86 secs
+Learning rate: 3.0430845771144274e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #507 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 116.34
+Average Loss: 0.03679
+Timesteps So Far: 884669
+Iteration took: 1.96 secs
+Learning rate: 2.993333333333334e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #508 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 137.15
+Average Loss: -0.13215
+Timesteps So Far: 886669
+Iteration took: 1.92 secs
+Learning rate: 2.943582089552238e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #509 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 114.63
+Average Loss: 0.05347
+Timesteps So Far: 888669
+Iteration took: 3.6 secs
+Learning rate: 2.893830845771145e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #510 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 157.09
+Average Loss: 0.01543
+Timesteps So Far: 890669
+Iteration took: 2.52 secs
+Learning rate: 2.844079601990049e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #511 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 138.22
+Average Loss: -0.00211
+Timesteps So Far: 892669
+Iteration took: 2.04 secs
+Learning rate: 2.7943283582089557e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #512 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 141.31
+Average Loss: 0.01845
+Timesteps So Far: 894669
+Iteration took: 1.85 secs
+Learning rate: 2.7445771144278596e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #513 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 122.56
+Average Loss: 0.02701
+Timesteps So Far: 896669
+Iteration took: 2.06 secs
+Learning rate: 2.6948258706467666e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #514 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 136.21
+Average Loss: 0.04479
+Timesteps So Far: 898669
+Iteration took: 1.91 secs
+Learning rate: 2.6450746268656706e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #515 --------------------
+Average Episodic Length: 635.5
+Average Episodic Return: 67.75
+Average Loss: 0.02257
+Timesteps So Far: 899940
+Iteration took: 1.37 secs
+Learning rate: 2.613457711442785e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #516 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 134.37
+Average Loss: 0.01454
+Timesteps So Far: 901940
+Iteration took: 2.2 secs
+Learning rate: 2.563706467661692e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #517 --------------------
+Average Episodic Length: 662.5
+Average Episodic Return: 62.62
+Average Loss: -0.00315
+Timesteps So Far: 903265
+Iteration took: 1.29 secs
+Learning rate: 2.5307462686567167e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #518 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 154.03
+Average Loss: 0.02231
+Timesteps So Far: 905265
+Iteration took: 1.86 secs
+Learning rate: 2.4809950248756207e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #519 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 102.4
+Average Loss: -0.00393
+Timesteps So Far: 907265
+Iteration took: 1.85 secs
+Learning rate: 2.4312437810945277e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #520 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 135.24
+Average Loss: -0.00652
+Timesteps So Far: 909265
+Iteration took: 1.89 secs
+Learning rate: 2.3814925373134317e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #521 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 123.97
+Average Loss: 0.01008
+Timesteps So Far: 911265
+Iteration took: 1.93 secs
+Learning rate: 2.3317412935323383e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #522 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 129.06
+Average Loss: 0.00074
+Timesteps So Far: 913265
+Iteration took: 1.88 secs
+Learning rate: 2.2819900497512426e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #523 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 146.57
+Average Loss: 0.0216
+Timesteps So Far: 915265
+Iteration took: 1.9 secs
+Learning rate: 2.2322388059701493e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #524 --------------------
+Average Episodic Length: 649.0
+Average Episodic Return: 65.3
+Average Loss: -0.04224
+Timesteps So Far: 916563
+Iteration took: 1.25 secs
+Learning rate: 2.199950248756219e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #525 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 136.12
+Average Loss: -0.04054
+Timesteps So Far: 918563
+Iteration took: 1.86 secs
+Learning rate: 2.1501990049751257e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #526 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 146.59
+Average Loss: 0.12094
+Timesteps So Far: 920563
+Iteration took: 1.98 secs
+Learning rate: 2.1004477611940297e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #527 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 144.47
+Average Loss: -0.02334
+Timesteps So Far: 922563
+Iteration took: 1.82 secs
+Learning rate: 2.0506965174129367e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #528 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 95.68
+Average Loss: 0.01169
+Timesteps So Far: 924563
+Iteration took: 2.0 secs
+Learning rate: 2.0009452736318407e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #529 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 151.36
+Average Loss: 0.09104
+Timesteps So Far: 926563
+Iteration took: 1.95 secs
+Learning rate: 1.9511940298507473e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #530 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 141.79
+Average Loss: 0.06794
+Timesteps So Far: 928563
+Iteration took: 1.88 secs
+Learning rate: 1.9014427860696516e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #531 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 134.18
+Average Loss: -0.03548
+Timesteps So Far: 930563
+Iteration took: 1.92 secs
+Learning rate: 1.8516915422885583e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #532 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 128.13
+Average Loss: 0.02305
+Timesteps So Far: 932563
+Iteration took: 1.89 secs
+Learning rate: 1.8019402985074623e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #533 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 134.96
+Average Loss: -0.04399
+Timesteps So Far: 934563
+Iteration took: 1.93 secs
+Learning rate: 1.7521890547263693e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #534 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 153.16
+Average Loss: 0.01861
+Timesteps So Far: 936563
+Iteration took: 1.95 secs
+Learning rate: 1.7024378109452732e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #535 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 154.94
+Average Loss: 0.00497
+Timesteps So Far: 938563
+Iteration took: 1.92 secs
+Learning rate: 1.65268656716418e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #536 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 131.35
+Average Loss: -0.01301
+Timesteps So Far: 940563
+Iteration took: 2.1 secs
+Learning rate: 1.602935323383084e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #537 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 147.75
+Average Loss: -0.05046
+Timesteps So Far: 942563
+Iteration took: 1.95 secs
+Learning rate: 1.553184079601991e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #538 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 123.41
+Average Loss: 0.0218
+Timesteps So Far: 944563
+Iteration took: 1.94 secs
+Learning rate: 1.5034328358208949e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #539 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 135.52
+Average Loss: 0.09442
+Timesteps So Far: 946563
+Iteration took: 1.89 secs
+Learning rate: 1.4536815920398017e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #540 --------------------
+Average Episodic Length: 639.5
+Average Episodic Return: 92.34
+Average Loss: -0.01283
+Timesteps So Far: 947842
+Iteration took: 1.24 secs
+Learning rate: 1.4218656716417922e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #541 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 137.83
+Average Loss: 0.03303
+Timesteps So Far: 949842
+Iteration took: 3.56 secs
+Learning rate: 1.3721144278606961e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #542 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 122.15
+Average Loss: -0.07108
+Timesteps So Far: 951842
+Iteration took: 2.27 secs
+Learning rate: 1.322363184079603e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #543 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 115.6
+Average Loss: -0.03
+Timesteps So Far: 953842
+Iteration took: 2.03 secs
+Learning rate: 1.272611940298507e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #544 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 93.88
+Average Loss: -0.023
+Timesteps So Far: 955842
+Iteration took: 2.0 secs
+Learning rate: 1.2228606965174138e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #545 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 132.1
+Average Loss: 0.01634
+Timesteps So Far: 957842
+Iteration took: 1.92 secs
+Learning rate: 1.173109452736318e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #546 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 149.22
+Average Loss: 0.06071
+Timesteps So Far: 959842
+Iteration took: 2.11 secs
+Learning rate: 1.1233582089552246e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #547 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 129.94
+Average Loss: -0.01623
+Timesteps So Far: 961842
+Iteration took: 1.92 secs
+Learning rate: 1.0736069651741287e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #548 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 157.17
+Average Loss: 0.03169
+Timesteps So Far: 963842
+Iteration took: 1.85 secs
+Learning rate: 1.0238557213930356e-05
+------------------------------------------------------
+
+
+-------------------- Iteration #549 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 143.11
+Average Loss: -0.07613
+Timesteps So Far: 965842
+Iteration took: 2.22 secs
+Learning rate: 9.741044776119395e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #550 --------------------
+Average Episodic Length: 643.0
+Average Episodic Return: 51.18
+Average Loss: 0.00235
+Timesteps So Far: 967128
+Iteration took: 1.29 secs
+Learning rate: 9.421144278606964e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #551 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 116.09
+Average Loss: 0.00867
+Timesteps So Far: 969128
+Iteration took: 1.84 secs
+Learning rate: 8.923631840796032e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #552 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 142.8
+Average Loss: 0.02345
+Timesteps So Far: 971128
+Iteration took: 1.96 secs
+Learning rate: 8.426119402985072e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #553 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 135.05
+Average Loss: 0.0371
+Timesteps So Far: 973128
+Iteration took: 1.83 secs
+Learning rate: 7.92860696517414e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #554 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 141.92
+Average Loss: -0.05103
+Timesteps So Far: 975128
+Iteration took: 1.93 secs
+Learning rate: 7.431094527363181e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #555 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 147.44
+Average Loss: 0.02411
+Timesteps So Far: 977128
+Iteration took: 1.91 secs
+Learning rate: 6.933582089552248e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #556 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 135.2
+Average Loss: 0.05477
+Timesteps So Far: 979128
+Iteration took: 1.83 secs
+Learning rate: 6.436069651741289e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #557 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 134.8
+Average Loss: 0.02618
+Timesteps So Far: 981128
+Iteration took: 2.0 secs
+Learning rate: 5.938557213930357e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #558 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 95.89
+Average Loss: 0.01495
+Timesteps So Far: 983128
+Iteration took: 2.15 secs
+Learning rate: 5.441044776119397e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #559 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 122.73
+Average Loss: 0.07217
+Timesteps So Far: 985128
+Iteration took: 1.97 secs
+Learning rate: 4.943532338308465e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #560 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 136.49
+Average Loss: -0.06286
+Timesteps So Far: 987128
+Iteration took: 2.16 secs
+Learning rate: 4.446019900497506e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #561 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 117.82
+Average Loss: -0.00052
+Timesteps So Far: 989128
+Iteration took: 2.13 secs
+Learning rate: 3.948507462686573e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #562 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 126.67
+Average Loss: -0.00223
+Timesteps So Far: 991128
+Iteration took: 2.09 secs
+Learning rate: 3.4509950248756138e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #563 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 138.09
+Average Loss: -0.00468
+Timesteps So Far: 993128
+Iteration took: 1.88 secs
+Learning rate: 2.9534825870646818e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #564 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 135.53
+Average Loss: -0.08832
+Timesteps So Far: 995128
+Iteration took: 1.93 secs
+Learning rate: 2.4559701492537223e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #565 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 100.82
+Average Loss: 0.01161
+Timesteps So Far: 997128
+Iteration took: 1.86 secs
+Learning rate: 1.9584577114427903e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #566 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 126.67
+Average Loss: -0.0257
+Timesteps So Far: 999128
+Iteration took: 1.94 secs
+Learning rate: 1.4609452736318307e-06
+------------------------------------------------------
+
+
+-------------------- Iteration #567 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 134.2
+Average Loss: -0.00945
+Timesteps So Far: 1001128
+Iteration took: 1.91 secs
+Learning rate: 9.634328358208988e-07
+------------------------------------------------------
+
+
+-------------------- Iteration #568 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 146.24
+Average Loss: -0.08514
+Timesteps So Far: 1003128
+Iteration took: 1.84 secs
+Learning rate: 4.6592039800993913e-07
+------------------------------------------------------
+
+
+-------------------- Iteration #569 --------------------
+Average Episodic Length: 1000.0
+Average Episodic Return: 131.62
+Average Loss: 0.04519
+Timesteps So Far: 1005128
+Iteration took: 2.06 secs
+Learning rate: -3.159203980102055e-08
+------------------------------------------------------
+
