@@ -242,7 +242,7 @@ class PPO:
 		batch_rtgs = []
 
 		# Iterate through each episode
-		for ep_rews in reversed(batch_rews):
+		for ep_rews in batch_rews:
 
 			discounted_reward = 0 # The discounted reward so far
 
