@@ -222,7 +222,7 @@ class PPO:
 		batch_obs = torch.tensor(np.array(batch_obs), dtype=torch.float)
 		batch_acts = torch.tensor(np.array(batch_acts), dtype=torch.float)
 		batch_log_probs = torch.tensor(np.array(batch_log_probs), dtype=torch.float)
-		batch_rtgs = self.compute_rtgs(np.array(batch_rews))                                                             # ALG STEP 4
+		batch_rtgs = self.compute_rtgs(batch_rews)                                                            # ALG STEP 4
 
 		# Log the episodic returns and episodic lengths in this batch.
 		self.logger['batch_rews'] = batch_rews
