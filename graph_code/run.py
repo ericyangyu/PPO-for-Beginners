@@ -3,7 +3,7 @@
 	with the input seed and environment.
 """
 
-import gym
+import gymnasium as gym
 import os
 import argparse
 
